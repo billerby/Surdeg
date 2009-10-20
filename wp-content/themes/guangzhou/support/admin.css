@@ -1,0 +1,52 @@
+.sub
+{
+font-weight: normal;
+font-size: 0.8em;
+color: #666;
+}
+
+.sub input { font-size: 0.8em; }
+
+#head, #foot
+{
+height: 100px;
+border: 1px solid #aaa;
+background-position: top left;
+margin: 5px 0px 2px 1px;
+padding: 1em;
+}
+
+table th
+{
+text-align: right;
+}
+
+.bulleted li {
+list-style-type: square;
+margin-left: 20px;
+}
+
+.donations li
+{
+list-style-type: none;
+float: left;
+text-align: center;
+padding: 1em 2em;
+}
+
+.translators li
+{
+float: left;
+width: 300px;
+margin-left: 1.5em;
+}
+
+div .supporter strong
+{
+background-color: yellow;
+}
+
+.wrap h5
+{
+font-size: 1em;
+}

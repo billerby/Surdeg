@@ -1,0 +1,60 @@
+/* @override http://local.urbangiraffe.com/site/wp-content/themes/guangzhou/skins/clear/style.css */
+/*
+Name: Clear
+Author: John Godley
+*/
+
+a { color: #3f6cc0; }
+a:hover { color: red; }
+
+#header
+{
+background-color: #eee;
+border-bottom: 6px solid #ddd;
+}
+
+#footer
+{
+border-top: 6px solid #eee;
+background-color: #ddd;
+}
+
+#end { background-color: #bbb; padding-top: 2.5em; }
+#end, #end a { color: white; }
+#end a:hover { color: #333; }
+
+#page-info, #page-information-1
+{
+background-color: #ccc;
+}
+
+.sidebar
+{
+background-color: #eee;
+}
+
+#end .sidebar
+{
+background-color: transparent;
+}
+
+.mainmenu ul li a
+{
+color: #eee;
+background-color: #aaa;
+}
+
+.mainmenu ul li a.selected
+{
+background-color: #d58700;
+color:  white;
+font-weight: bold;
+}
+
+.mainmenu ul li a:hover
+{
+color:  #333;
+background-color: #777;
+text-shadow: 1px 1px 1px #ccc;
+}
+

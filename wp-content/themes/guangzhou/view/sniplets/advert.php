@@ -1,0 +1,1 @@
+<div class="advert"><?php echo $text ?></div>

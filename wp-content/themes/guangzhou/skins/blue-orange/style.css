@@ -1,0 +1,184 @@
+/* @override http://local.urbangiraffe.com/site/wp-content/themes/guangzhou/skins/blue-orange/style.css */
+
+/* @override http://local.urbangiraffe.com/site/wp-content/themes/guangzhou/skins/blue-orange/style.css */
+
+/*
+Name: Blue Orange
+Author: John Godley
+*/
+
+body
+{
+color: #333;
+}
+
+a { color: #2650a3;}
+
+#page-info strong, #page-information-1 strong, a:hover { color:  #d58700; }
+a:visited
+{
+color: #15316a;
+}
+
+#main
+{
+background: white url(page-border-top.png) repeat-x 0 top;
+}
+
+#header
+{
+background: #102754 url(header-background.png) repeat-x left top;
+border-bottom: 6px solid #d58700;
+color: #7e86b0;
+}
+
+#header h1
+{
+color: white;
+}
+
+
+#header h1 a
+{
+color: white;
+}
+
+.mainmenu ul li a
+{
+color: #ccc;
+background-color: #777;
+/*text-shadow: 1px 1px 1px #666;
+*/}
+
+.mainmenu ul li a.selected
+{
+background-color: #d58700;
+color:  white;
+font-weight: bold;
+}
+
+.mainmenu ul li a:hover
+{
+color:  #333;
+background-color: #aaa;
+text-shadow: 1px 1px 1px #ccc;
+}
+
+
+#content .meta, #content .meta a { color: #97a3ce; }
+#content .meta a:hover { color:  #d58700; }
+#content a:hover { color:  #d58700; }
+#comments
+{
+background: #eee url(comments-border-bottom.png) repeat-x 0 bottom;
+}
+
+#pageborder
+{
+height:  8px;
+margin: 0;
+padding: 0;
+background: #eee url(page-border-bottom.png) repeat-x 0 bottom;
+}
+
+#footer
+{
+background: url(footer-background.png) repeat-x bottom;
+background-color: #102754;
+border-top: 6px solid #d58700;
+}
+
+#footer a:hover
+{
+color: #d58700;
+}
+
+#footer .pagewrap
+{
+color: white;
+}
+
+#end, #end a
+{
+color: #43548e;
+background-color: #02102e;
+}
+
+#end a:hover
+{
+color:  #d58700;
+}
+
+#main .sidebar
+{
+background-color: #dedede;
+-webkit-border-radius: 3px;
+}
+
+.sidebar h2 a
+{
+color: #1a397b;
+}
+
+.sidebar h2 a:hover
+{
+color:  #d58700;
+}
+
+#page-info, #page-information-1
+{
+background-color: #102754;
+color: white;
+}
+
+
+
+#interesting a
+{
+color: #96AFDD;
+}
+
+
+
+#interesting .feeds li
+{
+color: white;
+}
+
+.sidebar .navigation
+{
+border-top: 1px solid #96AFDD;
+}
+
+
+
+#page-info .highlight, #page-information-1 .highlight
+{
+color: #d58700;
+}
+
+#page-info a, #page-information-1 a
+{
+color: #96AFDD;
+}
+
+#page-info a:hover, #page-information-1 a:hover
+{
+color:  #d58700;
+}
+
+#page-info h2, #page-information-1 h2
+{
+color: white;
+border-bottom: 1px solid #999;
+}
+
+#recent h2
+{
+color: #999;
+}
+
+#comments
+{
+border-top: 6px solid #d58700;
+}

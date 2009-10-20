@@ -1,0 +1,803 @@
+# 
+# Copyright (C) 2009 John Godley
+# This file is distributed under the same license as the Array package.
+# , , 2009.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: Array \n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2009-06-16 19:34+0100\n"
+        "PO-Revision-Date: 2009-MO-DA HO:MI+ZONE\n"
+        "Last-Translator:  \n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:178
+#, php-format
+msgid   " (page %d of %d)"
+msgstr  ""
+
+#: support/widgets/page_info.php:272
+#, php-format
+msgid   " This is <strong>page %d of %d</strong> results."
+msgstr  ""
+
+#: support/comments.php:126
+msgid   " You can keep track of all comments with the "
+msgstr  ""
+
+#: support/comments.php:128
+msgid   " feed.</p>"
+msgstr  ""
+
+#: functions.php:409 functions.php:431
+msgid   "%"
+msgstr  ""
+
+#: archive.php:34 category.php:26 index.php:43 search.php:22
+msgid   "&laquo; Older Entries"
+msgstr  ""
+
+#: author.php:26
+msgid   "&laquo; Older entries"
+msgstr  ""
+
+#: functions.php:325
+msgid   "&laquo; Previous page"
+msgstr  ""
+
+#: support/widgets/feeds.php:25
+#, php-format
+msgid   "(or get it via <a href=\"%s\">email</a>)"
+msgstr  ""
+
+#: comments.php:73 comments.php:78
+msgid   "(required)"
+msgstr  ""
+
+#: support/widgets/posts_in_cat.php:51
+msgid   "(separate multiple categories with comma)"
+msgstr  ""
+
+#: support/widgets/page_info.php:88
+#, php-format
+msgid   "(visit <a href=\"%s\">website</a>"
+msgstr  ""
+
+#: functions.php:431
+msgid   "0"
+msgstr  ""
+
+#: functions.php:409 functions.php:431
+msgid   "1"
+msgstr  ""
+
+#: support/widgets/page_info.php:139
+#, php-format
+msgid   "<a rel=\"nofollow\" href=\"%1s\">twitter</a>"
+msgstr  ""
+
+#: support/widgets/page_info.php:134
+#, php-format
+msgid   "<a rel=\"nofollow\" href=\"%s\">email</a>"
+msgstr  ""
+
+#: functions.php:420
+msgid   "<span class=\"more-link\">Read more here&hellip;</span>"
+msgstr  ""
+
+#: support/widgets/page_info.php:43
+msgid   "<strong>Tags:</strong>"
+msgstr  ""
+
+#: support/widgets/page_info.php:247
+#, php-format
+msgid   "<strong>page %d of %d</strong> of "
+msgstr  ""
+
+#: support/view/admin/support.php:69
+msgid   "All translators will have a link to their website placed on the "
+        "plugin homepage at <a href=\"http://urbangiraffe.com/plugins/"
+        "guangzhou/\">UrbanGiraffe</a> in addition to being an individual "
+        "supporter."
+msgstr  ""
+
+#: support/widgets/page_info.php:106
+msgid   "Archive Information"
+msgstr  ""
+
+#: archive.php:16 archive.php:18 archive.php:20
+#, php-format
+msgid   "Archive for %s"
+msgstr  ""
+
+#: archive.php:12 category.php:12
+#, php-format
+msgid   "Archive for the &#8216;%s&#8217; category"
+msgstr  ""
+
+#: archive.php:22
+msgid   "Author Archive"
+msgstr  ""
+
+#: support/widgets/page_info.php:77
+msgid   "Author Information"
+msgstr  ""
+
+#: support/view/admin/options.php:70
+msgid   "Author posts"
+msgstr  ""
+
+#: support/view/admin/skin.php:38
+msgid   "Available skins: "
+msgstr  ""
+
+#: archive.php:24
+msgid   "Blog Archives"
+msgstr  ""
+
+#: support/view/admin/options.php:31
+msgid   "Bottom menu"
+msgstr  ""
+
+#: support/widgets/posts_in_cat.php:43
+msgid   "Category"
+msgstr  ""
+
+#: support/view/admin/options.php:77
+msgid   "Category IDs to exclude from home page (comma separated)"
+msgstr  ""
+
+#: support/view/admin/skin.php:20
+msgid   "Colour"
+msgstr  ""
+
+#: support/comments.php:40
+msgid   "Comments"
+msgstr  ""
+
+#: support/comments.php:80
+#, php-format
+msgid   "Comments (page %d of %d)"
+msgstr  ""
+
+#: support/widgets/feeds.php:29
+msgid   "Comments RSS"
+msgstr  ""
+
+#: support/comments.php:41
+#, php-format
+msgid   "Comments are shown on the <a href=\"%s\">first page</a>."
+msgstr  ""
+
+#: functions.php:409
+msgid   "Comments: 0"
+msgstr  ""
+
+#: support/view/admin/support.php:55
+msgid   "Commercial<br/>Donation"
+msgstr  ""
+
+#: support/view/admin/options.php:101
+msgid   "Copyright"
+msgstr  ""
+
+#: support/widgets/page_info.php:94
+msgid   "Description"
+msgstr  ""
+
+#: support/admin.php:133
+msgid   "English"
+msgstr  ""
+
+#: 404.php:7
+msgid   "Error 404 - Not Found"
+msgstr  ""
+
+#: functions.php:188
+msgid   "Error 404 - Page not found"
+msgstr  ""
+
+#: support/widgets/categories.php:69
+msgid   "Exclude"
+msgstr  ""
+
+#: support/view/admin/options.php:74
+msgid   "Exclude from home"
+msgstr  ""
+
+#: support/widgets/page_info.php:255
+msgid   "F, Y"
+msgstr  ""
+
+#: support/view/admin/options.php:115
+msgid   "FeedBurner Email"
+msgstr  ""
+
+#: support/widgets.php:23
+msgid   "Feeds"
+msgstr  ""
+
+#: support/widgets/page_info.php:149
+msgid   "Follow me on Twitter"
+msgstr  ""
+
+#: support/view/admin/options.php:108
+msgid   "Footer Logo"
+msgstr  ""
+
+#: support/view/admin/support.php:70
+msgid   "Full details of producing a translation can be found in this <a href="
+        "\"http://urbangiraffe.com/articles/translating-wordpress-themes-and-"
+        "plugins/\">guide to translating WordPress plugins</a>."
+msgstr  ""
+
+#: support/widgets.php:26
+msgid   "GZ Categories"
+msgstr  ""
+
+#: support/widgets.php:29
+msgid   "GZ Recent Comments"
+msgstr  ""
+
+#: support/widgets/feeds.php:24 support/widgets/feeds.php:28
+msgid   "Get The Feed"
+msgstr  ""
+
+#: footer.php:23
+#, php-format
+msgid   "Get this theme that took %d queries and %s seconds to generate"
+msgstr  ""
+
+#: footer.php:23
+msgid   "Guangzhou"
+msgstr  ""
+
+#: support/admin.php:157
+msgid   "Guangzhou Bug Tracker"
+msgstr  ""
+
+#: support/admin.php:155
+msgid   "Guangzhou Documentation"
+msgstr  ""
+
+#: support/admin.php:158
+msgid   "Guangzhou FAQ"
+msgstr  ""
+
+#: support/admin.php:154
+msgid   "Guangzhou Help"
+msgstr  ""
+
+#: support/admin.php:127
+msgid   "Guangzhou Options"
+msgstr  ""
+
+#: support/admin.php:128
+msgid   "Guangzhou Skin"
+msgstr  ""
+
+#: support/admin.php:129
+msgid   "Guangzhou Support"
+msgstr  ""
+
+#: support/admin.php:156
+msgid   "Guangzhou Support Forum"
+msgstr  ""
+
+#: support/view/admin/support.php:8
+msgid   "Guangzhou is free to use - life is wonderful and lovely!  However, "
+        "it has required a great deal of time and effort to develop and if it "
+        "has been useful you can help support this development by "
+        "<strong>making a small donation</strong>."
+msgstr  ""
+
+#: support/widgets/search.php:26
+msgid   "Guangzhou search box"
+msgstr  ""
+
+#: support/view/admin/options.php:5 support/view/admin/skin.php:5
+msgid   "Guangzhou | Options"
+msgstr  ""
+
+#: support/view/admin/support.php:5
+msgid   "Guangzhou | Support"
+msgstr  ""
+
+#: support/view/admin/options.php:10
+msgid   "Here you can specify the menus that appear in the header and "
+        "footer.  Menu's are taken from your <a href='edit-link-categories."
+        "php'>link categories</a>."
+msgstr  ""
+
+#: support/widgets/categories.php:73
+msgid   "Hierarchical"
+msgstr  ""
+
+#: footer.php:27
+msgid   "Home"
+msgstr  ""
+
+#: support/widget_class.php:166
+msgid   "How many widgets would you like?"
+msgstr  ""
+
+#: support/view/admin/support.php:12
+msgid   "If you are using this plugin in a commercial setup, or feel that "
+        "it's been particularly useful, then you may want to consider a "
+        "<strong>commercial donation</strong>."
+msgstr  ""
+
+#: support/view/admin/support.php:61
+msgid   "If you're multi-lingual then you may want to consider donating a "
+        "translation:"
+msgstr  ""
+
+#: support/widgets/recent_comments.php:110
+msgid   "Ignore users"
+msgstr  ""
+
+#: support/view/admin/options.php:131
+msgid   "Include accessibility links"
+msgstr  ""
+
+#: support/view/admin/support.php:35
+msgid   "Individual<br/>Donation"
+msgstr  ""
+
+#: support/view/admin/options.php:53
+msgid   "Latest posts"
+msgstr  ""
+
+#: support/widgets/posts_in_cat.php:47
+msgid   "Limit"
+msgstr  ""
+
+#: comments.php:66
+#, php-format
+msgid   "Logged in as <a href=\"%1s/wp-admin/profile.php\">%2s</a>. <a href="
+        "\"%3s/wp-login.php?action=logout\" title=\"Log out of this account"
+        "\">Logout &raquo;</a>"
+msgstr  ""
+
+#: support/view/admin/options.php:40
+msgid   "Login menu"
+msgstr  ""
+
+#: comments.php:78
+msgid   "Mail (will not be published)"
+msgstr  ""
+
+#: support/view/admin/skin.php:24
+msgid   "Main Skin"
+msgstr  ""
+
+#: footer.php:29
+msgid   "Main content"
+msgstr  ""
+
+#: support/view/admin/options.php:15
+msgid   "Main menu"
+msgstr  ""
+
+#: support/view/admin/options.php:8
+msgid   "Menus"
+msgstr  ""
+
+#: comments.php:73 support/widgets/page_info.php:84
+msgid   "Name"
+msgstr  ""
+
+#: archive.php:35 category.php:27 index.php:44 search.php:23
+msgid   "Newer Entries &raquo;"
+msgstr  ""
+
+#: author.php:27
+msgid   "Newer entries &raquo;"
+msgstr  ""
+
+#: functions.php:350
+msgid   "Next page &raquo;"
+msgstr  ""
+
+#: support/comments.php:84
+msgid   "No comments"
+msgstr  ""
+
+#: support/view/admin/options.php:89
+msgid   "Other Options"
+msgstr  ""
+
+#: comments.php:30 comments.php:42
+msgid   "Page"
+msgstr  ""
+
+#: sidebar.php:4 support/widgets.php:24
+msgid   "Page Information"
+msgstr  ""
+
+#: support/view/admin/skin.php:12
+msgid   "Page width"
+msgstr  ""
+
+#: support/view/admin/skin.php:9
+msgid   "Physical dimensions of various parts of the page."
+msgstr  ""
+
+#: comments.php:49
+msgid   "Pings &amp; Trackbacks"
+msgstr  ""
+
+#: comments.php:3
+msgid   "Please do not load this page directly. Thanks!"
+msgstr  ""
+
+#: support/admin.php:159
+msgid   "Please read the documentation and FAQ, and check the bug tracker, "
+        "before asking a question."
+msgstr  ""
+
+#: support/view/admin/options.php:48
+msgid   "Post Options"
+msgstr  ""
+
+#: support/widgets/feeds.php:25
+msgid   "Posts"
+msgstr  ""
+
+#: support/widgets.php:27
+msgid   "Posts in category"
+msgstr  ""
+
+#: archive.php:14
+#, php-format
+msgid   "Posts tagged with &#8216;%s&#8217"
+msgstr  ""
+
+#: functions.php:184
+#, php-format
+msgid   "Posts tagged with '%s'"
+msgstr  ""
+
+#: author.php:11
+#, php-format
+msgid   "Profile for %s"
+msgstr  ""
+
+#: support/admin.php:133
+msgid   "Provided by default"
+msgstr  ""
+
+#: support/widgets.php:28
+msgid   "Random Posts"
+msgstr  ""
+
+#: functions.php:442 functions.php:444
+msgid   "Read more here&hellip;"
+msgstr  ""
+
+#: functions.php:413 functions.php:435
+msgid   "Read the full story"
+msgstr  ""
+
+#: author.php:14
+msgid   "Recent Posts"
+msgstr  ""
+
+#: support/view/admin/options.php:61
+msgid   "Recent posts"
+msgstr  ""
+
+#: comments.php:19
+msgid   "Reply now"
+msgstr  ""
+
+#: support/widget_class.php:173
+msgid   "Save"
+msgstr  ""
+
+#: support/view/admin/options.php:136 support/view/admin/skin.php:43
+msgid   "Save Changes"
+msgstr  ""
+
+#: sidebar.php:5 support/widgets/search.php:19 support/widgets.php:25
+msgid   "Search"
+msgstr  ""
+
+#: support/widgets/page_info.php:118
+msgid   "Search Information"
+msgstr  ""
+
+#: search.php:11
+#, php-format
+msgid   "Search results for '%s'"
+msgstr  ""
+
+#: support/view/admin/skin.php:37
+msgid   "Separate each URL on a new line.  The format is: <code>URL=skin</"
+        "code>, where URL will match any substring"
+msgstr  ""
+
+#: support/view/admin/options.php:81
+msgid   "Show author"
+msgstr  ""
+
+#: support/widgets/categories.php:50
+msgid   "Show categories"
+msgstr  ""
+
+#: support/widgets/feeds.php:38
+msgid   "Show feed information"
+msgstr  ""
+
+#: support/widgets/page_info.php:34
+msgid   "Show page information"
+msgstr  ""
+
+#: support/view/admin/options.php:94
+msgid   "Show pings"
+msgstr  ""
+
+#: support/view/admin/options.php:84
+msgid   "Show post author and link to author page"
+msgstr  ""
+
+#: support/widgets/posts_in_cat.php:100
+msgid   "Show posts in categories"
+msgstr  ""
+
+#: support/widgets/random_posts.php:45
+msgid   "Show random post"
+msgstr  ""
+
+#: support/widgets/recent_comments.php:99
+msgid   "Show recent comments"
+msgstr  ""
+
+#: support/view/admin/options.php:43
+msgid   "Show the login options in the top menu"
+msgstr  ""
+
+#: support/view/admin/options.php:104
+msgid   "Shown in the footer (<code>%year%</code> = current year)"
+msgstr  ""
+
+#: support/widgets/page_info.php:59
+#, php-format
+msgid   "Similar pages can be found in %s."
+msgstr  ""
+
+#: support/view/admin/skin.php:8
+msgid   "Sizes"
+msgstr  ""
+
+#: support/view/admin/skin.php:21
+msgid   "Skins allow you to apply different colours to the theme."
+msgstr  ""
+
+#: support/view/admin/options.php:128
+msgid   "Skip links"
+msgstr  ""
+
+#: header.php:51
+msgid   "Skip to content"
+msgstr  ""
+
+#: comments.php:94
+msgid   "Submit Comment"
+msgstr  ""
+
+#: support/widgets/page_info.php:154
+msgid   "Subscribe"
+msgstr  ""
+
+#: support/widgets/page_info.php:46 support/widgets/page_info.php:74
+#: support/widgets/page_info.php:151 support/widgets/posts_in_cat.php:115
+#: support/widgets/recent_comments.php:19
+msgid   "Subscribe to this!"
+msgstr  ""
+
+#: support/widgets/page_info.php:155
+#, php-format
+msgid   "Subscribe via %s"
+msgstr  ""
+
+#: support/widgets/page_info.php:80
+#, php-format
+msgid   "The author has written <strong>%s entries</strong>."
+msgstr  ""
+
+#: 404.php:11
+msgid   "The most recent articles on this site are:"
+msgstr  ""
+
+#: 404.php:9
+msgid   "The page you tried to access does not exist.  Please consider using "
+        "search to find what you want."
+msgstr  ""
+
+#: footer.php:23
+msgid   "Theme"
+msgstr  ""
+
+#: support/widgets/page_info.php:109
+#, php-format
+msgid   "There are <strong>%d entries</strong> in this archive."
+msgstr  ""
+
+#: support/comments.php:124
+msgid   "There are <strong>no comments</strong>."
+msgstr  ""
+
+#: support/view/admin/options.php:49
+msgid   "These options relate to how posts are shown."
+msgstr  ""
+
+#: support/widgets/page_info.php:108
+#, php-format
+msgid   "This is %1s."
+msgstr  ""
+
+#: support/widgets/page_info.php:53
+#, php-format
+msgid   "This page was created <strong>%1s ago</strong> by <a href=\"%2$s\">%3"
+        "$s</a>."
+msgstr  ""
+
+#: support/widgets/page_info.php:55
+#, php-format
+msgid   "This page was created <strong>%1s ago</strong>."
+msgstr  ""
+
+#: comments.php:7
+msgid   "This post is password protected. Enter the password to view comments."
+msgstr  ""
+
+#: support/view/admin/support.php:9
+msgid   "This will act as an incentive for me to carry on developing, "
+        "providing countless hours of support, and including new features and "
+        "suggestions. You get a useful theme and I get to carry on making "
+        "it.  Everybody wins."
+msgstr  ""
+
+#: support/widgets/feeds.php:20
+msgid   "Those all-important RSS feeds"
+msgstr  ""
+
+#: support/widgets/categories.php:65 support/widgets/posts_in_cat.php:39
+#: support/widgets/random_posts.php:60 support/widgets/recent_comments.php:106
+msgid   "Title"
+msgstr  ""
+
+#: support/view/admin/options.php:23
+msgid   "Top menu"
+msgstr  ""
+
+#: support/view/admin/support.php:59
+msgid   "Translations"
+msgstr  ""
+
+#: support/view/admin/options.php:121
+msgid   "Twitter"
+msgstr  ""
+
+#: support/view/admin/options.php:124
+msgid   "Twitter link"
+msgstr  ""
+
+#: support/view/admin/skin.php:34
+msgid   "URL-specific skins"
+msgstr  ""
+
+#: search.php:31
+msgid   "We could find nothing that matched your search term.  Please try "
+        "another term, or navigate elsewhere on the site."
+msgstr  ""
+
+#: comments.php:83
+msgid   "Website"
+msgstr  ""
+
+#: comments.php:88
+msgid   "XHTML"
+msgstr  ""
+
+#: support/widgets/page_info.php:257
+msgid   "Y"
+msgstr  ""
+
+#: support/widgets/page_info.php:112
+#, php-format
+msgid   "You can subscribe to the archive feed with <a href=\"%s\">RSS</a>."
+msgstr  ""
+
+#: comments.php:88
+#, php-format
+msgid   "You can use these tags: %s"
+msgstr  ""
+
+#: comments.php:58
+#, php-format
+msgid   "You must be <a href=\"%1s/wp-login.php?redirect_to=%2s\">logged in</"
+        "a> to post a comment."
+msgstr  ""
+
+#: support/comments.php:180
+msgid   "Your comment is awaiting moderation."
+msgstr  ""
+
+#: support/admin.php:89 support/admin.php:113
+msgid   "Your options have been saved"
+msgstr  ""
+
+#: support/widgets/page_info.php:208
+msgid   "a few minutes"
+msgstr  ""
+
+#: support/widgets/page_info.php:259
+#, php-format
+msgid   "all tags for <strong>%s</strong>"
+msgstr  ""
+
+#: support/widgets/page_info.php:165
+msgid   "day"
+msgstr  ""
+
+#: support/widgets/page_info.php:166
+msgid   "hour"
+msgstr  ""
+
+#: support/widgets/page_info.php:253
+msgid   "l, F jS, Y"
+msgstr  ""
+
+#: support/widgets/page_info.php:167
+msgid   "minute"
+msgstr  ""
+
+#: support/widgets/page_info.php:163
+msgid   "month"
+msgstr  ""
+
+#: support/widgets/posts_in_cat.php:115
+msgid   "more"
+msgstr  ""
+
+#: support/widgets/page_info.php:143
+msgid   "or "
+msgstr  ""
+
+#: support/view/admin/skin.php:14
+msgid   "pixels"
+msgstr  ""
+
+#: support/widgets/page_info.php:136
+#, php-format
+msgid   "the <a title=\"Subscribe to this!\" href=\"%s\">RSS feed</a>"
+msgstr  ""
+
+#: support/widgets/page_info.php:251
+#, php-format
+msgid   "the <strong>'%s'</strong> archive"
+msgstr  ""
+
+#: support/widgets/page_info.php:253 support/widgets/page_info.php:255
+#: support/widgets/page_info.php:257
+#, php-format
+msgid   "the archive for <strong>%s</strong>"
+msgstr  ""
+
+#: support/widgets/page_info.php:164
+msgid   "week"
+msgstr  ""
+
+#: support/widgets/page_info.php:162
+msgid   "year"
+msgstr  ""
+
+#: comments.php:95
+msgid   "| Cancel Reply"
+msgstr  ""
