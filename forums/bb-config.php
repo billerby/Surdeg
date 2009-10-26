@@ -10,6 +10,17 @@
  *
  * @package bbPress
  */
+$bb->WP_BB = true;
+if (file_exists('../wp-blog-header.php'))
+	require_once('../wp-blog-header.php');
+else
+	if (file_exists('../../wp-blog-header.php'))
+		require_once('../../wp-blog-header.php');
+
+global $bfa_ata;
+$bfa_ata['left_col']="on";
+$bfa_ata['right_col']="on";
+ $bfa_ata['cols'] = "3";
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for bbPress */
@@ -60,5 +71,5 @@ $bb_table_prefix = 'bb_';
  * directory of bbPress. For example, install de.mo to "my-languages" and set
  * BB_LANG to 'de' to enable German language support.
  */
-define( 'BB_LANG', '' );
+define( 'BB_LANG', 'sv_SE' );
 ?>

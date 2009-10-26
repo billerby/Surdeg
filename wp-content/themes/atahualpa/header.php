@@ -3,6 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<?php global $is_bb; if($is_bb) : ?>
+	<link rel="stylesheet" href="../forums/my-templates/blank2rbbpress/style.css" type="text/css" media="screen" />
+<?php endif; ?>
+
 <?php /* if index.php or another page template (copied from index.php) was not used
 (i.e. by a plugin such as WPG2), the global $bfa_ata would be empty */
 global $bfa_ata; if ($bfa_ata == "") include_once (TEMPLATEPATH . '/functions/bfa_get_options.php'); ?>
@@ -56,7 +60,6 @@ global $bfa_ata; if ($bfa_ata == "") include_once (TEMPLATEPATH . '/functions/bf
 		<?php if ( $bfa_ata['left_col'] == "on" ) { ?>
 		<!-- Left Sidebar -->
 		<td id="left">
-
 			<?php // Widgetize the Left Sidebar 
 			if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Left Sidebar') ) : ?>
 		
