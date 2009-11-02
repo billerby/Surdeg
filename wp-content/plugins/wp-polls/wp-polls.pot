@@ -1,0 +1,1537 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Polls 2.50\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-17 21:50+0800\n"
+"PO-Revision-Date: 2009-06-17 21:50+0800\n"
+"Last-Translator: Lester Chan <lesterchan@gmail.com>\n"
+"Language-Team: Lester Chan <lesterchan@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: SINGAPORE\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: polls-add.php:36
+#: polls-add.php:111
+#: polls-add.php:178
+#: wp-polls.php:64
+#: wp-polls.php:309
+msgid "Add Poll"
+msgstr ""
+
+#: polls-add.php:80
+#, php-format
+msgid "Error In Adding Poll '%s'."
+msgstr ""
+
+#: polls-add.php:89
+#: polls-manager.php:131
+#, php-format
+msgid "Error In Adding Poll's Answer '%s'."
+msgstr ""
+
+#: polls-add.php:96
+#, php-format
+msgid "Poll '%s' Added Successfully."
+msgstr ""
+
+#: polls-add.php:96
+#: polls-manager.php:334
+#: wp-polls.php:63
+msgid "Manage Polls"
+msgstr ""
+
+#: polls-add.php:113
+#: polls-manager.php:184
+msgid "Poll Question"
+msgstr ""
+
+#: polls-add.php:116
+#: polls-manager.php:187
+#: polls-manager.php:341
+msgid "Question"
+msgstr ""
+
+#: polls-add.php:121
+#: polls-manager.php:192
+msgid "Poll Answers"
+msgstr ""
+
+#: polls-add.php:126
+#: polls-manager.php:227
+msgid "Add Answer"
+msgstr ""
+
+#: polls-add.php:133
+#: polls-manager.php:214
+#, php-format
+msgid "Answer %s"
+msgstr ""
+
+#: polls-add.php:134
+#: wp-polls.php:253
+msgid "Remove"
+msgstr ""
+
+#: polls-add.php:142
+#: polls-manager.php:238
+msgid "Poll Multiple Answers"
+msgstr ""
+
+#: polls-add.php:145
+#: polls-manager.php:241
+msgid "Allows Users To Select More Than One Answer?"
+msgstr ""
+
+#: polls-add.php:148
+#: polls-manager.php:244
+#: polls-options.php:199
+#: polls-options.php:208
+#: polls-options.php:325
+#: wp-polls.php:1415
+msgid "No"
+msgstr ""
+
+#: polls-add.php:149
+#: polls-logs.php:373
+#: polls-manager.php:245
+#: polls-manager.php:470
+#: polls-options.php:200
+#: polls-options.php:209
+#: polls-options.php:326
+#: polls-uninstall.php:134
+#: wp-polls.php:1416
+msgid "Yes"
+msgstr ""
+
+#: polls-add.php:154
+#: polls-manager.php:250
+msgid "Maximum Number Of Selected Answers Allowed?"
+msgstr ""
+
+#: polls-add.php:167
+#: polls-manager.php:267
+msgid "Poll Start/End Date"
+msgstr ""
+
+#: polls-add.php:170
+#: polls-manager.php:270
+#: polls-manager.php:343
+msgid "Start Date/Time"
+msgstr ""
+
+#: polls-add.php:174
+#: polls-manager.php:278
+#: polls-manager.php:344
+msgid "End Date/Time"
+msgstr ""
+
+#: polls-add.php:175
+#: polls-manager.php:289
+msgid "Do NOT Expire This Poll"
+msgstr ""
+
+#: polls-add.php:178
+#: polls-manager.php:315
+msgid "Cancel"
+msgstr ""
+
+#: polls-admin-ajax.php:43
+#: polls-manager.php:471
+#: wp-polls.php:245
+msgid "Delete All Logs"
+msgstr ""
+
+#: polls-admin-ajax.php:47
+msgid "All Polls Logs Have Been Deleted."
+msgstr ""
+
+#: polls-admin-ajax.php:49
+msgid "An Error Has Occured While Deleting All Polls Logs."
+msgstr ""
+
+#: polls-admin-ajax.php:54
+#: polls-logs.php:374
+#: wp-polls.php:247
+msgid "Delete Logs For This Poll Only"
+msgstr ""
+
+#: polls-admin-ajax.php:60
+#, php-format
+msgid "All Logs For '%s' Has Been Deleted."
+msgstr ""
+
+#: polls-admin-ajax.php:62
+#, php-format
+msgid "An Error Has Occured While Deleting All Logs For '%s'"
+msgstr ""
+
+#: polls-admin-ajax.php:67
+#: wp-polls.php:249
+msgid "Delete Poll Answer"
+msgstr ""
+
+#: polls-admin-ajax.php:77
+#, php-format
+msgid "Poll Answer '%s' Deleted Successfully."
+msgstr ""
+
+#: polls-admin-ajax.php:79
+#, php-format
+msgid "Error In Deleting Poll Answer '%s'."
+msgstr ""
+
+#: polls-admin-ajax.php:83
+#: polls-manager.php:314
+#: wp-polls.php:250
+msgid "Open Poll"
+msgstr ""
+
+#: polls-admin-ajax.php:88
+#, php-format
+msgid "Poll '%s' Is Now Opened"
+msgstr ""
+
+#: polls-admin-ajax.php:90
+#, php-format
+msgid "Error Opening Poll '%s'"
+msgstr ""
+
+#: polls-admin-ajax.php:94
+#: polls-manager.php:313
+#: wp-polls.php:251
+msgid "Close Poll"
+msgstr ""
+
+#: polls-admin-ajax.php:99
+#, php-format
+msgid "Poll '%s' Is Now Closed"
+msgstr ""
+
+#: polls-admin-ajax.php:101
+#, php-format
+msgid "Error Closing Poll '%s'"
+msgstr ""
+
+#: polls-admin-ajax.php:105
+#: wp-polls.php:243
+msgid "Delete Poll"
+msgstr ""
+
+#: polls-admin-ajax.php:113
+#, php-format
+msgid "Error In Deleting Poll '%s' Question"
+msgstr ""
+
+#: polls-admin-ajax.php:116
+#, php-format
+msgid "Poll '%s' Deleted Successfully"
+msgstr ""
+
+#: polls-logs.php:33
+#: polls-logs.php:34
+#: polls-logs.php:37
+#: polls-logs.php:65
+#: polls-logs.php:69
+#: polls-logs.php:102
+#: polls-logs.php:105
+#: wp-polls.php:1274
+msgid "Guest"
+msgstr ""
+
+#: polls-logs.php:124
+msgid "Poll's Logs"
+msgstr ""
+
+#: polls-logs.php:127
+#, php-format
+msgid "There are a total of <strong>%s</strong> recorded vote for this poll."
+msgid_plural "There are a total of <strong>%s</strong> recorded votes for this poll."
+msgstr[0] ""
+msgstr[1] ""
+
+#: polls-logs.php:128
+#, php-format
+msgid "<strong>&raquo;</strong> <strong>%s</strong> vote is casted by registered users"
+msgid_plural "<strong>&raquo;</strong> <strong>%s</strong> votes are casted by registered users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: polls-logs.php:129
+#, php-format
+msgid "<strong>&raquo;</strong> <strong>%s</strong> vote is casted by comment authors"
+msgid_plural "<strong>&raquo;</strong> <strong>%s</strong> votes are casted by comment authors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: polls-logs.php:130
+#, php-format
+msgid "<strong>&raquo;</strong> <strong>%s</strong> vote is casted by guests"
+msgid_plural "<strong>&raquo;</strong> <strong>%s</strong> votes are casted by guests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: polls-logs.php:135
+msgid "Filter Poll's Logs"
+msgstr ""
+
+#: polls-logs.php:143
+msgid "Display All Users That Voted For"
+msgstr ""
+
+#: polls-logs.php:164
+#: polls-logs.php:211
+msgid "Voters To EXCLUDE"
+msgstr ""
+
+#: polls-logs.php:166
+#: polls-logs.php:213
+msgid "Registered Users"
+msgstr ""
+
+#: polls-logs.php:167
+#: polls-logs.php:214
+msgid "Comment Authors"
+msgstr ""
+
+#: polls-logs.php:168
+msgid "Guests"
+msgstr ""
+
+#: polls-logs.php:172
+#: polls-logs.php:219
+#: polls-logs.php:253
+msgid "Filter"
+msgstr ""
+
+#: polls-logs.php:183
+msgid "Display Users That Voted For"
+msgstr ""
+
+#: polls-logs.php:186
+msgid "More Than"
+msgstr ""
+
+#: polls-logs.php:187
+msgid "More Than Or Exactly"
+msgstr ""
+
+#: polls-logs.php:188
+msgid "Exactly"
+msgstr ""
+
+#: polls-logs.php:189
+msgid "Less Than Or Exactly"
+msgstr ""
+
+#: polls-logs.php:190
+msgid "Less Than"
+msgstr ""
+
+#: polls-logs.php:197
+msgid "1 Answer"
+msgstr ""
+
+#: polls-logs.php:200
+#: polls-logs.php:202
+#, php-format
+msgid "%s Answer"
+msgid_plural "%s Answers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: polls-logs.php:215
+msgid "Guests will automatically be excluded"
+msgstr ""
+
+#: polls-logs.php:235
+msgid "Display What This User Has Voted"
+msgstr ""
+
+#: polls-logs.php:261
+msgid "Clear Filter"
+msgstr ""
+
+#: polls-logs.php:268
+msgid "Poll Logs"
+msgstr ""
+
+#: polls-logs.php:273
+msgid "This default filter is limited to display only <strong>100</strong> records."
+msgstr ""
+
+#: polls-logs.php:281
+#: polls-logs.php:324
+#: wp-polls.php:252
+msgid "Answer"
+msgstr ""
+
+#: polls-logs.php:282
+msgid "IP"
+msgstr ""
+
+#: polls-logs.php:283
+msgid "Host"
+msgstr ""
+
+#: polls-logs.php:284
+#: polls-logs.php:331
+msgid "Date"
+msgstr ""
+
+#: polls-logs.php:291
+#: polls-logs.php:319
+#: polls-manager.php:272
+#: polls-manager.php:284
+#: polls-manager.php:364
+#: polls-manager.php:372
+#: wp-polls.php:460
+#: wp-polls.php:465
+#: wp-polls.php:574
+#: wp-polls.php:579
+#: wp-polls.php:964
+#: wp-polls.php:968
+#, php-format
+msgid "%s @ %s"
+msgstr ""
+
+#: polls-logs.php:299
+#: polls-logs.php:329
+msgid "User"
+msgstr ""
+
+#: polls-logs.php:328
+msgid "No."
+msgstr ""
+
+#: polls-logs.php:330
+msgid "IP/Host"
+msgstr ""
+
+#: polls-logs.php:352
+#, php-format
+msgid "Total number of records that matches this filter: <strong>%s</strong>"
+msgstr ""
+
+#: polls-logs.php:359
+msgid "No poll logs matches the filter."
+msgstr ""
+
+#: polls-logs.php:361
+#: polls-logs.php:377
+msgid "No poll logs available for this poll."
+msgstr ""
+
+#: polls-logs.php:368
+msgid "Delete Poll Logs"
+msgstr ""
+
+#: polls-logs.php:372
+msgid "Are You Sure You Want To Delete Logs For This Poll Only?"
+msgstr ""
+
+#: polls-logs.php:374
+#, php-format
+msgid "You are about to delete poll logs for this poll '%s' ONLY. This action is not reversible."
+msgstr ""
+
+#: polls-logs.php:381
+#: polls-manager.php:478
+msgid "Note: If your logging method is by IP and Cookie or by Cookie, users may still be unable to vote if they have voted before as the cookie is still stored in their computer."
+msgstr ""
+
+#: polls-manager.php:39
+#: polls-manager.php:182
+#: polls-manager.php:303
+msgid "Edit Poll"
+msgstr ""
+
+#: polls-manager.php:98
+#, php-format
+msgid "No Changes Had Been Made To Poll's Question '%s'."
+msgstr ""
+
+#: polls-manager.php:112
+#, php-format
+msgid "No Changes Had Been Made To Poll's Answer '%s'."
+msgstr ""
+
+#: polls-manager.php:114
+#, php-format
+msgid "Poll's Answer '%s' Edited Successfully."
+msgstr ""
+
+#: polls-manager.php:118
+#, php-format
+msgid "Invalid Poll '%s'."
+msgstr ""
+
+#: polls-manager.php:133
+#, php-format
+msgid "Poll's Answer '%s' Added Successfully."
+msgstr ""
+
+#: polls-manager.php:140
+#, php-format
+msgid "Poll '%s' Edited Successfully."
+msgstr ""
+
+#: polls-manager.php:196
+msgid "Answer No."
+msgstr ""
+
+#: polls-manager.php:197
+msgid "Answer Text"
+msgstr ""
+
+#: polls-manager.php:198
+msgid "No. Of Votes"
+msgstr ""
+
+#: polls-manager.php:207
+msgid "Null Votes"
+msgstr ""
+
+#: polls-manager.php:216
+#: polls-manager.php:419
+msgid "Delete"
+msgstr ""
+
+#: polls-manager.php:216
+#, php-format
+msgid "You are about to delete this poll's answer '%s'."
+msgstr ""
+
+#: polls-manager.php:228
+msgid "Total Votes:"
+msgstr ""
+
+#: polls-manager.php:233
+#: polls-manager.php:453
+msgid "Total Voters:"
+msgstr ""
+
+#: polls-manager.php:273
+msgid "Edit Start Date/Time"
+msgstr ""
+
+#: polls-manager.php:282
+msgid "This Poll Will Not Expire"
+msgstr ""
+
+#: polls-manager.php:313
+#, php-format
+msgid "You are about to CLOSE this poll '%s'."
+msgstr ""
+
+#: polls-manager.php:314
+#, php-format
+msgid "You are about to OPEN this poll '%s'."
+msgstr ""
+
+#: polls-manager.php:335
+#: wp-polls.php:60
+#: wp-polls.php:1369
+#: wp-polls.php:1404
+msgid "Polls"
+msgstr ""
+
+#: polls-manager.php:340
+msgid "ID"
+msgstr ""
+
+#: polls-manager.php:342
+#: polls-templates.php:122
+#: polls-templates.php:125
+#: wp-polls.php:1539
+#: wp-polls.php:1542
+msgid "Total Voters"
+msgstr ""
+
+#: polls-manager.php:345
+msgid "Status"
+msgstr ""
+
+#: polls-manager.php:346
+msgid "Action"
+msgstr ""
+
+#: polls-manager.php:370
+#: wp-polls.php:463
+#: wp-polls.php:577
+#: wp-polls.php:966
+msgid "No Expiry"
+msgstr ""
+
+#: polls-manager.php:395
+#: polls-manager.php:399
+#: polls-manager.php:402
+msgid "Displayed:"
+msgstr ""
+
+#: polls-manager.php:410
+msgid "Open"
+msgstr ""
+
+#: polls-manager.php:412
+msgid "Future"
+msgstr ""
+
+#: polls-manager.php:414
+msgid "Closed"
+msgstr ""
+
+#: polls-manager.php:417
+msgid "Logs"
+msgstr ""
+
+#: polls-manager.php:418
+msgid "Edit"
+msgstr ""
+
+#: polls-manager.php:419
+#, php-format
+msgid "You are about to delete this poll, '%s'."
+msgstr ""
+
+#: polls-manager.php:427
+msgid "No Polls Found"
+msgstr ""
+
+#: polls-manager.php:437
+msgid "Polls Stats:"
+msgstr ""
+
+#: polls-manager.php:441
+msgid "Total Polls:"
+msgstr ""
+
+#: polls-manager.php:445
+msgid "Total Polls' Answers:"
+msgstr ""
+
+#: polls-manager.php:449
+msgid "Total Votes Casted:"
+msgstr ""
+
+#: polls-manager.php:462
+msgid "Polls Logs"
+msgstr ""
+
+#: polls-manager.php:469
+msgid "Are You Sure You Want To Delete All Polls Logs?"
+msgstr ""
+
+#: polls-manager.php:471
+msgid "You are about to delete all poll logs. This action is not reversible."
+msgstr ""
+
+#: polls-manager.php:474
+#: wp-polls.php:244
+msgid "No poll logs available."
+msgstr ""
+
+#: polls-options.php:70
+#: polls-options.php:130
+#: polls-options.php:133
+msgid "Poll Bar Style"
+msgstr ""
+
+#: polls-options.php:71
+msgid "Poll AJAX Style"
+msgstr ""
+
+#: polls-options.php:72
+msgid "Sort Poll Answers By Option"
+msgstr ""
+
+#: polls-options.php:73
+msgid "Sort Order Of Poll Answers Option"
+msgstr ""
+
+#: polls-options.php:74
+msgid "Sort Poll Results By Option"
+msgstr ""
+
+#: polls-options.php:75
+msgid "Sort Order Of Poll Results Option"
+msgstr ""
+
+#: polls-options.php:76
+msgid "Number Of Polls Per Page To Display In Poll Archive Option"
+msgstr ""
+
+#: polls-options.php:77
+msgid "Type Of Polls To Display In Poll Archive Option"
+msgstr ""
+
+#: polls-options.php:78
+msgid "Poll Archive URL Option"
+msgstr ""
+
+#: polls-options.php:79
+msgid "Show Poll Achive Link Option"
+msgstr ""
+
+#: polls-options.php:80
+msgid "Current Active Poll Option"
+msgstr ""
+
+#: polls-options.php:81
+msgid "Poll Close Option"
+msgstr ""
+
+#: polls-options.php:82
+#: polls-options.php:280
+msgid "Logging Method"
+msgstr ""
+
+#: polls-options.php:83
+msgid "Cookie And Log Expiry Option"
+msgstr ""
+
+#: polls-options.php:84
+msgid "Allow To Vote Option"
+msgstr ""
+
+#: polls-options.php:89
+#: polls-templates.php:85
+msgid "Updated"
+msgstr ""
+
+#: polls-options.php:94
+#: polls-templates.php:90
+msgid "No Poll Option Updated"
+msgstr ""
+
+#: polls-options.php:128
+#: wp-polls.php:65
+msgid "Poll Options"
+msgstr ""
+
+#: polls-options.php:160
+msgid "Use CSS Style"
+msgstr ""
+
+#: polls-options.php:164
+msgid "Poll Bar Background"
+msgstr ""
+
+#: polls-options.php:169
+msgid "Poll Bar Border"
+msgstr ""
+
+#: polls-options.php:174
+msgid "Poll Bar Height"
+msgstr ""
+
+#: polls-options.php:178
+msgid "Your poll bar will look like this"
+msgstr ""
+
+#: polls-options.php:193
+msgid "Polls AJAX Style"
+msgstr ""
+
+#: polls-options.php:196
+msgid "Show Loading Image With Text"
+msgstr ""
+
+#: polls-options.php:205
+msgid "Show Fading In And Fading Out Of Poll"
+msgstr ""
+
+#: polls-options.php:216
+msgid "Sorting Of Poll Answers"
+msgstr ""
+
+#: polls-options.php:219
+msgid "Sort Poll Answers By:"
+msgstr ""
+
+#: polls-options.php:222
+#: polls-options.php:247
+msgid "Exact Order"
+msgstr ""
+
+#: polls-options.php:223
+#: polls-options.php:248
+msgid "Alphabetical Order"
+msgstr ""
+
+#: polls-options.php:224
+#: polls-options.php:249
+msgid "Random Order"
+msgstr ""
+
+#: polls-options.php:229
+msgid "Sort Order Of Poll Answers:"
+msgstr ""
+
+#: polls-options.php:232
+#: polls-options.php:257
+msgid "Ascending"
+msgstr ""
+
+#: polls-options.php:233
+#: polls-options.php:258
+msgid "Descending"
+msgstr ""
+
+#: polls-options.php:240
+msgid "Sorting Of Poll Results"
+msgstr ""
+
+#: polls-options.php:243
+msgid "Sort Poll Results By:"
+msgstr ""
+
+#: polls-options.php:246
+msgid "Votes Cast"
+msgstr ""
+
+#: polls-options.php:254
+msgid "Sort Order Of Poll Results:"
+msgstr ""
+
+#: polls-options.php:265
+msgid "Allow To Vote"
+msgstr ""
+
+#: polls-options.php:268
+msgid "Who Is Allowed To Vote?"
+msgstr ""
+
+#: polls-options.php:271
+msgid "Guests Only"
+msgstr ""
+
+#: polls-options.php:272
+msgid "Registered Users Only"
+msgstr ""
+
+#: polls-options.php:273
+msgid "Registered Users And Guests"
+msgstr ""
+
+#: polls-options.php:283
+msgid "Poll Logging Method:"
+msgstr ""
+
+#: polls-options.php:286
+msgid "Do Not Log"
+msgstr ""
+
+#: polls-options.php:287
+msgid "Logged By Cookie"
+msgstr ""
+
+#: polls-options.php:288
+msgid "Logged By IP"
+msgstr ""
+
+#: polls-options.php:289
+msgid "Logged By Cookie And IP"
+msgstr ""
+
+#: polls-options.php:290
+msgid "Logged By Username"
+msgstr ""
+
+#: polls-options.php:295
+msgid "Expiry Time For Cookie And Log:"
+msgstr ""
+
+#: polls-options.php:296
+msgid "seconds (0 to disable)"
+msgstr ""
+
+#: polls-options.php:301
+msgid "Poll Archive"
+msgstr ""
+
+#: polls-options.php:304
+msgid "Number Of Polls Per Page:"
+msgstr ""
+
+#: polls-options.php:308
+msgid "Type Of Polls To Display In Poll Archive:"
+msgstr ""
+
+#: polls-options.php:311
+msgid "Closed Polls Only"
+msgstr ""
+
+#: polls-options.php:312
+msgid "Opened Polls Only"
+msgstr ""
+
+#: polls-options.php:313
+msgid "Closed And Opened Polls"
+msgstr ""
+
+#: polls-options.php:318
+msgid "Poll Archive URL:"
+msgstr ""
+
+#: polls-options.php:322
+msgid "Display Poll Archive Link Below Poll?"
+msgstr ""
+
+#: polls-options.php:331
+#: polls-options.php:366
+msgid "Note"
+msgstr ""
+
+#: polls-options.php:332
+msgid "Only polls' results will be shown in the Poll Archive regardless of whether the poll is closed or opened."
+msgstr ""
+
+#: polls-options.php:337
+#: polls-options.php:340
+msgid "Current Active Poll"
+msgstr ""
+
+#: polls-options.php:343
+#: wp-polls.php:1423
+msgid "Do NOT Display Poll (Disable)"
+msgstr ""
+
+#: polls-options.php:344
+#: wp-polls.php:1424
+msgid "Display Random Poll"
+msgstr ""
+
+#: polls-options.php:345
+#: wp-polls.php:1425
+msgid "Display Latest Poll"
+msgstr ""
+
+#: polls-options.php:367
+msgid "If you chose 'Display Multiple Polls' for the above option, you need to configure it in Presentation -> Widgets -> Poll."
+msgstr ""
+
+#: polls-options.php:371
+msgid "When Poll Is Closed"
+msgstr ""
+
+#: polls-options.php:374
+msgid "Display Poll's Results"
+msgstr ""
+
+#: polls-options.php:375
+msgid "Display Disabled Poll's Voting Form"
+msgstr ""
+
+#: polls-options.php:376
+msgid "Do Not Display Poll In Post/Sidebar"
+msgstr ""
+
+#: polls-options.php:384
+#: polls-templates.php:493
+msgid "Save Changes"
+msgstr ""
+
+#: polls-templates.php:66
+msgid "Voting Form Header Template"
+msgstr ""
+
+#: polls-templates.php:67
+msgid "Voting Form Body Template"
+msgstr ""
+
+#: polls-templates.php:68
+msgid "Voting Form Footer Template"
+msgstr ""
+
+#: polls-templates.php:69
+msgid "Result Header Template"
+msgstr ""
+
+#: polls-templates.php:70
+msgid "Result Body Template"
+msgstr ""
+
+#: polls-templates.php:71
+msgid "Result Body2 Template"
+msgstr ""
+
+#: polls-templates.php:72
+msgid "Result Footer Template"
+msgstr ""
+
+#: polls-templates.php:73
+msgid "Result Footer2 Template"
+msgstr ""
+
+#: polls-templates.php:74
+msgid "Poll Archive Link Template"
+msgstr ""
+
+#: polls-templates.php:75
+msgid "Poll Archive Poll Header Template"
+msgstr ""
+
+#: polls-templates.php:76
+msgid "Poll Archive Poll Footer Template"
+msgstr ""
+
+#: polls-templates.php:77
+msgid "Poll Archive Paging Header Template"
+msgstr ""
+
+#: polls-templates.php:78
+msgid "Poll Archive Paging Footer Template"
+msgstr ""
+
+#: polls-templates.php:79
+msgid "Poll Disabled Template"
+msgstr ""
+
+#: polls-templates.php:80
+msgid "Poll Error Template"
+msgstr ""
+
+#: polls-templates.php:110
+#: polls-templates.php:125
+#: wp-polls.php:1530
+#: wp-polls.php:1543
+msgid "Vote"
+msgstr ""
+
+#: polls-templates.php:110
+#: wp-polls.php:1531
+msgid "View Results Of This Poll"
+msgstr ""
+
+#: polls-templates.php:110
+#: wp-polls.php:1531
+msgid "View Results"
+msgstr ""
+
+#: polls-templates.php:116
+#: polls-templates.php:119
+#: wp-polls.php:1536
+#: wp-polls.php:1537
+msgid ","
+msgstr ""
+
+#: polls-templates.php:116
+#: polls-templates.php:119
+#: wp-polls.php:1536
+#: wp-polls.php:1537
+msgid "Votes"
+msgstr ""
+
+#: polls-templates.php:119
+#: wp-polls.php:1537
+msgid "You Have Voted For This Choice"
+msgstr ""
+
+#: polls-templates.php:125
+#: wp-polls.php:1543
+msgid "Vote For This Poll"
+msgstr ""
+
+#: polls-templates.php:128
+#: wp-polls.php:1569
+msgid "Polls Archive"
+msgstr ""
+
+#: polls-templates.php:134
+#: wp-polls.php:1573
+msgid "Start Date:"
+msgstr ""
+
+#: polls-templates.php:134
+#: wp-polls.php:1573
+msgid "End Date:"
+msgstr ""
+
+#: polls-templates.php:143
+#: wp-polls.php:1545
+msgid "Sorry, there are no polls available at the moment."
+msgstr ""
+
+#: polls-templates.php:146
+#: wp-polls.php:1546
+msgid "An error has occurred when processing your poll."
+msgstr ""
+
+#: polls-templates.php:157
+#: wp-polls.php:66
+msgid "Poll Templates"
+msgstr ""
+
+#: polls-templates.php:159
+msgid "Template Variables"
+msgstr ""
+
+#: polls-templates.php:164
+msgid "Display the poll's ID"
+msgstr ""
+
+#: polls-templates.php:168
+msgid "Display the poll's answer ID"
+msgstr ""
+
+#: polls-templates.php:174
+msgid "Display the poll's question"
+msgstr ""
+
+#: polls-templates.php:178
+msgid "Display the poll's answer"
+msgstr ""
+
+#: polls-templates.php:184
+msgid "Display the poll's total votes NOT the number of people who voted for the poll"
+msgstr ""
+
+#: polls-templates.php:188
+msgid "Display the poll's answer without HTML formatting."
+msgstr ""
+
+#: polls-templates.php:194
+msgid "Displays URL to poll's result"
+msgstr ""
+
+#: polls-templates.php:198
+msgid "Display the poll's answer votes"
+msgstr ""
+
+#: polls-templates.php:204
+msgid "Display the poll's most voted answer"
+msgstr ""
+
+#: polls-templates.php:208
+msgid "Display the poll's answer percentage"
+msgstr ""
+
+#: polls-templates.php:214
+msgid "Display the poll's answer votes for the most voted answer"
+msgstr ""
+
+#: polls-templates.php:218
+msgid "Display the poll's answer image width"
+msgstr ""
+
+#: polls-templates.php:224
+msgid "Display the poll's answer percentage for the most voted answer"
+msgstr ""
+
+#: polls-templates.php:228
+msgid "Display the poll's least voted answer"
+msgstr ""
+
+#: polls-templates.php:234
+msgid "Display the poll's start date/time"
+msgstr ""
+
+#: polls-templates.php:238
+msgid "Display the poll's answer votes for the least voted answer"
+msgstr ""
+
+#: polls-templates.php:244
+msgid "Display the poll's end date/time"
+msgstr ""
+
+#: polls-templates.php:248
+msgid "Display the poll's answer percentage for the least voted answer"
+msgstr ""
+
+#: polls-templates.php:254
+msgid "Display the the maximum number of answers the user can choose if the poll supports multiple answers"
+msgstr ""
+
+#: polls-templates.php:258
+msgid "Display \"checkbox\" or \"radio\" input types depending on the poll type"
+msgstr ""
+
+#: polls-templates.php:264
+msgid "Display the number of people who voted for the poll NOT the total votes of the poll"
+msgstr ""
+
+#: polls-templates.php:268
+msgid "Display the poll archive URL"
+msgstr ""
+
+#: polls-templates.php:273
+msgid "Note: <strong>%POLL_TOTALVOTES%</strong> and <strong>%POLL_TOTALVOTERS%</strong> will be different if your poll supports multiple answers. If your poll allows only single answer, both value will be the same."
+msgstr ""
+
+#: polls-templates.php:279
+msgid "Poll Voting Form Templates"
+msgstr ""
+
+#: polls-templates.php:283
+msgid "Voting Form Header:"
+msgstr ""
+
+#: polls-templates.php:284
+#: polls-templates.php:299
+#: polls-templates.php:312
+#: polls-templates.php:328
+#: polls-templates.php:343
+#: polls-templates.php:357
+#: polls-templates.php:371
+#: polls-templates.php:391
+#: polls-templates.php:416
+#: polls-templates.php:425
+#: polls-templates.php:434
+#: polls-templates.php:453
+#: polls-templates.php:462
+#: polls-templates.php:476
+#: polls-templates.php:485
+msgid "Allowed Variables:"
+msgstr ""
+
+#: polls-templates.php:292
+#: polls-templates.php:305
+#: polls-templates.php:316
+#: polls-templates.php:336
+#: polls-templates.php:350
+#: polls-templates.php:364
+#: polls-templates.php:384
+#: polls-templates.php:404
+#: polls-templates.php:418
+#: polls-templates.php:427
+#: polls-templates.php:446
+#: polls-templates.php:455
+#: polls-templates.php:464
+#: polls-templates.php:478
+#: polls-templates.php:487
+msgid "Restore Default Template"
+msgstr ""
+
+#: polls-templates.php:298
+msgid "Voting Form Body:"
+msgstr ""
+
+#: polls-templates.php:311
+msgid "Voting Form Footer:"
+msgstr ""
+
+#: polls-templates.php:323
+msgid "Poll Result Templates"
+msgstr ""
+
+#: polls-templates.php:327
+msgid "Result Header:"
+msgstr ""
+
+#: polls-templates.php:342
+#: polls-templates.php:356
+msgid "Result Body:"
+msgstr ""
+
+#: polls-templates.php:342
+#: polls-templates.php:390
+msgid "Displayed When The User HAS NOT Voted"
+msgstr ""
+
+#: polls-templates.php:356
+#: polls-templates.php:370
+msgid "Displayed When The User HAS Voted"
+msgstr ""
+
+#: polls-templates.php:370
+#: polls-templates.php:390
+msgid "Result Footer:"
+msgstr ""
+
+#: polls-templates.php:411
+msgid "Poll Archive Templates"
+msgstr ""
+
+#: polls-templates.php:415
+msgid "Poll Archive Link"
+msgstr ""
+
+#: polls-templates.php:415
+msgid "Template For Displaying Poll Archive Link"
+msgstr ""
+
+#: polls-templates.php:424
+msgid "Individual Poll Header"
+msgstr ""
+
+#: polls-templates.php:424
+msgid "Displayed Before Each Poll In The Poll Archive"
+msgstr ""
+
+#: polls-templates.php:426
+#: polls-templates.php:454
+#: polls-templates.php:463
+#: polls-templates.php:477
+#: polls-templates.php:486
+msgid "N/A"
+msgstr ""
+
+#: polls-templates.php:433
+msgid "Individual Poll Footer"
+msgstr ""
+
+#: polls-templates.php:433
+msgid "Displayed After Each Poll In The Poll Archive"
+msgstr ""
+
+#: polls-templates.php:452
+msgid "Paging Header"
+msgstr ""
+
+#: polls-templates.php:452
+msgid "Displayed Before Paging In The Poll Archive"
+msgstr ""
+
+#: polls-templates.php:461
+msgid "Paging Footer"
+msgstr ""
+
+#: polls-templates.php:461
+msgid "Displayed After Paging In The Poll Archive"
+msgstr ""
+
+#: polls-templates.php:471
+msgid "Poll Misc Templates"
+msgstr ""
+
+#: polls-templates.php:475
+msgid "Poll Disabled"
+msgstr ""
+
+#: polls-templates.php:475
+msgid "Displayed When The Poll Is Disabled"
+msgstr ""
+
+#: polls-templates.php:484
+msgid "Poll Error"
+msgstr ""
+
+#: polls-templates.php:484
+msgid "Displayed When An Error Has Occured While Processing The Poll"
+msgstr ""
+
+#: polls-uninstall.php:39
+#: polls-uninstall.php:135
+msgid "UNINSTALL WP-Polls"
+msgstr ""
+
+#: polls-uninstall.php:46
+#, php-format
+msgid "Table '%s' has been deleted."
+msgstr ""
+
+#: polls-uninstall.php:55
+#, php-format
+msgid "Setting Key '%s' has been deleted."
+msgstr ""
+
+#: polls-uninstall.php:59
+#, php-format
+msgid "Error deleting Setting Key '%s' or Setting Key '%s' does not exist."
+msgstr ""
+
+#: polls-uninstall.php:82
+#: polls-uninstall.php:93
+#: wp-polls.php:67
+msgid "Uninstall WP-Polls"
+msgstr ""
+
+#: polls-uninstall.php:83
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-Polls Will Be Deactivated Automatically."
+msgstr ""
+
+#: polls-uninstall.php:95
+msgid "Deactivating WP-Polls plugin does not remove any data that may have been created, such as the poll data and the poll's voting logs. To completely remove this plugin, you can uninstall it here."
+msgstr ""
+
+#: polls-uninstall.php:98
+msgid "WARNING:"
+msgstr ""
+
+#: polls-uninstall.php:99
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr ""
+
+#: polls-uninstall.php:102
+msgid "The following WordPress Options/Tables will be DELETED:"
+msgstr ""
+
+#: polls-uninstall.php:107
+msgid "WordPress Options"
+msgstr ""
+
+#: polls-uninstall.php:108
+msgid "WordPress Tables"
+msgstr ""
+
+#: polls-uninstall.php:133
+msgid "Do you really want to uninstall WP-Polls?"
+msgstr ""
+
+#: polls-uninstall.php:135
+msgid ""
+"You Are About To Uninstall WP-Polls From WordPress.\\n"
+"This Action Is Not Reversible.\\n"
+"\\n"
+" Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr ""
+
+#: wp-polls.php:223
+msgid "Your last request is still being processed. Please wait a while ..."
+msgstr ""
+
+#: wp-polls.php:224
+msgid "Please choose a valid poll answer."
+msgstr ""
+
+#: wp-polls.php:225
+msgid "Maximum number of choices allowed: "
+msgstr ""
+
+#: wp-polls.php:246
+msgid "Please check the \\'Yes\\' checkbox if you want to delete all logs."
+msgstr ""
+
+#: wp-polls.php:248
+msgid "Please check the \\'Yes\\' checkbox if you want to delete all logs for this poll ONLY."
+msgstr ""
+
+#: wp-polls.php:269
+msgid "Enter Poll ID"
+msgstr ""
+
+#: wp-polls.php:270
+msgid "Error: Poll ID must be numeric"
+msgstr ""
+
+#: wp-polls.php:270
+msgid "Please enter Poll ID again"
+msgstr ""
+
+#: wp-polls.php:271
+msgid "Poll"
+msgstr ""
+
+#: wp-polls.php:272
+msgid "Insert_Poll"
+msgstr ""
+
+#: wp-polls.php:539
+#: wp-polls.php:707
+msgid "Loading"
+msgstr ""
+
+#: wp-polls.php:753
+msgid "Note: There is a poll embedded within this post, please visit the site to participate in this post's poll."
+msgstr ""
+
+#: wp-polls.php:1099
+#, php-format
+msgid "Page %s of %s"
+msgstr ""
+
+#: wp-polls.php:1101
+msgid "&laquo; First"
+msgstr ""
+
+#: wp-polls.php:1105
+msgid "&laquo;"
+msgstr ""
+
+#: wp-polls.php:1115
+msgid "&raquo;"
+msgstr ""
+
+#: wp-polls.php:1119
+msgid "Last &raquo;"
+msgstr ""
+
+#: wp-polls.php:1305
+#, php-format
+msgid "Unable To Update Poll Total Votes And Poll Total Voters. Poll ID #%s"
+msgstr ""
+
+#: wp-polls.php:1309
+#, php-format
+msgid "You Had Already Voted For This Poll. Poll ID #%s"
+msgstr ""
+
+#: wp-polls.php:1313
+#, php-format
+msgid "Invalid Poll ID. Poll ID #%s"
+msgstr ""
+
+#: wp-polls.php:1341
+#: wp-polls.php:1343
+#: wp-polls.php:1353
+msgid "WP-Polls"
+msgstr ""
+
+#: wp-polls.php:1355
+#, php-format
+msgid "<strong>%s</strong> poll was created."
+msgid_plural "<strong>%s</strong> polls were created."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-polls.php:1356
+#, php-format
+msgid "<strong>%s</strong> polls' answer was given."
+msgid_plural "<strong>%s</strong> polls' answers were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-polls.php:1357
+#, php-format
+msgid "<strong>%s</strong> vote was casted."
+msgid_plural "<strong>%s</strong> votes were casted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-polls.php:1368
+msgid "WP-Polls polls"
+msgstr ""
+
+#: wp-polls.php:1410
+msgid "Title:"
+msgstr ""
+
+#: wp-polls.php:1413
+msgid "Display Polls Archive Link Below Poll?"
+msgstr ""
+
+#: wp-polls.php:1421
+msgid "Poll To Display:"
+msgstr ""
+
+#: wp-polls.php:1514
+msgid "How Is My Site?"
+msgstr ""
+
+#: wp-polls.php:1517
+msgid "Good"
+msgstr ""
+
+#: wp-polls.php:1518
+msgid "Excellent"
+msgstr ""
+
+#: wp-polls.php:1519
+msgid "Bad"
+msgstr ""
+
+#: wp-polls.php:1520
+msgid "Can Be Improved"
+msgstr ""
+
+#: wp-polls.php:1521
+msgid "No Comments"
+msgstr ""
+

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bbPress 1.0\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-06-19 12:11+0000\n"
+"POT-Creation-Date: 2009-07-29 12:11+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Erik Billerby <billerby@gmail.com>\n"
 "Language-Team: Callofduty.se <lovedove@callofduty.se>\n"
@@ -35,6 +35,7 @@ msgid "Thank you for using <a href=\"%s\">bbPress</a>. | <a href=\"%s\">Document
 msgstr "Tack för att du använder <a href=\"%s\">bbPress</a> | <a href=\"%s\">Dokumentation</a> | <a href=\"%s\">Feedback</a>"
 
 #: bb-admin/admin-footer.php:28
+#: bb-admin/plugins.php:226
 #, php-format
 msgid "Version %s"
 msgstr "Version %s"
@@ -47,95 +48,6 @@ msgstr "Besök sida"
 #, php-format
 msgid "Howdy, %1$s"
 msgstr "Tjenare, %1$s"
-
-#: bb-admin/bb-do-counts.php:17
-msgid "Recounting"
-msgstr "Räknar om"
-
-#: bb-admin/bb-do-counts.php:25
-msgid "Counting posts&#8230;"
-msgstr "Räknar inlägg&#8230;"
-
-#: bb-admin/bb-do-counts.php:32
-msgid "Done counting posts."
-msgstr "Inlägg räknade."
-
-#: bb-admin/bb-do-counts.php:39
-msgid "Counting voices&#8230;"
-msgstr "Räknar röster&#8230;"
-
-#: bb-admin/bb-do-counts.php:49
-msgid "Done counting voices."
-msgstr "Röster räknade"
-
-#: bb-admin/bb-do-counts.php:58
-msgid "Counting deleted posts&#8230;"
-msgstr "Räknar borttagna inlägg&#8230;"
-
-#: bb-admin/bb-do-counts.php:68
-msgid "Done counting deleted posts."
-msgstr "Borttagna inlägg räknade."
-
-#: bb-admin/bb-do-counts.php:70
-msgid "No deleted posts to count."
-msgstr "Inga borttagna inlägg att räkna."
-
-#: bb-admin/bb-do-counts.php:78
-msgid "Counting forum topics and posts&#8230;"
-msgstr "Räknar forumämnen och inlägg&#8230;"
-
-#: bb-admin/bb-do-counts.php:92
-msgid "Done counting forum topics and posts."
-msgstr "Forumämnen och inlägg räknade."
-
-#: bb-admin/bb-do-counts.php:99
-msgid "Counting topics to which each user has replied&#8230;"
-msgstr "Räknar ämnen som varje användare har svarat i&#8230;"
-
-#: bb-admin/bb-do-counts.php:104
-msgid "Done counting topics."
-msgstr "Ämnen räknade."
-
-#: bb-admin/bb-do-counts.php:117
-msgid "Counting topic tags&#8230;"
-msgstr "Räknar ämnes-etiketter&#8230;"
-
-#: bb-admin/bb-do-counts.php:129
-msgid "Done counting topic tags."
-msgstr "Ämnes-etiketter räknade."
-
-#: bb-admin/bb-do-counts.php:139
-msgid "Counting tagged topics&#8230;"
-msgstr "Räknar ämnen med etiketter&#8230;"
-
-#: bb-admin/bb-do-counts.php:149
-msgid "Done counting tagged topics."
-msgstr "Ämnen med etiketter räknade."
-
-#: bb-admin/bb-do-counts.php:161
-msgid "Deleting tags with no topics&#8230;"
-msgstr "Tar bort etiketter utan ämnen&#8230;"
-
-#: bb-admin/bb-do-counts.php:173
-msgid "Done deleting tags with no topics."
-msgstr "Etiketter utan ämnen borttagna."
-
-#: bb-admin/bb-do-counts.php:181
-msgid "Removing deleted topics from users' favorites&#8230;"
-msgstr "Tar bort borttagna ämnen från användares favoriter&#8230;"
-
-#: bb-admin/bb-do-counts.php:190
-msgid "Done removing deleted topics from users' favorites."
-msgstr "Favoriseringar av borttagna ämnen borttagna."
-
-#: bb-admin/bb-do-counts.php:199
-msgid "Done recounting.  The process took"
-msgstr "Omräkning slutförd. Processen tog"
-
-#: bb-admin/bb-do-counts.php:200
-#, php-format
-msgid "%1$d queries and %2$s seconds."
-msgstr "%1$d queries och %2$s sekunder."
 
 #: bb-admin/bb-forum.php:5
 msgid "You don't have the authority to mess with the forums."
@@ -161,240 +73,11 @@ msgstr "Du har inte tillräckligt med behörighet för att döda forumen."
 msgid "Error occured while trying to delete forum"
 msgstr "Ett fel uppstod när forumet skulle tas bort"
 
-#: bb-admin/content-forums.php:19
-msgid "<strong>Forum Updated.</strong>"
-msgstr "<strong>Forum uppdaterat.</strong>"
-
-#: bb-admin/content-forums.php:23
-#, php-format
-msgid "<strong>Forum deleted.</strong>  You should have bbPress <a href=\"%s\">recount your site information</a>."
-msgstr "<strong>Forum borttaget.</strong> Du bör <a href=\"%s\">räkna om sidinformationen</a>."
-
-#: bb-admin/content-forums.php:40
-msgid "Edit Forums"
-msgstr "Redigera forum"
-
-#: bb-admin/content-forums.php:44
-msgid "Update Forum"
-msgstr "Uppdatera forum"
-
-#: bb-admin/content-forums.php:48
-#, php-format
-msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
-msgstr "Är du säker på att du vill ta bort \"<strong>%s</strong>\"-forumet?"
-
-#: bb-admin/content-forums.php:49
-msgid "This forum contains"
-msgstr "Det här forumet innehåller"
-
-#: bb-admin/content-forums.php:51
-#: bb-admin/index.php:26
-#, php-format
-msgid "%d topic"
-msgid_plural "%d topics"
-msgstr[0] "%d ämne"
-msgstr[1] "%d ämnen"
-
-#: bb-admin/content-forums.php:52
-#: bb-admin/index.php:22
-#: bb-admin/index.php:28
-#, php-format
-msgid "%d post"
-msgid_plural "%d posts"
-msgstr[0] "%d inlägg"
-msgstr[1] "%d inlägg"
-
-#: bb-admin/content-forums.php:57
-msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
-msgstr "Ta bort alla ämnen och inlägg i det här forumet. <em>Detta går inte att återställa.</em>"
-
-#: bb-admin/content-forums.php:58
-msgid "Move topics from this forum into"
-msgstr "Flytta ämnen från det här forumet in i"
-
-#: bb-admin/content-forums.php:62
-msgid "Delete forum &raquo;"
-msgstr "Ta bort forum &raquo;"
-
-#: bb-admin/content-forums.php:70
-#: bb-admin/includes/class.bb-install.php:701
-#: bb-admin/includes/class.bb-install.php:873
-#: bb-admin/includes/class.bb-install.php:920
-msgid "&laquo; Go back"
-msgstr "&laquo; Gå tillbaka"
-
-#: bb-admin/content-forums.php:79
-msgid "Name &#8212; Description"
-msgstr "Namn &#8212; Beskrivning"
-
-#: bb-admin/content-forums.php:86
-msgid "Add Forum"
-msgstr "Lägg till forum"
-
-#: bb-admin/content-posts.php:9
-#: bb-admin/content.php:9
-#: bb-plugins/akismet.php:276
-msgid "Now how'd you get here?  And what did you think you'd being doing?"
-msgstr "Hur kom du hit? Och vad tror du att du håller på med?"
-
-#: bb-admin/content-posts.php:27
-#: bb-admin/content.php:32
-#, php-format
-msgid "matching &#8220;%s&#8221;"
-msgstr "matchar &#8220;%s&#8221;"
-
-#: bb-admin/content-posts.php:28
-#: bb-admin/content.php:33
-#, php-format
-msgid "in &#8220;%s&#8221;"
-msgstr "i &#8220;%s&#8221;"
-
-#: bb-admin/content-posts.php:29
-#: bb-admin/content.php:34
-#, php-format
-msgid "with tag &#8220;%s&#8221;"
-msgstr "med etiketten &#8220;%s&#8221;"
-
-#: bb-admin/content-posts.php:30
-#: bb-admin/content.php:35
-#, php-format
-msgid "by %s"
-msgstr "av %s"
-
-#: bb-admin/content-posts.php:32
-#: bb-admin/content.php:37
-#: bb-includes/class.bb-query.php:968
-msgid "Normal"
-msgstr "Normal"
-
-#: bb-admin/content-posts.php:32
-#: bb-admin/content.php:37
-#: bb-includes/class.bb-query.php:968
-msgid "Deleted"
-msgstr "Borttagna"
-
-#: bb-admin/content-posts.php:35
-#: bb-admin/content.php:73
-#: bb-admin/includes/functions.bb-admin.php:69
-#: bb-templates/kakumei/favorites.php:17
-#: bb-templates/kakumei/forum.php:10
-#: bb-templates/kakumei/forum.php:47
-#: bb-templates/kakumei/front-page.php:18
-#: bb-templates/kakumei/front-page.php:54
-#: bb-templates/kakumei/stats.php:8
-#: bb-templates/kakumei/tag-single.php:12
-#: bb-templates/kakumei/view.php:10
-msgid "Posts"
-msgstr "Inlägg"
-
-#: bb-admin/content-posts.php:37
-#, php-format
-msgid "%1$sposts"
-msgstr "%1$sinlägg"
-
-#: bb-admin/content-posts.php:39
-#: bb-admin/content.php:45
-#, php-format
-msgid "%1$s%2$s%3$s%4$s%5$s"
-msgstr "%1$s%2$s%3$s%4$s%5$s"
-
-#: bb-admin/content-posts.php:44
-#: bb-admin/content.php:50
-msgid "Filter &#187;"
-msgstr "Filtrera &#187;"
-
-#: bb-admin/content-posts.php:52
-#: bb-admin/content.php:58
-#: bb-admin/includes/functions.bb-admin.php:473
-#, php-format
-msgid "Displaying %s-%s of %s"
-msgstr "Visar %s-%s av %s"
-
-#: bb-admin/content.php:38
-#: bb-includes/class.bb-query.php:995
-msgid "Closed"
-msgstr "Låst"
-
-#: bb-admin/content.php:38
-#: bb-admin/content.php:87
-#: bb-includes/class.bb-query.php:995
-msgid "Open"
-msgstr "Öppen"
-
-#: bb-admin/content.php:41
-#: bb-admin/includes/functions.bb-admin.php:67
-#: bb-templates/kakumei/forum.php:46
-#: bb-templates/kakumei/front-page.php:53
-msgid "Topics"
-msgstr "Ämnen"
-
-#: bb-admin/content.php:43
-#, php-format
-msgid "%1$s%2$stopics"
-msgstr "%1$s%2$sämnen"
-
-#: bb-admin/content.php:71
-#: bb-admin/includes/functions.bb-admin.php:915
-#: bb-templates/kakumei/favorites.php:16
-#: bb-templates/kakumei/forum.php:9
-#: bb-templates/kakumei/front-page.php:17
-#: bb-templates/kakumei/tag-single.php:11
-#: bb-templates/kakumei/view.php:9
-msgid "Topic"
-msgstr "Ämnen"
-
-#: bb-admin/content.php:72
-#: bb-admin/includes/functions.bb-admin.php:913
-msgid "Author"
-msgstr "Författare"
-
-#: bb-admin/content.php:74
-msgid "Date"
-msgstr "Datum"
-
-#: bb-admin/content.php:75
-#: bb-templates/kakumei/favorites.php:20
-#: bb-templates/kakumei/forum.php:13
-#: bb-templates/kakumei/front-page.php:21
-#: bb-templates/kakumei/tag-single.php:15
-#: bb-templates/kakumei/view.php:13
-msgid "Freshness"
-msgstr "Senaste inlägget"
-
-#: bb-admin/content.php:85
-#: bb-admin/includes/functions.bb-admin.php:941
-msgid "View"
-msgstr "Visa"
-
-#: bb-admin/content.php:87
-msgid "Close"
-msgstr "Lås"
-
-#: bb-admin/content.php:88
-#: bb-admin/includes/functions.bb-admin.php:772
-#: bb-includes/functions.bb-template.php:1925
-msgid "Delete"
-msgstr "Ta bort"
-
-#: bb-admin/content.php:88
-#: bb-includes/functions.bb-template.php:1995
-msgid "Undelete"
-msgstr "Äterställ"
-
-#: bb-admin/content.php:107
-#, php-format
-msgid "Last post by %s"
-msgstr "Senaste inlägg av %s"
-
-#: bb-admin/content.php:111
-msgid "No topics found"
-msgstr "Inga ämnen hittade"
-
-#: bb-admin/delete-post.php:17
+#: bb-admin/delete-post.php:18
 msgid "There is a problem with that post, pardner."
 msgstr "Det finns ett problem med det där inlägget, polarn."
 
-#: bb-admin/delete-topic.php:16
+#: bb-admin/delete-topic.php:17
 #: bb-admin/sticky.php:9
 #: bb-admin/topic-toggle.php:8
 msgid "There is a problem with that topic, pardner."
@@ -404,955 +87,1035 @@ msgstr "Ojdå - Det finns ett problem med detta ämne."
 msgid "Either export is disabled or you are not allowed to export."
 msgstr "Antingen så är export avaktiverad eller så är du inte tillåten att exportera."
 
-#: bb-admin/includes/class.bb-install.php:186
-#: bb-includes/functions.bb-core.php:1169
+#: bb-admin/forums.php:19
+msgid "<strong>Forum Updated.</strong>"
+msgstr "<strong>Forum uppdaterat.</strong>"
+
+#: bb-admin/forums.php:23
+#, fuzzy, php-format
+msgid "<strong>Forum deleted.</strong>  You should <a href=\"%s\">recount your site information</a>."
+msgstr "<strong>Forum borttaget.</strong> Du bör <a href=\"%s\">räkna om sidinformationen</a>."
+
+#: bb-admin/forums.php:33
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Är du säker på att du vill ta bort \"<strong>%s</strong>\"-forumet?"
+
+#: bb-admin/forums.php:42
+#: bb-admin/includes/functions.bb-admin.php:65
+#: bb-admin/includes/functions.bb-admin.php:66
+#: bb-templates/kakumei/front-page.php:48
+msgid "Forums"
+msgstr "Forum"
+
+#: bb-admin/forums.php:51
+#: bb-admin/forums.php:80
+#, fuzzy
+msgid "Delete Forum"
+msgstr "Datumformat"
+
+#: bb-admin/forums.php:52
+#, fuzzy
+msgid "This forum contains:"
+msgstr "Det här forumet innehåller"
+
+#: bb-admin/forums.php:54
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d ämne"
+msgstr[1] "%d ämnen"
+
+#: bb-admin/forums.php:55
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d inlägg"
+msgstr[1] "%d inlägg"
+
+#: bb-admin/forums.php:58
+msgid "Action"
+msgstr "Åtgärd"
+
+#: bb-admin/forums.php:61
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Ta bort alla ämnen och inlägg i det här forumet. <em>Detta går inte att återställa.</em>"
+
+#: bb-admin/forums.php:64
+#, fuzzy
+msgid "Move topics from this forum into the replacement forum below."
+msgstr "Flytta ämnen från det här forumet in i"
+
+#: bb-admin/forums.php:69
+msgid "Replacement forum"
+msgstr "Ersättningsforum"
+
+#: bb-admin/forums.php:79
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: bb-admin/forums.php:89
+#: bb-includes/class.bb-query.php:942
+#: bb-templates/kakumei/post-form.php:20
+msgid "Forum"
+msgstr "Forum"
+
+#: bb-admin/includes/class.bb-install.php:193
+#: bb-includes/functions.bb-core.php:1175
 msgid "bbPress &rsaquo; Error"
 msgstr "bbPress &rsaquo; Fel"
 
-#: bb-admin/includes/class.bb-install.php:187
+#: bb-admin/includes/class.bb-install.php:194
 msgid "Oh dear!"
 msgstr "Bevare mig väl!"
 
-#: bb-admin/includes/class.bb-install.php:191
-#: bb-admin/includes/class.bb-install.php:201
-#: bb-admin/includes/class.bb-install.php:211
-#: bb-admin/includes/class.bb-install.php:221
-#: bb-admin/includes/class.bb-install.php:232
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
 #, php-format
 msgid "%1$s &rsaquo; %2$s"
 msgstr "%1$s &rsaquo; %2$s"
 
-#: bb-admin/includes/class.bb-install.php:191
-#: bb-admin/includes/class.bb-install.php:201
-#: bb-admin/includes/class.bb-install.php:211
-#: bb-admin/includes/class.bb-install.php:221
-#: bb-admin/includes/class.bb-install.php:232
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
 msgid "bbPress installer"
 msgstr "bbPress-installerare"
 
-#: bb-admin/includes/class.bb-install.php:191
+#: bb-admin/includes/class.bb-install.php:198
 msgid "Welcome"
 msgstr "Välkommen"
 
-#: bb-admin/includes/class.bb-install.php:192
+#: bb-admin/includes/class.bb-install.php:199
 msgid "Welcome to the bbPress installer"
 msgstr "Välkommen till bbPress-installeraren"
 
-#: bb-admin/includes/class.bb-install.php:196
+#: bb-admin/includes/class.bb-install.php:203
 msgid "We're now going to go through a few steps to get you up and running."
 msgstr "Vi kommer nu gå igenom ett fåtal steg för att få igång det hela."
 
-#: bb-admin/includes/class.bb-install.php:197
+#: bb-admin/includes/class.bb-install.php:204
 msgid "Ready? Then let's get started!"
 msgstr "Redo? Då kör vi!"
 
-#: bb-admin/includes/class.bb-install.php:201
-#: bb-admin/includes/class.bb-install.php:202
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:209
 msgid "Step 1"
 msgstr "Steg 1"
 
-#: bb-admin/includes/class.bb-install.php:202
-#: bb-admin/includes/class.bb-install.php:212
-#: bb-admin/includes/class.bb-install.php:222
+#: bb-admin/includes/class.bb-install.php:209
+#: bb-admin/includes/class.bb-install.php:219
+#: bb-admin/includes/class.bb-install.php:229
 #, php-format
 msgid "%1$s - %2$s"
 msgstr "%1$s - %2$s"
 
-#: bb-admin/includes/class.bb-install.php:202
+#: bb-admin/includes/class.bb-install.php:209
 msgid "Database configuration"
 msgstr "Databaskonfiguration"
 
-#: bb-admin/includes/class.bb-install.php:205
+#: bb-admin/includes/class.bb-install.php:212
 msgid "In this step you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
 msgstr "I det här steget fyller du i dina databasanslutningsuppgifter. Installeraren kommer att försöka skapa en fil som heter <code>bb-config.php</code> i din bbPress-installations root-mapp."
 
-#: bb-admin/includes/class.bb-install.php:206
+#: bb-admin/includes/class.bb-install.php:213
 msgid "If you're not sure what to put here, contact your web hosting provider."
 msgstr "Om du inte vet vad du skall fylla i här, kontakta din webbhotellsleverantör."
 
-#: bb-admin/includes/class.bb-install.php:211
-#: bb-admin/includes/class.bb-install.php:212
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:219
 msgid "Step 2"
 msgstr "Steg 2"
 
-#: bb-admin/includes/class.bb-install.php:212
+#: bb-admin/includes/class.bb-install.php:219
 msgid "WordPress integration (optional)"
 msgstr "WordPress-integration (frivilligt)"
 
-#: bb-admin/includes/class.bb-install.php:213
+#: bb-admin/includes/class.bb-install.php:220
 msgid "&laquo; skipped"
 msgstr "&laquo; skipped"
 
-#: bb-admin/includes/class.bb-install.php:215
+#: bb-admin/includes/class.bb-install.php:222
 msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this step if you do not wish to integrate with an existing WordPress install."
 msgstr "bbPress kan integrera inloggnings- och användardata med WordPress. Du kan lugnt hoppa över det här steget om du inte vill integrera bbPress med en existerande WordPress-installation."
 
-#: bb-admin/includes/class.bb-install.php:221
-#: bb-admin/includes/class.bb-install.php:222
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:229
 msgid "Step 3"
 msgstr "Steg 3"
 
-#: bb-admin/includes/class.bb-install.php:222
+#: bb-admin/includes/class.bb-install.php:229
 msgid "Site settings"
 msgstr "Webbplatsinställningar"
 
-#: bb-admin/includes/class.bb-install.php:225
+#: bb-admin/includes/class.bb-install.php:232
 msgid "Finalize your installation by adding a name, your first user and your first forum."
 msgstr "Avsluta din installation genom att lägga till ett namn, din första användare, och ditt första forum."
 
-#: bb-admin/includes/class.bb-install.php:232
+#: bb-admin/includes/class.bb-install.php:239
 msgid "Finished"
 msgstr "Slutfört"
 
-#: bb-admin/includes/class.bb-install.php:233
-#: bb-admin/includes/class.bb-install.php:2170
+#: bb-admin/includes/class.bb-install.php:240
+#: bb-admin/includes/class.bb-install.php:2178
 msgid "Installation complete!"
 msgstr "Installation slutförd!"
 
-#: bb-admin/includes/class.bb-install.php:250
+#: bb-admin/includes/class.bb-install.php:257
 msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
 msgstr "Din PHP-installation verkar sakna MySQL-extensionen, som är nödvändig för bbPress"
 
-#: bb-admin/includes/class.bb-install.php:255
+#: bb-admin/includes/class.bb-install.php:262
 msgid "Please complete your installation before attempting to include WordPress within bbPress"
 msgstr "Var vänlig slutför installationen innan du försöker inkludera WordPress i bbPress"
 
-#: bb-admin/includes/class.bb-install.php:333
+#: bb-admin/includes/class.bb-install.php:340
 msgid "Installation language"
 msgstr "Installationsspråk"
 
-#: bb-admin/includes/class.bb-install.php:344
+#: bb-admin/includes/class.bb-install.php:352
 msgid "Sets the language to be used during the installation process only."
 msgstr "Väljer vilket språk som skall användas under installationsprocessen enbart."
 
-#: bb-admin/includes/class.bb-install.php:461
+#: bb-admin/includes/class.bb-install.php:469
 msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
 msgstr "En gammal <code>config.php</code>-fil har upptäckts i din instalation. Du bör ta bort den och köra <a href=\"install.php\">installeraren</a> igen. Du kan använda samma databasanslutningsuppgifter om du vill."
 
-#: bb-admin/includes/class.bb-install.php:474
-#: bb-admin/includes/class.bb-install.php:1106
+#: bb-admin/includes/class.bb-install.php:482
 #: bb-admin/includes/class.bb-install.php:1114
-#: bb-admin/includes/class.bb-install.php:1126
+#: bb-admin/includes/class.bb-install.php:1122
+#: bb-admin/includes/class.bb-install.php:1134
 msgid "&laquo; completed"
 msgstr "&laquo; slutförd"
 
-#: bb-admin/includes/class.bb-install.php:482
+#: bb-admin/includes/class.bb-install.php:490
 msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
 msgstr "En fungerande konfigurationsfil hittades, <code>bb-config.php</code>.<br />Du kan fortsätta till nästa steg."
 
-#: bb-admin/includes/class.bb-install.php:487
+#: bb-admin/includes/class.bb-install.php:495
 msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
 msgstr "En ogiltig konfigurationsfil hittades, <code>bb-config.php</code><br />Installationen kan inte fortsätta."
 
-#: bb-admin/includes/class.bb-install.php:488
+#: bb-admin/includes/class.bb-install.php:496
 msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
 msgstr "Vanligtvis orsakas detta av att en av databasanslutningsinställningarna är inkorrekt. Se till att den specifierade användaren har de behörigheter som behövs för att ansluta till databasen."
 
-#: bb-admin/includes/class.bb-install.php:498
+#: bb-admin/includes/class.bb-install.php:506
 msgid "bbPress is already installed, but appears to require an upgrade."
 msgstr "bbPress är redan installerat, men verkar behöva en uppgradering."
 
-#: bb-admin/includes/class.bb-install.php:500
+#: bb-admin/includes/class.bb-install.php:508
 msgid "bbPress is already installed."
 msgstr "bbPress är redan installerat."
 
-#: bb-admin/includes/class.bb-install.php:503
+#: bb-admin/includes/class.bb-install.php:511
 #, php-format
 msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
 msgstr "Kanske vill du köra <a href=\"%s\">uppgraderingsscriptet</a> istället?"
 
-#: bb-admin/includes/class.bb-install.php:513
-#: bb-admin/includes/class.bb-install.php:1312
+#: bb-admin/includes/class.bb-install.php:521
+#: bb-admin/includes/class.bb-install.php:1320
 msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
 msgstr "Filen <code>bb-config-sample.php</code> kunde inte hittas.<br />Ladda upp den till root-mappen i din installation."
 
-#: bb-admin/includes/class.bb-install.php:519
+#: bb-admin/includes/class.bb-install.php:527
 msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
 msgstr "Det finns ingen <code>bb-config.php</code>-fil. Det betyder vanligtvis att du vill installera bbPress."
 
-#: bb-admin/includes/class.bb-install.php:606
+#: bb-admin/includes/class.bb-install.php:614
 msgid "Go to step 1"
 msgstr "Gå till steg 1"
 
-#: bb-admin/includes/class.bb-install.php:614
+#: bb-admin/includes/class.bb-install.php:622
 msgid "Database name"
 msgstr "Databasnamn"
 
-#: bb-admin/includes/class.bb-install.php:615
+#: bb-admin/includes/class.bb-install.php:623
 msgid "The name of the database in which you want to run bbPress."
 msgstr "Namnet på den databasen som bbPress skall använda."
 
-#: bb-admin/includes/class.bb-install.php:619
+#: bb-admin/includes/class.bb-install.php:627
 msgid "Database user"
 msgstr "Databasanvändare"
 
-#: bb-admin/includes/class.bb-install.php:620
-#: bb-admin/includes/class.bb-install.php:827
+#: bb-admin/includes/class.bb-install.php:628
+#: bb-admin/includes/class.bb-install.php:835
 #: bb-admin/options-wordpress.php:129
 msgid "The database user that has access to that database."
 msgstr "Namnet på användaren som har tillgång till den databasen."
 
-#: bb-admin/includes/class.bb-install.php:626
+#: bb-admin/includes/class.bb-install.php:634
 msgid "Database password"
 msgstr "Databaslösenord"
 
-#: bb-admin/includes/class.bb-install.php:627
-#: bb-admin/includes/class.bb-install.php:835
+#: bb-admin/includes/class.bb-install.php:635
+#: bb-admin/includes/class.bb-install.php:843
 #: bb-admin/options-wordpress.php:133
 msgid "That database user's password."
 msgstr "Den användarens lösenord."
 
-#: bb-admin/includes/class.bb-install.php:632
+#: bb-admin/includes/class.bb-install.php:640
 msgid "Language"
 msgstr "Språk"
 
-#: bb-admin/includes/class.bb-install.php:633
+#: bb-admin/includes/class.bb-install.php:641
 #, php-format
 msgid "The language which bbPress will be presented in once installed. Your current installer language choice (%s) will be the same for the rest of the install process."
 msgstr "Det språk som bbPress kommer att använda när det väl installerats. Ditt nuvarande val av installationsspråk (%s) kommer att användas resten av installationen."
 
-#: bb-admin/includes/class.bb-install.php:637
+#: bb-admin/includes/class.bb-install.php:645
 msgid "Show advanced settings"
 msgstr "Visa avancerade inställningar"
 
-#: bb-admin/includes/class.bb-install.php:638
-msgid "99% of the time these settings will not have to be changed."
+#: bb-admin/includes/class.bb-install.php:646
+#, fuzzy
+msgid "These settings usually do not have to be changed."
 msgstr "I 99% av fallen behöver dessa inställningar inte ändras."
 
-#: bb-admin/includes/class.bb-install.php:644
+#: bb-admin/includes/class.bb-install.php:652
 msgid "Database host"
 msgstr "Databashost"
 
-#: bb-admin/includes/class.bb-install.php:645
+#: bb-admin/includes/class.bb-install.php:653
 msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
 msgstr "Domännamn eller IP-adress för den server där databasen finns. Om databasen är på samma server som webbplatsen, så skall det sannolikt fortsätta vara <strong>localhost</strong>."
 
-#: bb-admin/includes/class.bb-install.php:650
+#: bb-admin/includes/class.bb-install.php:658
 msgid "Database character set"
 msgstr "Databasteckenkodning (character set)"
 
-#: bb-admin/includes/class.bb-install.php:651
-#: bb-admin/includes/class.bb-install.php:848
+#: bb-admin/includes/class.bb-install.php:659
+#: bb-admin/includes/class.bb-install.php:856
 #: bb-admin/options-wordpress.php:141
 msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
 msgstr "Det bästa valet är <strong>utf8</strong>, men du måste matcha den teckenkodning som du skapade databasen med."
 
-#: bb-admin/includes/class.bb-install.php:656
+#: bb-admin/includes/class.bb-install.php:664
 msgid "Database character collation"
 msgstr "Databasteckenkollation (character collation)"
 
-#: bb-admin/includes/class.bb-install.php:657
+#: bb-admin/includes/class.bb-install.php:665
 msgid "The character collation value set when the database was created."
 msgstr "Den teckenkollation som sattes när databasen skapades."
 
-#: bb-admin/includes/class.bb-install.php:688
+#: bb-admin/includes/class.bb-install.php:696
 msgid "Table name prefix"
 msgstr "Tabellnamnsprefix"
 
-#: bb-admin/includes/class.bb-install.php:689
+#: bb-admin/includes/class.bb-install.php:697
 msgid "If you are running multiple bbPress sites in a single database, you will probably want to change this."
 msgstr "Om du kör flera bbPress-forum i samma databas så vill du förmodligen ändra det här."
 
-#: bb-admin/includes/class.bb-install.php:694
+#: bb-admin/includes/class.bb-install.php:702
 msgid "Contents for <code>bb-config.php</code>"
 msgstr "Innehåll i <code>bb-config.php</code>"
 
-#: bb-admin/includes/class.bb-install.php:695
+#: bb-admin/includes/class.bb-install.php:703
 msgid "Once you have created the configuration file, you can check for it below."
 msgstr "När du har skapat konfigurationsfilen, kan du titta efter den nedan."
 
-#: bb-admin/includes/class.bb-install.php:698
+#: bb-admin/includes/class.bb-install.php:706
 msgid "Save database configuration file"
 msgstr "Spara databaskonfigurationsfilen"
 
-#: bb-admin/includes/class.bb-install.php:704
+#: bb-admin/includes/class.bb-install.php:709
+#: bb-admin/includes/class.bb-install.php:881
+#: bb-admin/includes/class.bb-install.php:928
+msgid "&laquo; Go back"
+msgstr "&laquo; Gå tillbaka"
+
+#: bb-admin/includes/class.bb-install.php:712
 msgid "Check for configuration file"
 msgstr "Kolla efter konfigurationsfil"
 
-#: bb-admin/includes/class.bb-install.php:707
+#: bb-admin/includes/class.bb-install.php:715
 msgid "Go to step 2"
 msgstr "Gå till steg 2"
 
-#: bb-admin/includes/class.bb-install.php:716
+#: bb-admin/includes/class.bb-install.php:724
 msgid "Add integration settings"
 msgstr "Lägg till integrationsinställningar"
 
-#: bb-admin/includes/class.bb-install.php:717
+#: bb-admin/includes/class.bb-install.php:725
 msgid "If you want to integrate bbPress with an existing WordPress site."
 msgstr "Om du vill integrera bbPress med en existerande WordPress-installation."
 
-#: bb-admin/includes/class.bb-install.php:722
-#: bb-admin/includes/class.bb-install.php:870
+#: bb-admin/includes/class.bb-install.php:730
+#: bb-admin/includes/class.bb-install.php:878
 msgid "Skip WordPress integration"
 msgstr "Hoppa över WordPress-integration"
 
-#: bb-admin/includes/class.bb-install.php:723
+#: bb-admin/includes/class.bb-install.php:731
 msgid "Save WordPress integration settings"
 msgstr "Spara WordPress-integrationsinställningar"
 
-#: bb-admin/includes/class.bb-install.php:728
+#: bb-admin/includes/class.bb-install.php:736
 msgid "Add cookie integration settings"
 msgstr "Lägg till cookie-integrationsinställningar"
 
-#: bb-admin/includes/class.bb-install.php:729
+#: bb-admin/includes/class.bb-install.php:737
 msgid "If you want to allow shared logins with an existing WordPress site."
 msgstr "Om du vill tillåta delade inloggningar med en existerande WordPress-installation."
 
-#: bb-admin/includes/class.bb-install.php:736
+#: bb-admin/includes/class.bb-install.php:744
 #: bb-admin/options-wordpress.php:67
 msgid "WordPress address (URL)"
 msgstr "WordPress-adress (URL)"
 
-#: bb-admin/includes/class.bb-install.php:737
+#: bb-admin/includes/class.bb-install.php:745
 #: bb-admin/options-wordpress.php:69
 msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
 msgstr "Det här måste matcha det du ställt in i dina WordPress-inställningar."
 
-#: bb-admin/includes/class.bb-install.php:742
+#: bb-admin/includes/class.bb-install.php:750
 #: bb-admin/options-wordpress.php:72
 msgid "Blog address (URL)"
 msgstr "Bloggadress (URL)"
 
-#: bb-admin/includes/class.bb-install.php:743
+#: bb-admin/includes/class.bb-install.php:751
 #: bb-admin/options-wordpress.php:74
 msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
 msgstr "Det här måste matcha det du ställt in i dina WordPress-inställningar."
 
-#: bb-admin/includes/class.bb-install.php:748
+#: bb-admin/includes/class.bb-install.php:756
 msgid "WordPress \"auth\" cookie key"
 msgstr "WordPress \"auth\"-cookienyckel"
 
-#: bb-admin/includes/class.bb-install.php:749
+#: bb-admin/includes/class.bb-install.php:757
 msgid "This value must match the value of the constant named \"AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"auth\" cookie key set in the first step."
 msgstr "Det här måste matcha konstanten \"AUTH_KEY\" satt i WordPress <code>wp-config.php</code>-fil. Den kommer att ersätta den \"auth\"-cookienyckel du ställde in i det första steget."
 
-#: bb-admin/includes/class.bb-install.php:755
+#: bb-admin/includes/class.bb-install.php:763
 #: bb-admin/options-wordpress.php:77
 msgid "WordPress \"auth\" cookie salt"
 msgstr "WordPress \"auth\"-cookiesalt"
 
-#: bb-admin/includes/class.bb-install.php:756
+#: bb-admin/includes/class.bb-install.php:764
 msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
 msgstr "Det här måste matcha värdet i Wordpress-inställningen \"auth_salt\" i din WordPress-webbplats. Leta efter inställningen märkt \"auth_salt\" i <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">den här WordPress-administrationssidan</a>. Om du lämnar fältet tomt kommer installeraren att försöka hämta värdet baserat på dina WordPress-databasintegrationsinställningar."
 
-#: bb-admin/includes/class.bb-install.php:762
+#: bb-admin/includes/class.bb-install.php:770
 msgid "WordPress \"secure auth\" cookie key"
 msgstr "WordPress \"secure auth\"-cookienyckel"
 
-#: bb-admin/includes/class.bb-install.php:763
+#: bb-admin/includes/class.bb-install.php:771
 msgid "This value must match the value of the constant named \"SECURE_AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"secure auth\" cookie key set in the first step."
 msgstr "Det här måste matcha konstanten \"SECURE_AUTH_KEY\" satt i WordPress <code>wp-config.php</code>-fil. Den kommer att ersätta den \"secure auth\"-cookienyckel du ställde in i det första steget."
 
-#: bb-admin/includes/class.bb-install.php:769
+#: bb-admin/includes/class.bb-install.php:777
 #: bb-admin/options-wordpress.php:81
 msgid "WordPress \"secure auth\" cookie salt"
 msgstr "WordPress \"secure auth\"-cookiesalt"
 
-#: bb-admin/includes/class.bb-install.php:770
+#: bb-admin/includes/class.bb-install.php:778
 msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
 msgstr "Det här måste matcha värdet i Wordpress-inställningen \"secure_auth_salt\" i din WordPress-webbplats. Leta efter inställningen märkt \"secure_auth_salt\" i <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">den här WordPress-administrationssidan</a>. Om du lämnar fältet tomt kommer installeraren att försöka hämta värdet baserat på dina WordPress-databasintegrationsinställningar. Ibland finns inte detta värde i WordPres, isåfall kan du lämna det blankt här med."
 
-#: bb-admin/includes/class.bb-install.php:776
+#: bb-admin/includes/class.bb-install.php:784
 msgid "WordPress \"logged in\" cookie key"
 msgstr "WordPress \"logged in\"-cookienyckel"
 
-#: bb-admin/includes/class.bb-install.php:777
+#: bb-admin/includes/class.bb-install.php:785
 msgid "This value must match the value of the constant named \"LOGGED_IN_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"logged in\" cookie key set in the first step."
 msgstr "Det här måste matcha konstanten \"LOGGED_IN_KEY\" satt i WordPress <code>wp-config.php</code>-fil. Den kommer att ersätta den \"logged in\"-cookienyckel du ställde in i det första steget."
 
-#: bb-admin/includes/class.bb-install.php:783
+#: bb-admin/includes/class.bb-install.php:791
 #: bb-admin/options-wordpress.php:85
 msgid "WordPress \"logged in\" cookie salt"
 msgstr "WordPress \"logged in\"-cookiesalt"
 
-#: bb-admin/includes/class.bb-install.php:784
+#: bb-admin/includes/class.bb-install.php:792
 msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
 msgstr "Det här måste matcha värdet i Wordpress-inställningen \"logged_in_salt\" i din WordPress-webbplats. Leta efter inställningen märkt \"logged_in_salt\" i <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">den här WordPress-administrationssidan</a>. Om du lämnar fältet tomt kommer installeraren att försöka hämta värdet baserat på dina WordPress-databasintegrationsinställningar."
 
-#: bb-admin/includes/class.bb-install.php:790
+#: bb-admin/includes/class.bb-install.php:798
 msgid "Add user database integration settings"
 msgstr "Lägg till användardatabasintegrationsinställningar"
 
-#: bb-admin/includes/class.bb-install.php:791
+#: bb-admin/includes/class.bb-install.php:799
 msgid "If you want to share user data with an existing WordPress site."
 msgstr "Om du vill dela användardata med en existerande WordPress-webbplats."
 
-#: bb-admin/includes/class.bb-install.php:799
+#: bb-admin/includes/class.bb-install.php:807
 #: bb-admin/options-wordpress.php:103
 msgid "User database table prefix"
 msgstr "Användardatabastabellprefix"
 
-#: bb-admin/includes/class.bb-install.php:800
+#: bb-admin/includes/class.bb-install.php:808
 #: bb-admin/options-wordpress.php:104
 msgid "If your bbPress and WordPress sites share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
 msgstr "Om dina bbPress- och WordPress-webbplatser delar samma databas, så är det här samma värde som <code>$table_prefix</code> i WordPress <code>wp-config.php</code>-fil. Det är vanligen <strong>wp_</strong>."
 
-#: bb-admin/includes/class.bb-install.php:806
+#: bb-admin/includes/class.bb-install.php:814
 #: bb-admin/options-wordpress.php:107
 msgid "WordPress MU primary blog ID"
 msgstr "Id för WordPress MUs primära blogg"
 
-#: bb-admin/includes/class.bb-install.php:807
+#: bb-admin/includes/class.bb-install.php:815
 #: bb-admin/options-wordpress.php:108
 msgid "If you are integrating with a WordPress MU site you need to specify the primary blog ID for that site. It is usually <strong>1</strong>. You should probably leave this blank if you are integrating with a standard WordPress site"
 msgstr "Om du integrerar med en WordPress MU-webbplats måste du specifiera id:t för den primära bloggen på den webbplatsen. Det är vanligtvis <strong>1</strong>. Du borde förmodligen lämna det här blankt om du integrerar med en vanlig WordPress-webbplats."
 
-#: bb-admin/includes/class.bb-install.php:812
+#: bb-admin/includes/class.bb-install.php:820
 #: bb-admin/options-wordpress.php:111
 msgid "Show advanced database settings"
 msgstr "Visa avancerade databasinställningar"
 
-#: bb-admin/includes/class.bb-install.php:813
+#: bb-admin/includes/class.bb-install.php:821
 #: bb-admin/options-wordpress.php:115
 msgid "If your bbPress and WordPress site do not share the same database, then you will need to add advanced settings."
 msgstr "Om dina bbPress- och WordPress-webbplatser inte delar samma databas, måste du lägga till avancerade inställningar."
 
-#: bb-admin/includes/class.bb-install.php:820
+#: bb-admin/includes/class.bb-install.php:828
 #: bb-admin/options-wordpress.php:124
 msgid "User database name"
 msgstr "Användardatabasnamn"
 
-#: bb-admin/includes/class.bb-install.php:821
+#: bb-admin/includes/class.bb-install.php:829
 #: bb-admin/options-wordpress.php:125
 msgid "The name of the database in which your user tables reside."
 msgstr "Namnet på den databas i vilken dina användartabeller hittas."
 
-#: bb-admin/includes/class.bb-install.php:826
+#: bb-admin/includes/class.bb-install.php:834
 #: bb-admin/options-wordpress.php:128
 msgid "User database user"
 msgstr "Användardatabasanvändare"
 
-#: bb-admin/includes/class.bb-install.php:834
+#: bb-admin/includes/class.bb-install.php:842
 #: bb-admin/options-wordpress.php:132
 msgid "User database password"
 msgstr "Användardatabaslösenord"
 
-#: bb-admin/includes/class.bb-install.php:841
+#: bb-admin/includes/class.bb-install.php:849
 #: bb-admin/options-wordpress.php:136
 msgid "User database host"
 msgstr "Användardatabashost"
 
-#: bb-admin/includes/class.bb-install.php:842
+#: bb-admin/includes/class.bb-install.php:850
 #: bb-admin/options-wordpress.php:137
 msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
 msgstr "Domännamn eller IP-adress för den server där databasen bor. Om databasen är på samma server som webbplatsen, så skall det förmodligen vara <strong>localhost</strong>."
 
-#: bb-admin/includes/class.bb-install.php:847
+#: bb-admin/includes/class.bb-install.php:855
 #: bb-admin/options-wordpress.php:140
 msgid "User database character set"
 msgstr "Användardatabasteckenkodning (character set)"
 
-#: bb-admin/includes/class.bb-install.php:853
+#: bb-admin/includes/class.bb-install.php:861
 #: bb-admin/options-wordpress.php:144
 msgid "User database character collation"
 msgstr "Användardatabasteckenkollation (character collation)"
 
-#: bb-admin/includes/class.bb-install.php:854
+#: bb-admin/includes/class.bb-install.php:862
 #: bb-admin/options-wordpress.php:145
 msgid "The character collation value set when the user database was created."
 msgstr "Den teckenkollation som sattes när användardatabasen skapades."
 
-#: bb-admin/includes/class.bb-install.php:859
+#: bb-admin/includes/class.bb-install.php:867
 #: bb-admin/options-wordpress.php:151
 msgid "User database \"user\" table"
 msgstr "Användardatabasens \"user\"-tabell"
 
-#: bb-admin/includes/class.bb-install.php:860
-#: bb-admin/includes/class.bb-install.php:866
+#: bb-admin/includes/class.bb-install.php:868
+#: bb-admin/includes/class.bb-install.php:874
 #: bb-admin/options-wordpress.php:152
 #: bb-admin/options-wordpress.php:156
 msgid "The complete table name, including any prefix."
 msgstr "Hela tabellnamnet, inklusive eventuella prefix."
 
-#: bb-admin/includes/class.bb-install.php:865
+#: bb-admin/includes/class.bb-install.php:873
 #: bb-admin/options-wordpress.php:155
 msgid "User database \"user meta\" table"
 msgstr "Användardatabasens \"user meta\"-tabell"
 
-#: bb-admin/includes/class.bb-install.php:876
+#: bb-admin/includes/class.bb-install.php:884
 msgid "Go to step 3"
 msgstr "Gå till steg 3"
 
-#: bb-admin/includes/class.bb-install.php:885
+#: bb-admin/includes/class.bb-install.php:893
 msgid "Site name"
 msgstr "Webbplatsens namn"
 
-#: bb-admin/includes/class.bb-install.php:886
+#: bb-admin/includes/class.bb-install.php:894
 msgid "This is what you are going to call your bbPress site."
 msgstr "Det här är vad du kommer att kalla din bbPress-webbplats."
 
-#: bb-admin/includes/class.bb-install.php:890
+#: bb-admin/includes/class.bb-install.php:898
 msgid "Site address (URL)"
 msgstr "Webbplatsadress (URL)"
 
-#: bb-admin/includes/class.bb-install.php:891
+#: bb-admin/includes/class.bb-install.php:899
 msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
 msgstr "Vi har försökt gissa det här, det är vanligvis korrekt, men ändra det om du så önskar."
 
-#: bb-admin/includes/class.bb-install.php:896
+#: bb-admin/includes/class.bb-install.php:904
 msgid "\"Key Master\" Username"
 msgstr "Användarnamn för \"Nyckelmästare\""
 
-#: bb-admin/includes/class.bb-install.php:897
+#: bb-admin/includes/class.bb-install.php:905
 msgid "This is the user login for the initial bbPress administrator (known as a \"Key Master\")."
 msgstr "Det här är inloggningsnamnet för den första bbPress-administratören (kallad \"Nyckelmästare\")"
 
-#: bb-admin/includes/class.bb-install.php:903
+#: bb-admin/includes/class.bb-install.php:911
 msgid "\"Key Master\" Email address"
 msgstr "E-postadress för \"Nyckelmästare\""
 
-#: bb-admin/includes/class.bb-install.php:904
+#: bb-admin/includes/class.bb-install.php:912
 msgid "The login details will be emailed to this address."
 msgstr "Inloggningsuppgifterna kommer att e-postas till den här adressen."
 
-#: bb-admin/includes/class.bb-install.php:913
+#: bb-admin/includes/class.bb-install.php:921
 msgid "First forum name"
 msgstr "Första forumnamnet"
 
-#: bb-admin/includes/class.bb-install.php:914
+#: bb-admin/includes/class.bb-install.php:922
 msgid "This can be changed after installation, so don't worry about it too much."
 msgstr "Det här kan ändras efter installationen, så oroa dig inte för mycket."
 
-#: bb-admin/includes/class.bb-install.php:917
+#: bb-admin/includes/class.bb-install.php:925
 msgid "Save site settings"
 msgstr "Spara webbplatsinställningar"
 
-#: bb-admin/includes/class.bb-install.php:923
+#: bb-admin/includes/class.bb-install.php:931
 msgid "Complete the installation"
 msgstr "Slutför installationen"
 
-#: bb-admin/includes/class.bb-install.php:932
+#: bb-admin/includes/class.bb-install.php:940
 msgid "Show installation messages"
 msgstr "Visa installationsmeddelanden"
 
-#: bb-admin/includes/class.bb-install.php:936
+#: bb-admin/includes/class.bb-install.php:944
 msgid "Installation errors"
 msgstr "Installationsfel"
 
-#: bb-admin/includes/class.bb-install.php:940
+#: bb-admin/includes/class.bb-install.php:948
 msgid "Installation log"
 msgstr "Installationslogg"
 
-#: bb-admin/includes/class.bb-install.php:1241
+#: bb-admin/includes/class.bb-install.php:1249
 msgid "The table prefix can only contain letters, numbers and underscores.<br />Please review the suggestion below."
 msgstr "Tabellprefixet kan endast innehålla bokstäver, siffror, och understreck (_).<br />Överväg förslaget nedan."
 
-#: bb-admin/includes/class.bb-install.php:1242
+#: bb-admin/includes/class.bb-install.php:1250
 msgid "&bull; Based on your input the following prefix is suggested."
 msgstr "&bull; Baserat på din input föreslår vi följande prefix."
 
-#: bb-admin/includes/class.bb-install.php:1250
+#: bb-admin/includes/class.bb-install.php:1258
 msgid "The table prefix can not be blank.<br />Please review the suggestion below."
 msgstr "Tabellprefixet kan inte vara blankt.<br />Överväg förslaget nedan."
 
-#: bb-admin/includes/class.bb-install.php:1251
+#: bb-admin/includes/class.bb-install.php:1259
 msgid "&bull; The default prefix has been inserted."
 msgstr "&bull; Standardprefixet har lagts in."
 
-#: bb-admin/includes/class.bb-install.php:1285
+#: bb-admin/includes/class.bb-install.php:1293
 msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
 msgstr "Ett problem uppstod när databasen du specifierade skulle anslutas till.<br />Kolla inställningarna, och försök igen."
 
-#: bb-admin/includes/class.bb-install.php:1318
+#: bb-admin/includes/class.bb-install.php:1326
 msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
 msgstr "Dina inställningar har sparats till filen <code>bb-config.php</code><br />Du kan nu fortsätta till nästa steg."
 
-#: bb-admin/includes/class.bb-install.php:1325
+#: bb-admin/includes/class.bb-install.php:1333
 msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
 msgstr "Dina inställningar kunde inte sparas till en konfigurationsfil. Du måste spara texten nedan i en fil med namnet <code>bb-config.php</code> i root-mappen för din bbPress-installation innan du kan fortsätta."
 
-#: bb-admin/includes/class.bb-install.php:1347
+#: bb-admin/includes/class.bb-install.php:1355
 msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
 msgstr "Du har valt att skippa WordPress-integrationssteget. Du kan alltid integrera WordPress senare, från administrationspanelen i bbPress."
 
-#: bb-admin/includes/class.bb-install.php:1423
+#: bb-admin/includes/class.bb-install.php:1431
 msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
 msgstr "Du måste skriva i dina inställningar för att integrationsinstallationen skall slutföras. Välj vilka integrationsinställningar du vill skriva in från valen nedan."
 
-#: bb-admin/includes/class.bb-install.php:1441
+#: bb-admin/includes/class.bb-install.php:1449
 msgid "Your integration settings have not been processed due to errors with the items marked below."
 msgstr "Dina integrationsinställningar processades inte på grund av fel med sakerna som är markerade nedan."
 
-#: bb-admin/includes/class.bb-install.php:1450
-#: bb-admin/includes/class.bb-install.php:1659
+#: bb-admin/includes/class.bb-install.php:1458
+#: bb-admin/includes/class.bb-install.php:1667
 msgid "&bull; This value is required to continue."
 msgstr "&bull; Det här värdet krävs för att fortsätta."
 
-#: bb-admin/includes/class.bb-install.php:1453
-#: bb-admin/includes/class.bb-install.php:1662
+#: bb-admin/includes/class.bb-install.php:1461
+#: bb-admin/includes/class.bb-install.php:1670
 msgid "&bull; This does not appear to be a valid URL."
 msgstr "&bull; Det här verkar inte vara en giltig URL."
 
-#: bb-admin/includes/class.bb-install.php:1456
-#: bb-admin/includes/class.bb-install.php:1665
+#: bb-admin/includes/class.bb-install.php:1464
+#: bb-admin/includes/class.bb-install.php:1673
 msgid "&bull; The URL must begin with \"http\" or \"https\"."
 msgstr "&bull; URLen måste börja med \"http\" eller \"https\"."
 
-#: bb-admin/includes/class.bb-install.php:1459
-#: bb-admin/includes/class.bb-install.php:1668
+#: bb-admin/includes/class.bb-install.php:1467
+#: bb-admin/includes/class.bb-install.php:1676
 msgid "&bull; The URL does not contain a host name."
 msgstr "&bull; URLen innehåller inget hostnamn."
 
-#: bb-admin/includes/class.bb-install.php:1521
-#: bb-admin/includes/class.bb-install.php:1764
-#: bb-admin/includes/class.bb-install.php:2561
-#: bb-settings.php:625
+#: bb-admin/includes/class.bb-install.php:1529
+#: bb-admin/includes/class.bb-install.php:1772
+#: bb-admin/includes/class.bb-install.php:2575
+#: bb-settings.php:646
 msgid "Your user table prefix may only contain letters, numbers and underscores."
 msgstr "Ditt användartabellprefix får enbart innehålla bokstäver, siffror, och understreck (_)."
 
-#: bb-admin/includes/class.bb-install.php:1558
+#: bb-admin/includes/class.bb-install.php:1566
 msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
 msgstr "Ett problem uppstod när WordPress-användardatabasen du specifierade skulle anslutas till. Kolla inställningarna, och försök igen."
 
-#: bb-admin/includes/class.bb-install.php:1572
+#: bb-admin/includes/class.bb-install.php:1580
 msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
 msgstr "Inga WordPress-användartabeller kunde hittas i WordPress-databasen du specifierade."
 
-#: bb-admin/includes/class.bb-install.php:1574
+#: bb-admin/includes/class.bb-install.php:1582
 msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
 msgstr "Inga WordPress-användartabeller kunde hittas i bbPress-databasen du specifierade i steg 1.<br /><br />Det beror sannolikt på att databasen inte redan innehåller fungerande WordPress-tabeller. Du måste kanske specifiera avancerade databasinställningar eller vänta med integration till efter installationen."
 
-#: bb-admin/includes/class.bb-install.php:1576
+#: bb-admin/includes/class.bb-install.php:1584
 msgid "&bull; This may not be a valid user table prefix."
 msgstr "&bull; Det är kanske inte ett giltigt användardatabastabellprefix."
 
-#: bb-admin/includes/class.bb-install.php:1593
+#: bb-admin/includes/class.bb-install.php:1601
 msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
 msgstr "Dina WordPress-integrationscookie- och databasinställningar har validerats. De kommer att sparas efter nästa steg.<br /><br />När du har installerat klart, så bör du gå till WordPress-integrationssektionen i bbPress administrationspanel för ytterligare inställningar och integrationsinstruktioner, inklusive användarrollmatchning och de korrekta cookie-instöllningar att lägga till till din WordPress-konfigurationsfil."
 
-#: bb-admin/includes/class.bb-install.php:1650
+#: bb-admin/includes/class.bb-install.php:1658
 msgid "Your site settings have not been processed due to errors with the items marked below."
 msgstr "Dina webbplatsinställningar har inte processats på grund av fel med punkterna markerade nedan."
 
-#: bb-admin/includes/class.bb-install.php:1671
+#: bb-admin/includes/class.bb-install.php:1679
 msgid "&bull; Contains disallowed characters which have been removed."
 msgstr "&bull; Innehåller otillåtna tecken, som har tagits bort."
 
-#: bb-admin/includes/class.bb-install.php:1674
+#: bb-admin/includes/class.bb-install.php:1682
 msgid "&bull; The user email address appears to be invalid."
 msgstr "&bull; E-postadressen verkar vara ogiltig."
 
-#: bb-admin/includes/class.bb-install.php:1693
+#: bb-admin/includes/class.bb-install.php:1701
 msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
 msgstr "Dina webbplatsinställningar har sparats och vi är nu redo att slutföra installationen. Så vad väntar du på?"
 
-#: bb-admin/includes/class.bb-install.php:1719
+#: bb-admin/includes/class.bb-install.php:1727
 msgid "Referrer is OK, beginning installation&hellip;"
 msgstr "Referrern är OK, påbörjar installation&hellip;"
 
-#: bb-admin/includes/class.bb-install.php:1726
+#: bb-admin/includes/class.bb-install.php:1734
 msgid "Setting up custom user table constants"
 msgstr "Sätter upp skräddarsydda användartabellkonstanter"
 
-#: bb-admin/includes/class.bb-install.php:1769
+#: bb-admin/includes/class.bb-install.php:1777
 msgid "Step 1 - Creating database tables"
 msgstr "Steg 1 - Skapande av databastabeller"
 
-#: bb-admin/includes/class.bb-install.php:1787
-#: bb-admin/includes/class.bb-install.php:1789
+#: bb-admin/includes/class.bb-install.php:1795
+#: bb-admin/includes/class.bb-install.php:1797
 msgid "Database installation failed!!!"
 msgstr "Databasinstallationen misslyckades!!!"
 
-#: bb-admin/includes/class.bb-install.php:1788
-#: bb-admin/includes/class.bb-install.php:1998
-#: bb-admin/includes/class.bb-install.php:2031
-#: bb-admin/includes/class.bb-install.php:2057
+#: bb-admin/includes/class.bb-install.php:1796
+#: bb-admin/includes/class.bb-install.php:2006
+#: bb-admin/includes/class.bb-install.php:2039
+#: bb-admin/includes/class.bb-install.php:2065
 msgid "Halting installation!"
 msgstr "Avbryter installation!"
 
-#: bb-admin/includes/class.bb-install.php:1792
-#: bb-admin/includes/class.bb-install.php:2000
-#: bb-admin/includes/class.bb-install.php:2034
-#: bb-admin/includes/class.bb-install.php:2060
+#: bb-admin/includes/class.bb-install.php:1800
+#: bb-admin/includes/class.bb-install.php:2008
+#: bb-admin/includes/class.bb-install.php:2042
+#: bb-admin/includes/class.bb-install.php:2068
 msgid "Installation failed!"
 msgstr "Installationen misslyckades!"
 
-#: bb-admin/includes/class.bb-install.php:1793
+#: bb-admin/includes/class.bb-install.php:1801
 msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
 msgstr "Installationen av databasen misslyckades. Du behöver kanske ersätta bbPress med en fräsch kopia och börja om från början."
 
-#: bb-admin/includes/class.bb-install.php:1801
+#: bb-admin/includes/class.bb-install.php:1809
 msgid "Database is already installed!!!"
 msgstr "Databasen är redan installerad!!!"
 
-#: bb-admin/includes/class.bb-install.php:1806
+#: bb-admin/includes/class.bb-install.php:1814
 msgid "Step 2 - WordPress integration (optional)"
 msgstr "Steg 2 - Integration av WordPress (frivilligt)"
 
-#: bb-admin/includes/class.bb-install.php:1810
+#: bb-admin/includes/class.bb-install.php:1818
 msgid "WordPress address (URL):"
 msgstr "WordPress-adress (URL):"
 
-#: bb-admin/includes/class.bb-install.php:1813
+#: bb-admin/includes/class.bb-install.php:1821
 msgid "Blog address (URL):"
 msgstr "Bloggadress (URL):"
 
-#: bb-admin/includes/class.bb-install.php:1827
+#: bb-admin/includes/class.bb-install.php:1835
 msgid "WordPress cookie keys set."
 msgstr "WordPress cookienycklar satta."
 
-#: bb-admin/includes/class.bb-install.php:1830
-#: bb-admin/includes/class.bb-install.php:1833
+#: bb-admin/includes/class.bb-install.php:1838
+#: bb-admin/includes/class.bb-install.php:1841
 msgid "WordPress cookie keys not set."
 msgstr "WordPress cookienycklar inte satta."
 
-#: bb-admin/includes/class.bb-install.php:1831
+#: bb-admin/includes/class.bb-install.php:1839
 msgid "Your \"bb-config.php\" file was not writable."
 msgstr "Din \"bb-config.php\"-fil var inte skrivbar."
 
-#: bb-admin/includes/class.bb-install.php:1832
+#: bb-admin/includes/class.bb-install.php:1840
 msgid "You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
 msgstr "Du måste manuellt omdefiniera \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" och \"BB_LOGGED_IN_KEY\" i din \"bb-config.php\"-fil."
 
-#: bb-admin/includes/class.bb-install.php:1839
+#: bb-admin/includes/class.bb-install.php:1847
 msgid "WordPress \"auth\" cookie salt set from input."
 msgstr "WordPress \"auth\"-cookiesalt satt från input."
 
-#: bb-admin/includes/class.bb-install.php:1844
+#: bb-admin/includes/class.bb-install.php:1852
 msgid "WordPress \"secure auth\" cookie salt set from input."
 msgstr "WordPress \"secure auth\"-cookiesalt satt från input."
 
-#: bb-admin/includes/class.bb-install.php:1849
+#: bb-admin/includes/class.bb-install.php:1857
 msgid "WordPress \"logged in\" cookie salt set from input."
 msgstr "WordPress \"logged in\"-cookiesalt satt från input."
 
-#: bb-admin/includes/class.bb-install.php:1859
+#: bb-admin/includes/class.bb-install.php:1867
 msgid "Fetching missing WordPress cookie salts."
 msgstr "Hämtar saknade WordPress-cookiesalter."
 
-#: bb-admin/includes/class.bb-install.php:1880
+#: bb-admin/includes/class.bb-install.php:1888
 msgid "WordPress \"auth\" cookie salt set."
 msgstr "WordPress \"auth\"-cookiesalt satt."
 
-#: bb-admin/includes/class.bb-install.php:1882
-#: bb-admin/includes/class.bb-install.php:1885
+#: bb-admin/includes/class.bb-install.php:1890
+#: bb-admin/includes/class.bb-install.php:1893
 msgid "WordPress \"auth\" cookie salt not set."
 msgstr "WordPress \"auth\"-cookiesalt inte satt."
 
-#: bb-admin/includes/class.bb-install.php:1883
+#: bb-admin/includes/class.bb-install.php:1891
 msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
 msgstr "Kunde inte hämta \"auth\"-cookiesalt från WordPress inställningstabell."
 
-#: bb-admin/includes/class.bb-install.php:1884
+#: bb-admin/includes/class.bb-install.php:1892
 msgid "You will need to manually define the \"auth\" cookie salt in your database."
 msgstr "Du måste definiera \"auth\"-cookiesalten manuellt i din databas."
 
-#: bb-admin/includes/class.bb-install.php:1893
+#: bb-admin/includes/class.bb-install.php:1901
 msgid "WordPress \"secure auth\" cookie salt set."
 msgstr "WordPress \"secure auth\"-cookiesalt satt."
 
-#: bb-admin/includes/class.bb-install.php:1896
+#: bb-admin/includes/class.bb-install.php:1904
 msgid "WordPress \"secure auth\" cookie salt not set."
 msgstr "WordPress \"secure auth\"-cookiesalt inte satt."
 
-#: bb-admin/includes/class.bb-install.php:1904
+#: bb-admin/includes/class.bb-install.php:1912
 msgid "WordPress \"logged in\" cookie salt set."
 msgstr "WordPress \"logged in\"-cookiesalt satt."
 
-#: bb-admin/includes/class.bb-install.php:1906
-#: bb-admin/includes/class.bb-install.php:1909
+#: bb-admin/includes/class.bb-install.php:1914
+#: bb-admin/includes/class.bb-install.php:1917
 msgid "WordPress \"logged in\" cookie salt not set."
 msgstr "WordPress \"logged in\"-cookiesalt inte satt."
 
-#: bb-admin/includes/class.bb-install.php:1907
+#: bb-admin/includes/class.bb-install.php:1915
 msgid "Could not fetch \"logged in\" cookie salt from the WordPress options table."
 msgstr "Kunde inte hämta \"logged in\"-cookiesalt från WordPress inställningstabell."
 
-#: bb-admin/includes/class.bb-install.php:1908
+#: bb-admin/includes/class.bb-install.php:1916
 msgid "You will need to manually define the \"logged in\" cookie salt in your database."
 msgstr "Du måste definiera \"logged in\"-cookiesalten manuellt i din databas."
 
-#: bb-admin/includes/class.bb-install.php:1916
+#: bb-admin/includes/class.bb-install.php:1924
 msgid "User database table prefix:"
 msgstr "Användardatabastabellprefix:"
 
-#: bb-admin/includes/class.bb-install.php:1921
+#: bb-admin/includes/class.bb-install.php:1929
 msgid "WordPress MU primary blog ID:"
 msgstr "ID för WordPress MUs primära blogg:"
 
-#: bb-admin/includes/class.bb-install.php:1927
+#: bb-admin/includes/class.bb-install.php:1935
 msgid "User database name:"
 msgstr "Användardatabasnamn:"
 
-#: bb-admin/includes/class.bb-install.php:1931
+#: bb-admin/includes/class.bb-install.php:1939
 msgid "User database user:"
 msgstr "Användardatabasanvändare:"
 
-#: bb-admin/includes/class.bb-install.php:1935
+#: bb-admin/includes/class.bb-install.php:1943
 msgid "User database password:"
 msgstr "Användardatabaslösenord:"
 
-#: bb-admin/includes/class.bb-install.php:1939
+#: bb-admin/includes/class.bb-install.php:1947
 msgid "User database host:"
 msgstr "Användardatabashost:"
 
-#: bb-admin/includes/class.bb-install.php:1943
+#: bb-admin/includes/class.bb-install.php:1951
 msgid "User database character set:"
 msgstr "Användardatabasteckenkodning (character set):"
 
-#: bb-admin/includes/class.bb-install.php:1947
+#: bb-admin/includes/class.bb-install.php:1955
 msgid "User database collation:"
 msgstr "Användardatabasteckenkollation (collation):"
 
-#: bb-admin/includes/class.bb-install.php:1951
+#: bb-admin/includes/class.bb-install.php:1959
 msgid "User database \"user\" table:"
 msgstr "Användardatabasens \"user\"-tabell:"
 
-#: bb-admin/includes/class.bb-install.php:1955
+#: bb-admin/includes/class.bb-install.php:1963
 msgid "User database \"user meta\" table:"
 msgstr "Användardatabasens \"user meta\"-tabell:"
 
-#: bb-admin/includes/class.bb-install.php:1960
+#: bb-admin/includes/class.bb-install.php:1968
 msgid "Integration not enabled"
 msgstr "Integration inte aktiverad"
 
-#: bb-admin/includes/class.bb-install.php:1965
+#: bb-admin/includes/class.bb-install.php:1973
 msgid "Step 3 - Site settings"
 msgstr "Steg 3 - Webbplatsinställningar"
 
-#: bb-admin/includes/class.bb-install.php:1967
+#: bb-admin/includes/class.bb-install.php:1975
 msgid "Site name:"
 msgstr "Webbplatsnamn:"
 
-#: bb-admin/includes/class.bb-install.php:1969
+#: bb-admin/includes/class.bb-install.php:1977
 msgid "Site address (URL):"
 msgstr "Webbplatsadress (URL):"
 
-#: bb-admin/includes/class.bb-install.php:1971
+#: bb-admin/includes/class.bb-install.php:1979
 msgid "From email address:"
 msgstr "Från-e-postadress"
 
-#: bb-admin/includes/class.bb-install.php:1982
-#: bb-admin/includes/class.bb-install.php:1984
-#: bb-admin/includes/class.bb-install.php:2030
-#: bb-admin/includes/class.bb-install.php:2032
-#: bb-admin/includes/class.bb-install.php:2058
+#: bb-admin/includes/class.bb-install.php:1990
+#: bb-admin/includes/class.bb-install.php:1992
+#: bb-admin/includes/class.bb-install.php:2038
+#: bb-admin/includes/class.bb-install.php:2040
+#: bb-admin/includes/class.bb-install.php:2066
 msgid "Key master could not be created!"
 msgstr "Nyckelmästare kunde inte skapas!"
 
-#: bb-admin/includes/class.bb-install.php:1983
+#: bb-admin/includes/class.bb-install.php:1991
 msgid "That login is already taken!"
 msgstr "Den inloggningen är redan tagen!"
 
-#: bb-admin/includes/class.bb-install.php:1989
+#: bb-admin/includes/class.bb-install.php:1997
 msgid "Existing key master entered!"
 msgstr "Existerande nyckelmästare inskriven!"
 
-#: bb-admin/includes/class.bb-install.php:1990
+#: bb-admin/includes/class.bb-install.php:1998
 msgid "Your bbPress password"
 msgstr "Ditt bbPress-lösenord"
 
-#: bb-admin/includes/class.bb-install.php:1993
+#: bb-admin/includes/class.bb-install.php:2001
 msgid "Re-setting admin email address."
 msgstr "Återställer e-postadress för admin."
 
-#: bb-admin/includes/class.bb-install.php:1997
+#: bb-admin/includes/class.bb-install.php:2005
 msgid "Existing user without key master role entered!"
 msgstr "Existerande användare utan nyckelmästarroll inskriven!"
 
-#: bb-admin/includes/class.bb-install.php:2001
+#: bb-admin/includes/class.bb-install.php:2009
 msgid "The key master could not be created. An existing user was found with that user login."
 msgstr "Nyckelmästaren kunde inte skapas. En existerande användare hittades med det inloggningsnamnet."
 
-#: bb-admin/includes/class.bb-install.php:2024
+#: bb-admin/includes/class.bb-install.php:2032
 msgid "Key master created"
 msgstr "Nyckelmästare skapad"
 
-#: bb-admin/includes/class.bb-install.php:2025
-#: bb-admin/includes/class.bb-install.php:2051
+#: bb-admin/includes/class.bb-install.php:2033
+#: bb-admin/includes/class.bb-install.php:2059
 #: bb-admin/install.php:359
 msgid "Username:"
 msgstr "Användarnamn:"
 
-#: bb-admin/includes/class.bb-install.php:2026
-#: bb-admin/includes/class.bb-install.php:2052
+#: bb-admin/includes/class.bb-install.php:2034
+#: bb-admin/includes/class.bb-install.php:2060
 msgid "Email address:"
 msgstr "E-postadress:"
 
-#: bb-admin/includes/class.bb-install.php:2027
-#: bb-admin/includes/class.bb-install.php:2053
+#: bb-admin/includes/class.bb-install.php:2035
+#: bb-admin/includes/class.bb-install.php:2061
 #: bb-admin/install.php:361
 msgid "Password:"
 msgstr "Lösenord:"
 
-#: bb-admin/includes/class.bb-install.php:2035
+#: bb-admin/includes/class.bb-install.php:2043
 msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
 msgstr "NyckelmÃ¤staren kunde inte skapas. Du behÃ¶ver kanske ersÃ¤tta bbPress med en frÃ¤sch kopia och bÃ¶rja om frÃ¥n bÃ¶rjan."
 
-#: bb-admin/includes/class.bb-install.php:2049
+#: bb-admin/includes/class.bb-install.php:2057
 msgid "Your existing password"
 msgstr "Ditt existerande lösenord"
 
-#: bb-admin/includes/class.bb-install.php:2050
+#: bb-admin/includes/class.bb-install.php:2058
 msgid "Key master role assigned to existing user"
 msgstr "Nyckelmästarroll tilldelad existerande användare"
 
-#: bb-admin/includes/class.bb-install.php:2056
+#: bb-admin/includes/class.bb-install.php:2064
 msgid "Key master role could not be assigned to existing user!"
 msgstr "Nyckelmästarrollen kunde inte tilldelas den existerande användaren!"
 
-#: bb-admin/includes/class.bb-install.php:2061
+#: bb-admin/includes/class.bb-install.php:2069
 msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
 msgstr "NyckelmÃ¤starrollen kunde inte tilldelas. Du behÃ¶ver kanske ersÃ¤tta bbPress med en frÃ¤sch kopia och bÃ¶rja om frÃ¥n bÃ¶rjan."
 
-#: bb-admin/includes/class.bb-install.php:2080
+#: bb-admin/includes/class.bb-install.php:2088
 msgid "Just another bbPress community"
 msgstr "Bara ett till bbPress-community"
 
-#: bb-admin/includes/class.bb-install.php:2089
+#: bb-admin/includes/class.bb-install.php:2097
 msgid "Description:"
 msgstr "Beskrivning:"
 
-#: bb-admin/includes/class.bb-install.php:2092
+#: bb-admin/includes/class.bb-install.php:2100
 msgid "Forum name:"
 msgstr "Forumnamn:"
 
-#: bb-admin/includes/class.bb-install.php:2100
+#: bb-admin/includes/class.bb-install.php:2108
 msgid "Your first topic"
 msgstr "Ditt första ämne"
 
-#: bb-admin/includes/class.bb-install.php:2108
+#: bb-admin/includes/class.bb-install.php:2116
 msgid "First Post!  w00t."
 msgstr "Första posten! w00t."
 
-#: bb-admin/includes/class.bb-install.php:2122
+#: bb-admin/includes/class.bb-install.php:2130
 #: bb-templates/kakumei/edit-form.php:4
 msgid "Topic:"
 msgstr "Ämne:"
 
-#: bb-admin/includes/class.bb-install.php:2123
+#: bb-admin/includes/class.bb-install.php:2131
 #: bb-templates/kakumei/edit-form.php:10
 msgid "Post:"
 msgstr "Inlägg:"
 
-#: bb-admin/includes/class.bb-install.php:2125
-#: bb-admin/includes/class.bb-install.php:2126
+#: bb-admin/includes/class.bb-install.php:2133
+#: bb-admin/includes/class.bb-install.php:2134
 msgid "Forum could not be created!"
 msgstr "Forum kunde inte skapas!"
 
-#: bb-admin/includes/class.bb-install.php:2129
+#: bb-admin/includes/class.bb-install.php:2137
 msgid "There are existing forums in this database."
 msgstr "Det finns redan forum i den här databasen."
 
-#: bb-admin/includes/class.bb-install.php:2130
+#: bb-admin/includes/class.bb-install.php:2138
 msgid "No new forum created."
 msgstr "Inget nytt forum skapades."
 
-#: bb-admin/includes/class.bb-install.php:2131
+#: bb-admin/includes/class.bb-install.php:2139
 msgid "Forums already exist!"
 msgstr "Forum finns redan!"
 
-#: bb-admin/includes/class.bb-install.php:2137
+#: bb-admin/includes/class.bb-install.php:2145
 #, php-format
 msgid "Making plugin directory at %s."
 msgstr "Skapar tillägg-mapp vid %s."
 
-#: bb-admin/includes/class.bb-install.php:2144
+#: bb-admin/includes/class.bb-install.php:2152
 #, php-format
 msgid "Making theme directory at %s."
 msgstr "Skapar tema-mapp vid %s."
 
-#: bb-admin/includes/class.bb-install.php:2150
+#: bb-admin/includes/class.bb-install.php:2158
 #, php-format
 msgid ""
 "Your new bbPress site has been successfully set up at:\n"
@@ -1383,36 +1146,36 @@ msgstr ""
 "--bbPress-teamet\n"
 "http://bbpress.org/"
 
-#: bb-admin/includes/class.bb-install.php:2156
+#: bb-admin/includes/class.bb-install.php:2164
 msgid "New bbPress installation"
 msgstr "Ny bbPress-installation"
 
-#: bb-admin/includes/class.bb-install.php:2157
+#: bb-admin/includes/class.bb-install.php:2165
 msgid "Key master email sent"
 msgstr "Nyckelmästare-mail skickat"
 
-#: bb-admin/includes/class.bb-install.php:2159
-#: bb-admin/includes/class.bb-install.php:2160
+#: bb-admin/includes/class.bb-install.php:2167
+#: bb-admin/includes/class.bb-install.php:2168
 msgid "Key master email not sent!"
 msgstr "Nyckelmästare-mail inte skickat!"
 
-#: bb-admin/includes/class.bb-install.php:2165
+#: bb-admin/includes/class.bb-install.php:2173
 msgid "Installation completed with some errors!"
 msgstr "Installationen slutförd med några fel!"
 
-#: bb-admin/includes/class.bb-install.php:2166
+#: bb-admin/includes/class.bb-install.php:2174
 msgid "Your installation completed with some minor errors. See the error log below for more specific information."
 msgstr "Din installation slutfördes med några mindre fel. Se felloggen nedan för mer specifik information."
 
-#: bb-admin/includes/class.bb-install.php:2167
+#: bb-admin/includes/class.bb-install.php:2175
 msgid "There were some errors encountered during installation!"
 msgstr "Några fel stöttes på under installationen!"
 
-#: bb-admin/includes/class.bb-install.php:2169
+#: bb-admin/includes/class.bb-install.php:2177
 msgid "Your installation completed successfully."
 msgstr "Din installation slutfördes."
 
-#: bb-admin/includes/class.bb-install.php:2605
+#: bb-admin/includes/class.bb-install.php:2619
 msgid "Please select an existing bbPress Keymaster or WordPress administrator."
 msgstr "Välj en existerande bbPress-nyckelmästare eller WordPress-administratör."
 
@@ -1422,24 +1185,33 @@ msgstr "Databasklass inte laddad."
 
 #: bb-admin/includes/functions.bb-admin.php:55
 #: bb-admin/includes/functions.bb-admin.php:56
-#: bb-admin/index.php:11
+#: bb-admin/index.php:38
 msgid "Dashboard"
 msgstr "Panel"
 
-#: bb-admin/includes/functions.bb-admin.php:65
-#: bb-templates/kakumei/front-page.php:48
-msgid "Forums"
-msgstr "Forum"
-
-#: bb-admin/includes/functions.bb-admin.php:66
+#: bb-admin/includes/functions.bb-admin.php:67
 #: bb-admin/includes/functions.bb-admin.php:68
+#: bb-admin/topics.php:41
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:53
+msgid "Topics"
+msgstr "Ämnen"
+
+#: bb-admin/includes/functions.bb-admin.php:69
 #: bb-admin/includes/functions.bb-admin.php:70
-#: bb-admin/includes/functions.bb-admin.php:407
-#: bb-admin/includes/functions.bb-admin.php:770
-#: bb-includes/functions.bb-core.php:805
-#: bb-includes/functions.bb-template.php:1868
-msgid "Edit"
-msgstr "Redigera"
+#: bb-admin/posts.php:47
+#: bb-admin/topics.php:103
+#: bb-admin/topics.php:112
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:47
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:54
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Inlägg"
 
 #: bb-admin/includes/functions.bb-admin.php:79
 msgid "Appearance"
@@ -1458,97 +1230,151 @@ msgid "Installed"
 msgstr "Installerat"
 
 #: bb-admin/includes/functions.bb-admin.php:83
+#: bb-admin/includes/functions.bb-admin.php:84
+#: bb-admin/includes/functions.bb-admin.php:572
 msgid "Users"
 msgstr "Användare"
 
-#: bb-admin/includes/functions.bb-admin.php:84
-msgid "Find"
-msgstr "Hitta"
-
 #: bb-admin/includes/functions.bb-admin.php:85
-msgid "Moderators"
-msgstr "Moderatorer"
-
-#: bb-admin/includes/functions.bb-admin.php:86
-#: bb-includes/functions.bb-capabilities.php:185
-msgid "Blocked"
-msgstr "Blockerade"
-
-#: bb-admin/includes/functions.bb-admin.php:87
+#: bb-admin/tools-recount.php:173
 msgid "Tools"
 msgstr "Verktyg"
 
-#: bb-admin/includes/functions.bb-admin.php:88
-#: bb-admin/site.php:11
-msgid "Recount"
+#: bb-admin/includes/functions.bb-admin.php:86
+#: bb-admin/tools-recount.php:178
+#, fuzzy
+msgid "Re-count"
 msgstr "Omräkning"
 
-#: bb-admin/includes/functions.bb-admin.php:89
+#: bb-admin/includes/functions.bb-admin.php:87
 msgid "Settings"
 msgstr "Inställningar"
 
-#: bb-admin/includes/functions.bb-admin.php:90
+#: bb-admin/includes/functions.bb-admin.php:88
 msgid "General"
 msgstr "Allmänt"
 
-#: bb-admin/includes/functions.bb-admin.php:92
+#: bb-admin/includes/functions.bb-admin.php:90
 msgid "Writing"
 msgstr "Skrivande"
 
-#: bb-admin/includes/functions.bb-admin.php:93
+#: bb-admin/includes/functions.bb-admin.php:91
 msgid "Reading"
 msgstr "Läsande"
 
-#: bb-admin/includes/functions.bb-admin.php:94
+#: bb-admin/includes/functions.bb-admin.php:92
 msgid "Discussion"
 msgstr "Diskussion"
 
-#: bb-admin/includes/functions.bb-admin.php:95
+#: bb-admin/includes/functions.bb-admin.php:93
 msgid "Permalinks"
 msgstr "Permalänkar"
 
-#: bb-admin/includes/functions.bb-admin.php:96
+#: bb-admin/includes/functions.bb-admin.php:94
 msgid "WordPress Integration"
 msgstr "WordPress-integration"
 
-#: bb-admin/includes/functions.bb-admin.php:460
-#: bb-admin/includes/functions.bb-admin.php:595
-#: bb-plugins/bozo.php:301
+#: bb-admin/includes/functions.bb-admin.php:220
+#: bb-admin/options-wordpress.php:249
+#: bb-includes/functions.bb-core.php:1082
+msgid "bbPress"
+msgstr "bbPress"
+
+#: bb-admin/includes/functions.bb-admin.php:399
+#: bb-admin/includes/functions.bb-admin.php:865
+#: bb-admin/includes/functions.bb-admin.php:1085
+#: bb-admin/topics.php:125
+msgid "View"
+msgstr "Visa"
+
+#: bb-admin/includes/functions.bb-admin.php:401
+#: bb-admin/includes/functions.bb-admin.php:867
+#: bb-includes/functions.bb-core.php:811
+#: bb-includes/functions.bb-template.php:1930
+msgid "Edit"
+msgstr "Redigera"
+
+#: bb-admin/includes/functions.bb-admin.php:414
+#: bb-admin/includes/functions.bb-admin.php:1119
+#: bb-admin/topics.php:144
+#: bb-admin/topics.php:153
+#, fuzzy, php-format
+msgid "%s ago"
+msgstr "Skrivet för %s sedan"
+
+#: bb-admin/includes/functions.bb-admin.php:424
+#, fuzzy
+msgid "Inactive (no role)"
+msgstr "Inaktiv"
+
+#: bb-admin/includes/functions.bb-admin.php:436
+msgid "None"
+msgstr "Ingen"
+
+#: bb-admin/includes/functions.bb-admin.php:504
+#: bb-admin/includes/functions.bb-admin.php:686
 msgid "<strong>No matching users were found!</strong>"
 msgstr "<strong>Inga matchande användare hittades!</strong>"
 
-#: bb-admin/includes/functions.bb-admin.php:516
+#: bb-admin/includes/functions.bb-admin.php:517
+#: bb-admin/posts.php:83
+#: bb-admin/topics.php:70
+#, fuzzy, php-format
+msgid "%1$s to %2$s of %3$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/includes/functions.bb-admin.php:555
 #, php-format
 msgid "Users Matching \"%s\" by Role"
 msgstr "Användare som matchar \"%s\", efter roll"
 
-#: bb-admin/includes/functions.bb-admin.php:518
-msgid "User List by Role"
-msgstr "Användarlista efter roll"
+#: bb-admin/includes/functions.bb-admin.php:565
+#: bb-admin/posts.php:54
+#: bb-admin/topics.php:48
+#, fuzzy, php-format
+msgid "containing &#8220;%s&#8221;"
+msgstr "i &#8220;%s&#8221;"
 
-#: bb-admin/includes/functions.bb-admin.php:524
-#: bb-templates/kakumei/search-form.php:3
-msgid "Search:"
-msgstr "Sök:"
+#: bb-admin/includes/functions.bb-admin.php:566
+#, fuzzy, php-format
+msgid "with role &#8220;%s&#8221;"
+msgstr "med etiketten &#8220;%s&#8221;"
 
-#: bb-admin/includes/functions.bb-admin.php:526
-msgid "Search for users &raquo;"
-msgstr "Sök efter användare &raquo;"
+#: bb-admin/includes/functions.bb-admin.php:569
+#, fuzzy, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s - %2$s"
 
-#: bb-admin/includes/functions.bb-admin.php:532
-msgid "&laquo; Back to All Users"
-msgstr "&laquo; Tillbaka till alla användare"
+#: bb-admin/includes/functions.bb-admin.php:581
+#: bb-includes/class.bb-query.php:936
+msgid "Search term"
+msgstr "Sökterm"
 
-#: bb-admin/includes/functions.bb-admin.php:542
-msgid "Users with no role in these forums"
-msgstr "Användare utan roll i dessa forum"
+#: bb-admin/includes/functions.bb-admin.php:585
+#: bb-admin/includes/functions.bb-admin.php:634
+#: bb-admin/includes/functions.bb-admin.php:648
+#, fuzzy
+msgid "Role"
+msgstr "Ta bort"
 
-#: bb-admin/includes/functions.bb-admin.php:546
-msgid "ID"
-msgstr "ID"
+#: bb-admin/includes/functions.bb-admin.php:605
+#: bb-includes/class.bb-query.php:1017
+#: bb-templates/kakumei/rss2.php:18
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Sök"
 
-#: bb-admin/includes/functions.bb-admin.php:548
-#: bb-admin/includes/functions.bb-admin.php:552
+#: bb-admin/includes/functions.bb-admin.php:606
+#: bb-admin/posts.php:77
+#: bb-admin/topics.php:64
+#, fuzzy
+msgid "Filter"
+msgstr "Filtrera &#187;"
+
+#: bb-admin/includes/functions.bb-admin.php:626
+#: bb-admin/includes/functions.bb-admin.php:630
+#: bb-admin/includes/functions.bb-admin.php:640
+#: bb-admin/includes/functions.bb-admin.php:644
 #: bb-templates/kakumei/login-form.php:14
 #: bb-templates/kakumei/login.php:17
 #: bb-templates/kakumei/login.php:59
@@ -1556,211 +1382,280 @@ msgstr "ID"
 msgid "Username"
 msgstr "Användarnamn"
 
-#: bb-admin/includes/functions.bb-admin.php:549
-#: bb-admin/includes/functions.bb-admin.php:553
-msgid "Display name"
-msgstr "Visningsnamn"
+#: bb-admin/includes/functions.bb-admin.php:627
+#: bb-admin/includes/functions.bb-admin.php:631
+#: bb-admin/includes/functions.bb-admin.php:641
+#: bb-admin/includes/functions.bb-admin.php:645
+#: bb-admin/includes/functions.bb-admin.php:907
+#, fuzzy
+msgid "Name"
+msgstr "am"
 
-#: bb-admin/includes/functions.bb-admin.php:550
-#: bb-includes/functions.bb-core.php:859
-msgid "Email"
+#: bb-admin/includes/functions.bb-admin.php:628
+#: bb-admin/includes/functions.bb-admin.php:642
+#, fuzzy
+msgid "E-mail"
 msgstr "E-post"
 
-#: bb-admin/includes/functions.bb-admin.php:555
-msgid "Registered Since"
-msgstr "Registrerad sedan"
+#: bb-admin/includes/functions.bb-admin.php:633
+#: bb-admin/includes/functions.bb-admin.php:647
+#, fuzzy
+msgid "Registered"
+msgstr "Registrera"
 
-#: bb-admin/includes/functions.bb-admin.php:556
-msgid "Actions"
-msgstr "Åtgärder"
+#: bb-admin/includes/functions.bb-admin.php:869
+#: bb-admin/topics.php:128
+#: bb-includes/functions.bb-template.php:1987
+msgid "Delete"
+msgstr "Ta bort"
 
-#: bb-admin/includes/functions.bb-admin.php:792
-msgid "Forum Name:"
-msgstr "Forumnamn:"
+#: bb-admin/includes/functions.bb-admin.php:896
+#, fuzzy
+msgid "Edit Forum"
+msgstr "Redigera forum"
 
-#: bb-admin/includes/functions.bb-admin.php:796
-msgid "Forum Slug:"
-msgstr "Forumslug:"
+#: bb-admin/includes/functions.bb-admin.php:897
+#: bb-admin/options-discussion.php:123
+#: bb-admin/options-general.php:236
+#: bb-admin/options-permalinks.php:164
+#: bb-admin/options-reading.php:61
+#: bb-admin/options-wordpress.php:183
+#: bb-admin/options-wordpress.php:303
+#: bb-admin/options-writing.php:78
+#: bb-plugins/akismet.php:95
+msgid "Save Changes"
+msgstr "Spara ändringar"
 
-#: bb-admin/includes/functions.bb-admin.php:800
-msgid "Forum Description:"
-msgstr "Forumbeskrivning:"
+#: bb-admin/includes/functions.bb-admin.php:900
+#: bb-admin/includes/functions.bb-admin.php:901
+msgid "Add Forum"
+msgstr "Lägg till forum"
 
-#: bb-admin/includes/functions.bb-admin.php:803
-msgid "Forum Parent:"
+#: bb-admin/includes/functions.bb-admin.php:911
+#, fuzzy
+msgid "Slug"
+msgstr "Tillägg"
+
+#: bb-admin/includes/functions.bb-admin.php:915
+#: bb-admin/plugins.php:186
+#: bb-admin/plugins.php:192
+msgid "Description"
+msgstr "Beskrivning"
+
+#: bb-admin/includes/functions.bb-admin.php:920
+#, fuzzy
+msgid "Parent"
 msgstr "Moderforum:"
 
-#: bb-admin/includes/functions.bb-admin.php:812
-msgid "Position:"
+#: bb-admin/includes/functions.bb-admin.php:932
+#, fuzzy
+msgid "Position"
 msgstr "Position:"
 
-#: bb-admin/includes/functions.bb-admin.php:815
-msgid "Forum is Category:"
+#: bb-admin/includes/functions.bb-admin.php:937
+#, fuzzy
+msgid "Category"
 msgstr "Forum är Kategori:"
 
-#: bb-admin/includes/functions.bb-admin.php:826
-msgid "Update Forum &#187;"
-msgstr "Uppdatera forum &#187;"
+#: bb-admin/includes/functions.bb-admin.php:941
+msgid "Make this forum a category"
+msgstr "Gör detta forum till en kategori"
 
-#: bb-admin/includes/functions.bb-admin.php:826
-msgid "Add Forum &#187;"
-msgstr "Lägg till forum &#187;"
+#: bb-admin/includes/functions.bb-admin.php:945
+msgid "Categories are forums where new topics cannot be created. Categories usually contain a group of sub-forums."
+msgstr "Kategorier är forum där nya ämnen inte kan skapas. Kategorier innehåller vanligen en grupp av delforum."
 
-#: bb-admin/includes/functions.bb-admin.php:914
-#: bb-admin/index.php:59
+#: bb-admin/includes/functions.bb-admin.php:1055
+#: xmlrpc.php:1700
+#: xmlrpc.php:2299
+msgid "No posts found."
+msgstr "Inga inlägg hittade."
+
+#: bb-admin/includes/functions.bb-admin.php:1062
+#: bb-admin/includes/functions.bb-admin.php:1070
 #: bb-templates/kakumei/post-form.php:9
 msgid "Post"
 msgstr "Innehåll <em>(klicka på de små ikonerna för avancerad formatering)</em>"
 
-#: bb-admin/includes/functions.bb-admin.php:938
-#: bb-templates/kakumei/search.php:17
-#: bb-templates/kakumei/search.php:32
-#, php-format
-msgid "Posted %s"
-msgstr "Postat %s"
+#: bb-admin/includes/functions.bb-admin.php:1063
+#: bb-admin/includes/functions.bb-admin.php:1071
+#: bb-admin/topics.php:102
+#: bb-admin/topics.php:111
+msgid "Author"
+msgstr "Författare"
 
-#: bb-admin/includes/functions.bb-admin.php:954
-msgid "No posts found"
-msgstr "Inga inlägg hittade"
+#: bb-admin/includes/functions.bb-admin.php:1064
+#: bb-admin/includes/functions.bb-admin.php:1072
+#: bb-admin/topics.php:101
+#: bb-admin/topics.php:110
+#: bb-templates/kakumei/favorites.php:16
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+msgid "Topic"
+msgstr "Ämnen"
 
-#: bb-admin/includes/functions.bb-admin.php:967
+#: bb-admin/includes/functions.bb-admin.php:1065
+#: bb-admin/includes/functions.bb-admin.php:1073
+#: bb-admin/topics.php:104
+#: bb-admin/topics.php:113
+msgid "Date"
+msgstr "Datum"
+
+#: bb-admin/includes/functions.bb-admin.php:1139
 msgid "Count posts of every topic"
 msgstr "Räkna inlägg i varje ämne"
 
-#: bb-admin/includes/functions.bb-admin.php:968
+#: bb-admin/includes/functions.bb-admin.php:1140
 msgid "Count voices of every topic"
 msgstr "Räkna röster i varje ämne"
 
-#: bb-admin/includes/functions.bb-admin.php:969
+#: bb-admin/includes/functions.bb-admin.php:1141
 msgid "Count deleted posts on every topic"
 msgstr "Räkna borttagna inlägg i varje ämne"
 
-#: bb-admin/includes/functions.bb-admin.php:970
-msgid "Count topics and posts in every forum (relies on the above)"
+#: bb-admin/includes/functions.bb-admin.php:1142
+#, fuzzy
+msgid "Count topics and posts in every forum"
 msgstr "Räkna ämnen och inlägg i varje forum (är beroende av det ovan)"
 
-#: bb-admin/includes/functions.bb-admin.php:971
+#: bb-admin/includes/functions.bb-admin.php:1143
 msgid "Count topics to which each user has replied"
 msgstr "Räkna ämnen som varje användare svarat på"
 
-#: bb-admin/includes/functions.bb-admin.php:972
+#: bb-admin/includes/functions.bb-admin.php:1144
 msgid "Count tags for every topic"
 msgstr "Räkna etikett för varje ämne"
 
-#: bb-admin/includes/functions.bb-admin.php:973
+#: bb-admin/includes/functions.bb-admin.php:1145
 msgid "Count topics for every tag"
 msgstr "Räkna ämnen för varje tag"
 
-#: bb-admin/includes/functions.bb-admin.php:974
-msgid "DELETE tags with no topics.  Only functions if the above checked"
-msgstr "TA BORT etiketter utan ämnen. Fungerar bara om det ovanstående är ikryssat"
+#: bb-admin/includes/functions.bb-admin.php:1146
+#, fuzzy
+msgid "Delete tags with no topics"
+msgstr "Etiketter utan ämnen borttagna."
 
-#: bb-admin/includes/functions.bb-admin.php:975
-msgid "REMOVE deleted topics from users' favorites"
-msgstr "TA BORT borttagna ämnen från användares favoriter"
+#: bb-admin/includes/functions.bb-admin.php:1147
+#, fuzzy
+msgid "Remove deleted topics from users' favorites"
+msgstr "Tar bort borttagna ämnen från användares favoriter&#8230;"
 
-#: bb-admin/includes/functions.bb-admin.php:1045
-#: bb-admin/includes/functions.bb-plugin.php:263
+#: bb-admin/includes/functions.bb-admin.php:1217
+#: bb-admin/includes/functions.bb-plugin.php:307
 msgid "Visit author homepage"
 msgstr "Besök författarens hemsida"
 
-#: bb-admin/includes/functions.bb-admin.php:1055
+#: bb-admin/includes/functions.bb-admin.php:1227
 msgid "Visit porter homepage"
 msgstr "Besök porterarhemsidan"
 
-#: bb-admin/includes/functions.bb-plugin.php:260
-msgid "Visit plugin homepage"
+#: bb-admin/includes/functions.bb-plugin.php:304
+#: bb-admin/plugins.php:228
+#, fuzzy
+msgid "Visit plugin site"
 msgstr "Besök tilläggshemsidan"
 
-#: bb-admin/includes/functions.bb-plugin.php:386
+#: bb-admin/includes/functions.bb-plugin.php:430
 msgid "Invalid plugin path."
 msgstr "Ogiltig tilläggssökväg."
 
-#: bb-admin/includes/functions.bb-plugin.php:390
+#: bb-admin/includes/functions.bb-plugin.php:434
 msgid "Plugin file does not exist."
 msgstr "Tilläggsfilen existerar inte."
 
-#: bb-admin/includes/functions.bb-plugin.php:393
+#: bb-admin/includes/functions.bb-plugin.php:437
 msgid "That type of plugin is not available in the specified location."
 msgstr "Den där typen av tillägg finns inte tillgänglig på den specifierade platsen."
 
+#: bb-admin/index.php:6
+#, php-format
+msgid "<span>%d</span> forum"
+msgid_plural "<span>%d</span> forums"
+msgstr[0] "<span>%d</span> forum"
+msgstr[1] "<span>%d</span> forum"
+
+#: bb-admin/index.php:9
+#: bb-admin/index.php:21
+#, php-format
+msgid "<span>%d</span> topic"
+msgid_plural "<span>%d</span> topics"
+msgstr[0] "<span>%d</span> ämne"
+msgstr[1] "<span>%d</span> ämnen"
+
+#: bb-admin/index.php:12
+#: bb-admin/index.php:24
+#, fuzzy, php-format
+msgid "<span>%d</span> post"
+msgid_plural "<span>%d</span> posts"
+msgstr[0] "<span>Ingen</span> <code>%s</code>"
+msgstr[1] "<span>Ingen</span> <code>%s</code>"
+
 #: bb-admin/index.php:15
+#: bb-admin/index.php:27
+#, fuzzy, php-format
+msgid "<span>%d</span> user"
+msgid_plural "<span>%d</span> users"
+msgstr[0] "<span>Ingen</span> <code>%s</code>"
+msgstr[1] "<span>Ingen</span> <code>%s</code>"
+
+#: bb-admin/index.php:18
+#: bb-admin/index.php:30
+#, php-format
+msgid "<span>%d</span> tag"
+msgid_plural "<span>%d</span> tags"
+msgstr[0] "<span>%d</span> etikett"
+msgstr[1] "<span>%d</span> etiketter"
+
+#: bb-admin/index.php:42
 msgid "Right Now"
 msgstr "Just nu"
 
-#: bb-admin/index.php:18
+#: bb-admin/index.php:47
+#, fuzzy
+msgid "Totals"
+msgstr "Verktyg"
+
+#: bb-admin/index.php:48
+msgid "Per Day"
+msgstr "Per Dag"
+
+#: bb-admin/index.php:77
+#, fuzzy
+msgid "Change Theme"
+msgstr "Hantera teman"
+
+#: bb-admin/index.php:77
+#, fuzzy, php-format
+msgid "Theme <a href=\"%1$s\">%2$s</a>"
+msgstr "Tillbaka till <a href=\"%s\">%s</a>."
+
+#: bb-admin/index.php:78
 #, php-format
-msgid "%d forum"
-msgid_plural "%d forums"
-msgstr[0] "%d forum"
-msgstr[1] "%d forum"
+msgid "You are using <span class=\"b\">bbPress %s</span>"
+msgstr "Du använder <span class=\"b\">bbPress %s</span>"
 
-#: bb-admin/index.php:20
-#, php-format
-msgid "is %d topic"
-msgid_plural "are %d topics"
-msgstr[0] "är %d ämne"
-msgstr[1] "är %d ämnen"
-
-#: bb-admin/index.php:24
-#: bb-admin/index.php:30
-#, php-format
-msgid "%d user"
-msgid_plural "%d users"
-msgstr[0] "%d användare"
-msgstr[1] "%d användare"
-
-#: bb-admin/index.php:32
-#, php-format
-msgid "You have %1$s. There %2$s with %3$s by %4$s."
-msgstr "Du har %1$s. Det %2$s med %3$s av %4$s."
-
-#: bb-admin/index.php:33
-#, php-format
-msgid "That's an average of %1$s, %2$s and %3$s per day since your forums were started %4$s ago."
-msgstr "Det är ett medel på %1$s, %2$s och %3$s per dag sedan dina forum startade för %4$s sedan."
-
-#: bb-admin/index.php:34
-#, php-format
-msgid "You are using the theme <a href=\"%1$s\">%2$s</a>. This is bbPress version %3$s"
-msgstr "Du använder temat <a href=\"%1$s\">%2$s</a>. Det här är bbPress version %3$s"
-
-#: bb-admin/index.php:39
-msgid "Recent User Registrations"
-msgstr "Senaste använderregistreringarna"
-
-#: bb-admin/index.php:45
-#, php-format
-msgid "registered %s ago"
-msgstr "registrerad för %s sedan"
-
-#: bb-admin/index.php:53
+#: bb-admin/index.php:83
 msgid "Recently Moderated Items"
 msgstr "Nyligen modererade ting"
 
-#: bb-admin/index.php:60
-#: bb-templates/kakumei/rss2.php:27
-msgid "on"
-msgstr "på"
+#: bb-admin/index.php:91
+#, fuzzy, php-format
+msgid "<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5$s</a>"
+msgstr "<a href=\"%1$s\">Registrera dig</a> eller logga in - <a href=\"%2$s\">Tappat lösenordet?</a>"
 
-#: bb-admin/index.php:62
-msgid "by"
-msgstr "av"
+#: bb-admin/index.php:104
+#, php-format
+msgid "Topic titled <a href=\"%1$s\">%2$s</a> started by <a href=\"%3$s\">%4$s</a>"
+msgstr "Ämne men namnet <a href=\"%1$s\">%2$s</a> startades av <a href=\"%3$s\">%4$s</a>"
 
-#: bb-admin/index.php:67
-msgid "Topic titled"
-msgstr "Ämne med namn"
-
-#: bb-admin/index.php:69
-msgid "started by"
-msgstr "startad av"
-
-#: bb-admin/index.php:76
+#: bb-admin/index.php:116
 msgid "No moderated posts or topics&#8230; you must have very well behaved members."
 msgstr "Inga modererade inlägg eller ämnen&#8230; du måste ha väldigt väluppfostrade medlemmar."
 
 #: bb-admin/install.php:167
-#: bb-admin/options-wordpress.php:194
+#: bb-admin/options-wordpress.php:197
 msgid "Cookies"
 msgstr "Cookies"
 
@@ -1773,7 +1668,7 @@ msgid "You may need to make changes to your WordPress configuration once install
 msgstr "Du kan behöva göra ändringar i din WordPress-konfiguration så snart installationnen är slutförd. Se \"WordPress-integration\"-sektionen i din bbPress-administrationspanel när du är klar."
 
 #: bb-admin/install.php:189
-#: bb-admin/options-wordpress.php:263
+#: bb-admin/options-wordpress.php:271
 msgid "User database"
 msgstr "Användardatabas"
 
@@ -1782,12 +1677,12 @@ msgid "Integrating your WordPress database user tables allows you to store user 
 msgstr "Att integrera dina WordPress-databasanvändartabeller gör så att du lagrar användardata på en plats, istället för att ha separat användardata för bbPress och WordPress."
 
 #: bb-admin/install.php:199
-#: bb-admin/options-wordpress.php:282
+#: bb-admin/options-wordpress.php:290
 msgid "Separate user database settings"
 msgstr "Inställningar för separat användardatabas"
 
 #: bb-admin/install.php:200
-#: bb-admin/options-wordpress.php:283
+#: bb-admin/options-wordpress.php:291
 msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
 msgstr "För det mesta behöver dessa inställningar <em>inte</em> ändras."
 
@@ -1796,7 +1691,7 @@ msgid "If required, then all settings except for the character set must be speci
 msgstr "Om nödvändiga, så måste alla inställningar förutom teckenkodningen specifieras."
 
 #: bb-admin/install.php:212
-#: bb-admin/options-wordpress.php:288
+#: bb-admin/options-wordpress.php:296
 msgid "Custom user tables"
 msgstr "Skräddarsydda användartabeller"
 
@@ -1820,6 +1715,7 @@ msgstr "<strong><em>Antecka lösenordet</em></strong> noggrannt! Det är ett <em
 #: bb-admin/options-general.php:31
 #: bb-admin/options-reading.php:28
 #: bb-admin/options-writing.php:33
+#: bb-plugins/akismet.php:147
 msgid "<strong>Settings saved.</strong>"
 msgstr "<strong>Inställningar sparade.</strong>"
 
@@ -1828,7 +1724,8 @@ msgid "Enable Pingbacks"
 msgstr "Aktivera pingbacks"
 
 #: bb-admin/options-discussion.php:46
-msgid "Allow link notifications from other blogs."
+#, fuzzy
+msgid "Allow link notifications from other sites."
 msgstr "Tillåt länknotifieringar från andra bloggar."
 
 #: bb-admin/options-discussion.php:55
@@ -1907,15 +1804,6 @@ msgstr "Avatarer"
 msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>. A Gravatar is an image that follows you from site to site, appearing beside your name when you comment on Gravatar enabled sites. Here you can enable the display of Gravatars on your site."
 msgstr "bbPress inkluderar inbyggt stöd för <a href=\"http://gravatar.com/\">Gravatarer</a>. En Gravatar är en bild som följer med dig från webbplats till webbplats och dyker upp bredvid ditt namn när du skriver på Gravataraktiverade webbplatser. Här kan du aktivera visning av Gravatarer på din egen webbplats."
 
-#: bb-admin/options-discussion.php:123
-#: bb-admin/options-general.php:240
-#: bb-admin/options-permalinks.php:164
-#: bb-admin/options-reading.php:61
-#: bb-admin/options-wordpress.php:295
-#: bb-admin/options-writing.php:78
-msgid "Save Changes"
-msgstr "Spara ändringar"
-
 #: bb-admin/options-general.php:36
 msgid "Site title"
 msgstr "Webbplatstitel"
@@ -1950,7 +1838,6 @@ msgid "Time zone"
 msgstr "Tidszon"
 
 #: bb-admin/options-general.php:116
-#: bb-includes/functions.bb-core.php:370
 msgid "hours"
 msgstr "timmar"
 
@@ -2125,9 +2012,9 @@ msgstr "Det här måste matcha värdet i Wordpress-inställningen \"secure_auth_
 msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
 msgstr "Det här måste matcha värdet i Wordpress-inställningen \"logged_in_salt\" i din WordPress-webbplats. Leta efter inställningen märkt \"logged_in_salt\" i <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">den här WordPress-administrationssidan</a>."
 
-#: bb-admin/options-wordpress.php:94
-#, php-format
-msgid "You have defined the \"%s\" constant which overides this setting."
+#: bb-admin/options-wordpress.php:93
+#, fuzzy, php-format
+msgid "You have defined the \"%s\" constant which locks this setting."
 msgstr "Du har definierat konstanten \"%s\" som kör över den här inställningen."
 
 #: bb-admin/options-wordpress.php:170
@@ -2146,78 +2033,65 @@ msgstr "Här kan du matcha WordPress-roller med bbPress-roller."
 msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
 msgstr "Det här kommer inte att ha någon effekt förrän dina användartabeller är integrerade nedan. Enbart WordPress-roller som är standard har stöd. Ändringar påverkar inte användare med existerande roller i både WordPress och bbPress."
 
-#: bb-admin/options-wordpress.php:183
-msgid "Save User Role Map"
-msgstr "Spara användarrollsmatchning"
-
-#: bb-admin/options-wordpress.php:187
+#: bb-admin/options-wordpress.php:190
 msgid "User Integration"
 msgstr "Användarintegration"
 
-#: bb-admin/options-wordpress.php:188
-msgid "Usually, you will have to specify both cookie sharing and user database sharing settings."
-msgstr "Vanligtvis måste du specifiera både cookiedelningsinställningar och användardatabasinställningar."
-
-#: bb-admin/options-wordpress.php:189
-msgid "Make sure you have a \"User role map\" setup above before trying to add user integration."
+#: bb-admin/options-wordpress.php:191
+#, fuzzy
+msgid "Usually, you will have to specify both cookie integration and user database integration settings. Make sure you have a \"User role map\" setup above before trying to add user integration."
 msgstr "Se till att du har en satt upp användarrollsmatchningen ovan innan du försöker lägga till användarintegration."
 
-#: bb-admin/options-wordpress.php:190
-msgid "<strong>Note:</strong> updating these settings may cause you to be logged out!"
+#: bb-admin/options-wordpress.php:192
+#, fuzzy
+msgid "<em><strong>Note:</strong> changing the settings below may cause you to be logged out!</em>"
 msgstr "<strong>Observera:</strong> att uppdatera dessa inställningar kan göra så att du loggas ut!"
 
-#: bb-admin/options-wordpress.php:195
+#: bb-admin/options-wordpress.php:198
 msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
 msgstr "Cookiedelning tillåter dina användare att logga in på antingen bbPress eller din WordPress-webbplats, och ha tillgång till båda."
 
-#: bb-admin/options-wordpress.php:240
-msgid "bbPress has automatically determined the best cookie settings for WordPress. In some cases integration may work without these settings, but if not add the following code to your <code>wp-config.php</code> file in the root directory of your WordPress installation."
-msgstr "bbPress har automagiskt fastställt de bästa cookieinställningarna för WordPress. I vissa fall kan integration fungera utan dessa inställningar, men om inte så lägg till den följande koden i din <code>wp-config.php</code>-fil i root-mappen hos din WordPress-installation."
-
 #: bb-admin/options-wordpress.php:242
+#, php-format
+msgid "To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
+msgstr "För att slutföra cookie-integrering, kommer du behöva göra några inställningar i din <code>wp-config.php</code> fil i rotbiblioteket av din wordpressinstallation. För att få tag i dessa inställningar behöver du installera och konfigurera \"<a href=\"%s\">\"bbPress Integration\" plugin for WordPress\"</a>."
+
+#: bb-admin/options-wordpress.php:243
 msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
 msgstr "Du kommer också få manuellt se till att följande konstanter är likadana i WordPress och bbPress respektive konfigurationsfiler."
 
-#: bb-admin/options-wordpress.php:245
-msgid "WordPress (wp-config.php)"
-msgstr "WordPress (wp-config.php)"
+#: bb-admin/options-wordpress.php:247
+#, fuzzy
+msgid "WordPress"
+msgstr "WordPress-redaktör"
 
-#: bb-admin/options-wordpress.php:246
-msgid "bbPress (bb-config.php)"
-msgstr "bbPress (bb-config.php)"
-
-#: bb-admin/options-wordpress.php:264
+#: bb-admin/options-wordpress.php:272
 msgid "User database sharing allows you to store user data in your WordPress database."
 msgstr "Användardatabasdelning tillåter dig att lagra användardata i din WordPress-databas."
 
-#: bb-admin/options-wordpress.php:265
+#: bb-admin/options-wordpress.php:273
 msgid "You should setup a \"User role map\" before"
 msgstr "Du måste sätta upp användarrollsmatchning innan"
 
-#: bb-admin/options-wordpress.php:284
+#: bb-admin/options-wordpress.php:292
 msgid "All settings except for the character set must be specified."
 msgstr "Alla inställningar utom teckenkodning (character set) måste specifieras."
 
-#: bb-admin/options-wordpress.php:289
+#: bb-admin/options-wordpress.php:297
 msgid "Only set these values if your user tables differ from the default WordPress naming convention."
 msgstr "Fyll i dessa värden enbart om dina användartabeller skiljer sig från WordPress standardnamnkonvention."
-
-#: bb-admin/options-wordpress.php:299
-msgid "Manual bbPress config file settings"
-msgstr "Manuella bbPresskonfigurationsfilinställningar"
-
-#: bb-admin/options-wordpress.php:348
-msgid "If your integration settings will not change, you can help speed up bbPress by adding the following code to your <code>bb-config.php</code> file in the root directory of your bbPress installation. Afterwards, the settings in this form will reflect the hard coded values, but you will not be able to edit them here."
-msgstr "Om dina integrationsinställningar inte kommer att förändras, så kan du snabba upp bbPress genom att lägga till den följande koden till din <code>bb-config.php</code>-fil i root-mappen för din bbPress-installation. Efteråt kommer inställningarna i det här formuläret matcha de hårdkodade värdena, men du kommer inte kunna ändra dem här."
 
 #: bb-admin/options-writing.php:38
 msgid "Lock post editing after"
 msgstr "Lås inläggsredigering efter"
 
 #: bb-admin/options-writing.php:40
-#: bb-includes/functions.bb-core.php:371
 msgid "minutes"
 msgstr "minuter"
+
+#: bb-admin/options-writing.php:41
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr "En användare kan redigera ett inlägg i så här många minuter efter postning."
 
 #: bb-admin/options-writing.php:47
 msgid "XML-RPC"
@@ -2239,101 +2113,143 @@ msgstr "Fjärrpublicering"
 msgid "To interact with bbPress from a desktop client or remote website that uses the XML-RPC publishing interface you must enable it below."
 msgstr "För att interagera med bbPress från en skrivbordsklient eller annan webbplats som använder XML-RPC-publiceringsgränssnittet måste du aktivera det nedan."
 
-#: bb-admin/plugins.php:87
+#: bb-admin/plugins.php:121
 msgid "<strong>Plugin could not be activated, it produced a Fatal Error</strong>. The error is shown below."
 msgstr "<strong>Tillägget kunde inte aktiveras, det skapade ett Fatal Error</strong>. Felet visas nedan."
 
-#: bb-admin/plugins.php:91
+#: bb-admin/plugins.php:125
 #, php-format
 msgid "<strong>\"%s\" plugin activated</strong>"
 msgstr "<strong>Tillägget \"%s\" aktiverat</strong>"
 
-#: bb-admin/plugins.php:95
+#: bb-admin/plugins.php:129
 #, php-format
 msgid "<strong>\"%s\" plugin deactivated</strong>"
 msgstr "<strong>Tillägget \"%s\" avaktiverad</strong>"
 
-#: bb-admin/plugins.php:101
+#: bb-admin/plugins.php:135
 msgid "<strong>\"Safe mode\" is on, all plugins are disabled even if they are listed as active.</strong>"
 msgstr "<strong>\"Säkert läge\" är på, alla tillägg är avaktiverade även om de står som aktiva.</strong>"
 
-#: bb-admin/plugins.php:134
+#: bb-admin/plugins.php:145
 msgid "Manage Plugins"
 msgstr "Hantera tillägg"
 
-#: bb-admin/plugins.php:137
-msgid "Plugins extend and expand the functionality of bbPress. Once a plugin is installed, you may activate it or deactivate it here."
-msgstr "Tillägg expanderar bbPress funktionalitet. När en plugin är installerad kan du aktivera eller avaktivera den här."
+#: bb-admin/plugins.php:172
+#, php-format
+msgid "All <span class=\"count\">(%d)</span>"
+msgstr "Alla <span class=\"count\">(%d)</span>"
 
-#: bb-admin/plugins.php:146
-#: bb-admin/plugins.php:211
+#: bb-admin/plugins.php:173
+#, php-format
+msgid "Active <span class=\"count\">(%d)</span>"
+msgstr "Aktiva <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:174
+#, php-format
+msgid "Inactive <span class=\"count\">(%d)</span>"
+msgstr "Inaktiva <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:175
+#, php-format
+msgid "Autoloaded <span class=\"count\">(%d)</span>"
+msgstr "Automatladdade <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:185
+#: bb-admin/plugins.php:191
 msgid "Plugin"
 msgstr "Tillägg"
 
-#: bb-admin/plugins.php:147
-#: bb-admin/plugins.php:212
-msgid "Version"
-msgstr "Version"
-
-#: bb-admin/plugins.php:148
-#: bb-admin/plugins.php:213
-msgid "Description"
-msgstr "Beskrivning"
-
-#: bb-admin/plugins.php:149
-msgid "Action"
-msgstr "Åtgärd"
-
-#: bb-admin/plugins.php:159
+#: bb-admin/plugins.php:202
+#: bb-admin/themes.php:96
 msgid "Activate"
 msgstr "Aktivera"
 
-#: bb-admin/plugins.php:164
+#: bb-admin/plugins.php:209
 msgid "Deactivate"
 msgstr "Avaktivera"
 
-#: bb-admin/plugins.php:186
-#: bb-admin/plugins.php:231
-#, php-format
-msgid "By %s."
+#: bb-admin/plugins.php:227
+#, fuzzy, php-format
+msgid "By %s"
 msgstr "Av %s."
 
-#: bb-admin/plugins.php:206
-msgid "Automatically loaded plugins"
-msgstr "Automatiskt laddade tillägg"
+#: bb-admin/plugins.php:239
+msgid "Autoloaded"
+msgstr "Automatladdade"
 
-#: bb-admin/plugins.php:257
-msgid "If something goes wrong with a plugin and you can't use bbPress, delete or rename that file in the <code>my-plugins</code> directory and it will be automatically deactivated."
-msgstr "Om något går snett med ett tillägg och du inte kan använda bbPress, ta bort eller byt namn på den filen i <code>my-plugins</code>-mappen och den deaktiveras automatiskt."
+#: bb-admin/plugins.php:258
+#, fuzzy
+msgid "No plugins found."
+msgstr "Inga ämnen hittade, försök med något annat!"
 
-#: bb-admin/plugins.php:263
-msgid "No Plugins Installed"
-msgstr "Inga tillägg installerade"
+#: bb-admin/posts.php:7
+#, fuzzy
+msgid "<strong>Post undeleted.</strong>"
+msgstr "<strong>Forum uppdaterat.</strong>"
 
-#: bb-admin/plugins.php:269
-msgid "Get More Plugins"
-msgstr "Hämta fler tillägg"
+#: bb-admin/posts.php:10
+#, fuzzy
+msgid "<strong>Post deleted.</strong>"
+msgstr "<strong>Forum uppdaterat.</strong>"
 
-#: bb-admin/plugins.php:271
+#: bb-admin/posts.php:13
+#, fuzzy
+msgid "<strong>Post spammed.</strong>"
+msgstr "<strong>Forum uppdaterat.</strong>"
+
+#: bb-admin/posts.php:16
+msgid "<strong>Post removed from spam.</strong> It is now a normal post."
+msgstr "<strong>Inlägget borttaget från spam.</strong> Det är nu ett vanligt inlägg."
+
+#: bb-admin/posts.php:19
+msgid "<strong>Post removed from spam.</strong> It is now a deleted post."
+msgstr "<strong>Inlägget borttaget från spam.</strong> Det är nu raderat."
+
+#: bb-admin/posts.php:36
+#: bb-admin/topics.php:26
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Hur kom du hit? Och vad tror du att du håller på med?"
+
+#: bb-admin/posts.php:55
+#: bb-admin/topics.php:49
 #, php-format
-msgid "You can find additional plugins for your site in the <a href=\"%s\">bbPress plugin directory</a>."
-msgstr "Du kan hitta fler tillägg för din webbplats i <a href=\"%s\">bbPress tilläggskatalog</a>."
+msgid "in &#8220;%s&#8221;"
+msgstr "i &#8220;%s&#8221;"
 
-#: bb-admin/plugins.php:273
-msgid "To install a plugin you generally just need to upload the plugin file into your <code>my-plugins</code> directory. Once a plugin is uploaded, you may activate it here."
-msgstr "För att installera ett tillägg behöver du vanligtvis bara ladda upp tilläggsfilen till din <code>my-plugins</code>-mapp. När ett tillägg är uppladdat, kan du aktivera det här."
+#: bb-admin/posts.php:56
+#: bb-admin/topics.php:50
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "med etiketten &#8220;%s&#8221;"
 
-#: bb-admin/site.php:14
-msgid "The following checkboxes allow you to recalculate various numbers stored in the database. These numbers are used for things like counting the number of pages worth of posts a particular topic has.  You shouldn't need to do do any of this unless you're upgrading from one version to another or are seeing pagination oddities."
-msgstr "De följande kryssrutorna låter dig omkalkylera diverse nummer lagrade i databasen. Dessa nummer används för saker som att räkna antalet sidor ett ämne har. Du borde inte behöva göra något av det här såvida du inte uppgraderar från en version till en annan eller stöter på underligheter med sidnumreringen."
+#: bb-admin/posts.php:57
+#: bb-admin/topics.php:51
+#, php-format
+msgid "by %s"
+msgstr "av %s"
 
-#: bb-admin/site.php:18
-msgid "Choose items to recalculate"
-msgstr "Välj nummer att räkna om"
+#: bb-admin/posts.php:61
+#, fuzzy, php-format
+msgid "from IP address %s"
+msgstr "Från-e-postadress"
 
-#: bb-admin/site.php:24
-msgid "Count!"
-msgstr "Räkna!"
+#: bb-admin/posts.php:69
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: bb-admin/posts.php:94
+#: bb-admin/topics.php:81
+#, fuzzy
+msgid "&laquo;"
+msgstr "Spara &raquo;"
+
+#: bb-admin/posts.php:95
+#: bb-admin/topics.php:82
+#, fuzzy
+msgid "&raquo;"
+msgstr "Spara &raquo;"
 
 #: bb-admin/tag-destroy.php:5
 #: bb-admin/tag-merge.php:5
@@ -2425,41 +2341,117 @@ msgstr "<strong>Standardtemat saknas.</strong>"
 msgid "<strong>Theme not found.  Default theme applied.</strong>"
 msgstr "<strong>Temat hittades inte. Standardtemat aktiverat.</strong>"
 
-#: bb-admin/themes.php:59
-#: bb-admin/themes.php:61
-msgid "Click to activate"
-msgstr "Tryck för att aktivera"
-
 #: bb-admin/themes.php:63
-#, php-format
-msgid "by <cite>%s</cite>"
+#: bb-admin/themes.php:96
+#, fuzzy, php-format
+msgid "Activate \"%s\""
+msgstr "Aktivera"
+
+#: bb-admin/themes.php:68
+#, fuzzy, php-format
+msgid "%1$s %2$s by <cite>%3$s</cite>"
 msgstr "av <cite>%s</cite>"
 
-#: bb-admin/themes.php:63
-#, php-format
-msgid ", ported by <cite>%s</cite>"
+#: bb-admin/themes.php:82
+#, fuzzy, php-format
+msgid "Ported by <cite>%s</cite>"
 msgstr ", portat av <cite>%s</cite>"
 
-#: bb-admin/themes.php:65
+#: bb-admin/themes.php:101
 #, php-format
 msgid "All of this theme's files are located in the \"%s\" themes directory."
 msgstr "Alla filer som tillhör detta tema finns i \"%s\"."
 
-#: bb-admin/themes.php:72
+#: bb-admin/themes.php:112
 msgid "<strong>\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below.</strong>"
 msgstr "<strong>\"Säkert läge\" är på, standardtemat kommer att användas istället för det aktiva temat indikerat nedan.</strong>"
 
-#: bb-admin/themes.php:82
+#: bb-admin/themes.php:120
 msgid "Manage Themes"
 msgstr "Hantera teman"
 
-#: bb-admin/themes.php:85
+#: bb-admin/themes.php:123
 msgid "Current Theme"
 msgstr "Nuvarande tema"
 
-#: bb-admin/themes.php:92
+#: bb-admin/themes.php:132
 msgid "Available Themes"
 msgstr "Tillgängliga teman"
+
+#: bb-admin/tools-recount.php:10
+#, fuzzy
+msgid "Counted posts"
+msgstr "Räknar inlägg&#8230;"
+
+#: bb-admin/tools-recount.php:21
+#, fuzzy
+msgid "Counted voices"
+msgstr "Räknar röster&#8230;"
+
+#: bb-admin/tools-recount.php:37
+msgid "Counting deleted posts&#8230;"
+msgstr "Räknar borttagna inlägg&#8230;"
+
+#: bb-admin/tools-recount.php:47
+#, fuzzy
+msgid "&#8230;counted deleted posts"
+msgstr "Borttagna inlägg räknade."
+
+#: bb-admin/tools-recount.php:49
+#, fuzzy
+msgid "&#8230;no deleted posts to count"
+msgstr "Inga borttagna inlägg att räkna."
+
+#: bb-admin/tools-recount.php:55
+#, fuzzy
+msgid "Counted forum topics and posts"
+msgstr "Räknar forumämnen och inlägg&#8230;"
+
+#: bb-admin/tools-recount.php:72
+#, fuzzy
+msgid "Counted topics to which each user has replied"
+msgstr "Räkna ämnen som varje användare svarat på"
+
+#: bb-admin/tools-recount.php:87
+#, fuzzy
+msgid "Counted topic tags"
+msgstr "Räknar ämnes-etiketter&#8230;"
+
+#: bb-admin/tools-recount.php:106
+#, fuzzy
+msgid "Counted tagged topics"
+msgstr "Räknar ämnen med etiketter&#8230;"
+
+#: bb-admin/tools-recount.php:125
+#, fuzzy
+msgid "Deleted tags with no topics"
+msgstr "Etiketter utan ämnen borttagna."
+
+#: bb-admin/tools-recount.php:142
+#, fuzzy
+msgid "Removed deleted topics from users' favorites"
+msgstr "Tar bort borttagna ämnen från användares favoriter&#8230;"
+
+#: bb-admin/tools-recount.php:179
+msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
+msgstr "För att minimera antalet databasfrågor håller bbPress räkning på ett antal saker, såsom antalet inlägg i ett visst ämne och antalet ämnen i ett viss forum. Ibland kan dessa interna räknare bli fel, du kan manuellt räkna om detta genom att använda detta forumlär."
+
+#: bb-admin/tools-recount.php:180
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr "Du kan också städa bort sånt som inte används här, såsom tomma etiketter."
+
+#: bb-admin/tools-recount.php:187
+msgid "Items to re-count"
+msgstr "Poster att räkna om"
+
+#: bb-admin/tools-recount.php:200
+msgid "There are no re-count tools available."
+msgstr "Det finns inga verktyg om omräkning tillgängliga."
+
+#: bb-admin/tools-recount.php:207
+#, fuzzy
+msgid "Recount Items"
+msgstr "Omräkning"
 
 #: bb-admin/topic-move.php:8
 msgid "Invalid topic or forum."
@@ -2469,12 +2461,74 @@ msgstr "Ogiltigt ämne eller forum."
 msgid "Your topic or forum caused all manner of confusion"
 msgstr "Ditt ämne eller forum orsakade massor av förvirring"
 
+#: bb-admin/topics.php:7
+#, fuzzy
+msgid "<strong>Topic undeleted.</strong>"
+msgstr "<strong>Forum uppdaterat.</strong>"
+
+#: bb-admin/topics.php:10
+#, fuzzy
+msgid "<strong>Topic deleted.</strong>"
+msgstr "<strong>Forum uppdaterat.</strong>"
+
+#: bb-admin/topics.php:13
+#, fuzzy
+msgid "<strong>Topic opened.</strong>"
+msgstr "<strong>Forum uppdaterat.</strong>"
+
+#: bb-admin/topics.php:16
+#, fuzzy
+msgid "<strong>Topic closed.</strong>"
+msgstr "<strong>Inställningar sparade.</strong>"
+
+#: bb-admin/topics.php:56
+#, fuzzy, php-format
+msgid "%1$s%2$s%3$s%4$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: bb-admin/topics.php:94
+#: xmlrpc.php:1369
+#: xmlrpc.php:2761
+#: xmlrpc.php:3072
+msgid "No topics found."
+msgstr "Inga ämnen hittade, försök med något annat!"
+
+#: bb-admin/topics.php:105
+#: bb-admin/topics.php:114
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:13
+#: bb-templates/kakumei/front-page.php:21
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:13
+msgid "Freshness"
+msgstr "Senaste inlägget"
+
+#: bb-admin/topics.php:127
+msgid "Close"
+msgstr "Lås"
+
+#: bb-admin/topics.php:127
+#, fuzzy
+msgctxt "action"
+msgid "Open"
+msgstr "Öppen"
+
+#: bb-admin/topics.php:128
+#: bb-includes/functions.bb-template.php:2057
+msgid "Undelete"
+msgstr "Äterställ"
+
+#: bb-admin/topics.php:148
+#, php-format
+msgid "Last post by %s"
+msgstr "Senaste inlägg av %s"
+
 #: bb-admin/upgrade.php:49
 msgid "Beginning upgrade&hellip;"
 msgstr "Påbörjar uppgradering&hellip;"
 
 #: bb-admin/upgrade.php:53
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:598
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:600
 msgid "Done"
 msgstr "Klar"
 
@@ -2542,99 +2596,79 @@ msgstr "Fellogg"
 msgid "Try again"
 msgstr "Försök igen"
 
-#: bb-admin/users-blocked.php:15
-msgid "These users have been blocked by the forum administrators"
-msgstr "Dessa användare har blockerats av forumets administratörer"
-
-#: bb-admin/users-moderators.php:15
-msgid "Forum Administrators"
-msgstr "Forumadministratörer"
-
-#: bb-admin/view-ip.php:18
-msgid "IP Information"
-msgstr "IP-information"
-
-#: bb-admin/view-ip.php:21
-msgid "Last 30 posts"
-msgstr "Senaste 30 inläggen"
-
-#: bb-admin/view-ip.php:41
-msgid "Posted:"
-msgstr "Postat:"
-
 #: bb-edit.php:16
 msgid "Sorry, post is too old."
 msgstr "Ledsen, inlägget är för gammalt."
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:315
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:317
 msgid "Passed variable is not a BackPress database object."
 msgstr "Den skickade variabeln är inte ett BackPressdatabasobjekt."
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:319
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:321
 msgid "No schema available."
 msgstr "Inget schema tillgängligt."
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:385
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:387
 msgid "Creating table"
 msgstr "Skapar tabell"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:414
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:416
 #, php-format
 msgid "Adding column: %s"
 msgstr "Lägger till kolumn: %s"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:432
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:434
 #, php-format
 msgid "Setting default on column: %s"
 msgstr "Sätter default i kolumn: %s"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:447
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:449
 #, php-format
 msgid "Changing column: %s"
 msgstr "Ändrar kolumn: %s"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:489
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:512
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:491
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:514
 #, php-format
 msgid "Adding index: %s"
 msgstr "Lägger till index: %s"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:505
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:507
 #, php-format
 msgid "Dropping index: %s"
 msgstr "Droppar index: %s"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:533
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:535
 msgid "Inserting data"
 msgstr "Lägger in data"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:546
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:548
 msgid "Updating data"
 msgstr "Uppdaterar data"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:564
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:566
 #, php-format
 msgid "Modifying database: %s (%s)"
 msgstr "Modiferar databas: %s (%s)"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:568
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:570
 #, php-format
 msgid "Table: %s"
 msgstr "Tabell: %s"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:580
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:582
 msgid "Skipped"
 msgstr "Skippad"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:592
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:594
 msgid "SQL ERROR! See the error log for more detail"
 msgstr "SQL-FEL! Se felloggen för mera detaljer"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:593
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:595
 msgid "SQL ERROR!"
 msgstr "SQL-FEL!"
 
-#: bb-includes/backpress/class.bp-sql-schema-parser.php:594
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:596
 #, php-format
 msgid "Database: %s (%s)"
 msgstr "Databas: %s (%s)"
@@ -2717,7 +2751,7 @@ msgid "Nicename already exists"
 msgstr "Snyggnamn existerar redan"
 
 #: bb-includes/backpress/class.wp-users.php:65
-#: bb-includes/functions.bb-pluggable.php:577
+#: bb-includes/functions.bb-pluggable.php:583
 #: profile-edit.php:62
 msgid "Invalid email address"
 msgstr "Ogiltig e-postadress"
@@ -2760,6 +2794,19 @@ msgstr "Manuella avsteg"
 #: bb-includes/backpress/functions.core.php:1140
 msgid "BackPress &rsaquo; Error"
 msgstr "BackPress &rsaquo; Fel"
+
+#. translators: opening curly quote
+#: bb-includes/backpress/functions.formatting.php:46
+#, fuzzy
+msgctxt "opening curly quote"
+msgid "&#8220;"
+msgstr "Etikett&#8230;"
+
+#. translators: closing curly quote
+#: bb-includes/backpress/functions.formatting.php:48
+msgctxt "closing curly quote"
+msgid "&#8221;"
+msgstr "&#8221;"
 
 #: bb-includes/backpress/functions.wp-cron.php:301
 msgid "Once Hourly"
@@ -3047,14 +3094,6 @@ msgstr "H:i"
 msgid "Search &#187;"
 msgstr "Sök  &#187;"
 
-#: bb-includes/class.bb-query.php:936
-msgid "Search term"
-msgstr "Sökterm"
-
-#: bb-includes/class.bb-query.php:942
-msgid "Forum"
-msgstr "Forum"
-
 #: bb-includes/class.bb-query.php:943
 msgid "Any"
 msgstr "Vilka som helst"
@@ -3064,31 +3103,58 @@ msgid "Tag"
 msgstr "Etikett"
 
 #: bb-includes/class.bb-query.php:956
-msgid "Topic Author"
+#, fuzzy
+msgid "Topic author"
 msgstr "Ämnets författare"
 
 #: bb-includes/class.bb-query.php:963
-msgid "Post Author"
+#, fuzzy
+msgid "Post author"
 msgstr "Inläggsförfattare"
 
 #: bb-includes/class.bb-query.php:968
-#: bb-includes/class.bb-query.php:995
+#: bb-includes/class.bb-query.php:1001
 msgid "All"
 msgstr "Alla"
 
+#: bb-includes/class.bb-query.php:968
+msgid "Normal"
+msgstr "Normal"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Deleted"
+msgstr "Borttagna"
+
 #: bb-includes/class.bb-query.php:971
-msgid "Topic Status"
+#, fuzzy
+msgid "Topic status"
 msgstr "Status för ämne"
 
 #: bb-includes/class.bb-query.php:982
-msgid "Post Status"
+#, fuzzy
+msgid "Post status"
 msgstr "Inläggsstatus"
 
 #: bb-includes/class.bb-query.php:993
+#, fuzzy
+msgid "Poster IP address"
+msgstr "Webbplatsadress:"
+
+#: bb-includes/class.bb-query.php:999
 msgid "Open?"
 msgstr "Öppen?"
 
-#: bb-includes/class.bb-query.php:1006
+#: bb-includes/class.bb-query.php:1001
+#, fuzzy
+msgctxt "posting status"
+msgid "Open"
+msgstr "Öppen"
+
+#: bb-includes/class.bb-query.php:1001
+msgid "Closed"
+msgstr "Låst"
+
+#: bb-includes/class.bb-query.php:1012
 #: bb-templates/kakumei/post-form.php:3
 msgid "Title"
 msgstr "Rubrik"
@@ -3117,16 +3183,22 @@ msgstr "Medlem"
 msgid "Inactive"
 msgstr "Inaktiv"
 
+#: bb-includes/functions.bb-capabilities.php:185
+msgid "Blocked"
+msgstr "Blockerade"
+
 #: bb-includes/functions.bb-core.php:26
 #, php-format
 msgid "Using deprecated bbPress %1$s - %2$s - replace with - %3$s"
 msgstr "Använder deprekerade bbPress %1$s - %2$s - ersätt med - %3$s"
 
 #: bb-includes/functions.bb-core.php:216
+#: bb-includes/functions.bb-template.php:1288
 msgid "&laquo; Previous"
 msgstr "&laquo; Föregående"
 
 #: bb-includes/functions.bb-core.php:217
+#: bb-includes/functions.bb-template.php:1289
 msgid "Next &raquo;"
 msgstr "Nästa &raquo;"
 
@@ -3192,197 +3264,187 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekund"
 msgstr[1] "%d sekunder"
 
-#: bb-includes/functions.bb-core.php:386
-#, php-format
-msgid "%1$d %2$s"
-msgstr "%1$d %2$s"
-
-#: bb-includes/functions.bb-core.php:393
-#, php-format
-msgid ", %1$d %2$s"
-msgstr ", %1$d %2$s"
-
-#: bb-includes/functions.bb-core.php:705
+#: bb-includes/functions.bb-core.php:711
 msgid "User not found."
 msgstr "Användaren hittades inte."
 
-#: bb-includes/functions.bb-core.php:778
+#: bb-includes/functions.bb-core.php:784
 msgid "REQUEST_URI"
 msgstr "REQUEST_URI"
 
-#: bb-includes/functions.bb-core.php:779
+#: bb-includes/functions.bb-core.php:785
 msgid "should be"
 msgstr "borde vara"
 
-#: bb-includes/functions.bb-core.php:780
+#: bb-includes/functions.bb-core.php:786
 msgid "full permalink"
 msgstr "full permalänk"
 
-#: bb-includes/functions.bb-core.php:781
+#: bb-includes/functions.bb-core.php:787
 msgid "PATH_INFO"
 msgstr "PATH_INFO"
 
-#: bb-includes/functions.bb-core.php:806
+#: bb-includes/functions.bb-core.php:812
 #: bb-templates/kakumei/favorites.php:3
 msgid "Favorites"
 msgstr "Favoriter"
 
-#: bb-includes/functions.bb-core.php:856
+#: bb-includes/functions.bb-core.php:862
 msgid "First name"
 msgstr "Förnamn"
 
-#: bb-includes/functions.bb-core.php:857
+#: bb-includes/functions.bb-core.php:863
 msgid "Last name"
 msgstr "Efternamn"
 
-#: bb-includes/functions.bb-core.php:858
+#: bb-includes/functions.bb-core.php:864
 msgid "Display name as"
 msgstr "Visa namn som"
 
-#: bb-includes/functions.bb-core.php:860
+#: bb-includes/functions.bb-core.php:865
+msgid "Email"
+msgstr "E-post"
+
+#: bb-includes/functions.bb-core.php:866
 msgid "Website"
 msgstr "Webbplats"
 
-#: bb-includes/functions.bb-core.php:861
+#: bb-includes/functions.bb-core.php:867
 msgid "Location"
 msgstr "Plats"
 
-#: bb-includes/functions.bb-core.php:862
+#: bb-includes/functions.bb-core.php:868
 msgid "Occupation"
 msgstr "Yrke"
 
-#: bb-includes/functions.bb-core.php:863
+#: bb-includes/functions.bb-core.php:869
 msgid "Interests"
 msgstr "Intressen"
 
-#: bb-includes/functions.bb-core.php:870
+#: bb-includes/functions.bb-core.php:876
 msgid "Custom Title"
 msgstr "Skräddarsydd titel"
 
-#: bb-includes/functions.bb-core.php:877
+#: bb-includes/functions.bb-core.php:883
 #, php-format
 msgid "Ignore the %d second post throttling limit"
 msgstr "Ignorera postbegränsningen på %d sekunder"
 
-#: bb-includes/functions.bb-core.php:954
+#: bb-includes/functions.bb-core.php:960
 msgid "Topics with no replies"
 msgstr "Ämnen utan svar"
 
-#: bb-includes/functions.bb-core.php:955
+#: bb-includes/functions.bb-core.php:961
 msgid "Topics with no tags"
 msgstr "Ämnen utan etiketter"
 
-#: bb-includes/functions.bb-core.php:1063
+#: bb-includes/functions.bb-core.php:1069
 msgid "bbPress Failure Notice"
 msgstr "bbPress-misslyckandenotis"
 
-#: bb-includes/functions.bb-core.php:1066
+#: bb-includes/functions.bb-core.php:1072
 msgid "Please try again."
 msgstr "Försök igen."
 
-#: bb-includes/functions.bb-core.php:1076
-msgid "bbPress"
-msgstr "bbPress"
-
-#: bb-includes/functions.bb-core.php:1177
+#: bb-includes/functions.bb-core.php:1183
 #, php-format
 msgid "Back to <a href=\"%s\">%s</a>."
 msgstr "Tillbaka till <a href=\"%s\">%s</a>."
 
-#: bb-includes/functions.bb-core.php:1190
+#: bb-includes/functions.bb-core.php:1196
 msgid "Your attempt to submit this post has failed."
 msgstr "Ditt försök att skicka det här inlägget har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1191
+#: bb-includes/functions.bb-core.php:1197
 msgid "Your attempt to edit this post has failed."
 msgstr "Ditt försök att redigera det här inlägget har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1192
+#: bb-includes/functions.bb-core.php:1198
 msgid "Your attempt to delete this post has failed."
 msgstr "Ditt försök att ta bort det här inlägget har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1194
+#: bb-includes/functions.bb-core.php:1200
 msgid "Your attempt to create this topic has failed."
 msgstr "Ditt försök att skapa detta ämne har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1195
+#: bb-includes/functions.bb-core.php:1201
 msgid "Your attempt to change the resolution status of this topic has failed."
 msgstr "Ditt försök att ändra resolutionsstatus på detta ämne har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1196
+#: bb-includes/functions.bb-core.php:1202
 msgid "Your attempt to delete this topic has failed."
 msgstr "Ditt försök att ta bort detta ämne har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1197
+#: bb-includes/functions.bb-core.php:1203
 msgid "Your attempt to change the status of this topic has failed."
 msgstr "Ditt försök att ändra status på detta ämne har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1198
+#: bb-includes/functions.bb-core.php:1204
 msgid "Your attempt to change the sticky status of this topic has failed."
 msgstr "Ditt försök att ändra klisterstatus på detta ämne har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1199
+#: bb-includes/functions.bb-core.php:1205
 msgid "Your attempt to move this topic has failed."
 msgstr "Ditt försök att flytta detta ämne har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1201
+#: bb-includes/functions.bb-core.php:1207
 msgid "Your attempt to add this tag to this topic has failed."
 msgstr "Ditt försök att lägga till den här etiketten till detta ämne har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1202
+#: bb-includes/functions.bb-core.php:1208
 msgid "Your attempt to rename this tag has failed."
 msgstr "Ditt försök att byta namn på den här etiketten har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1203
+#: bb-includes/functions.bb-core.php:1209
 msgid "Your attempt to submit these tags has failed."
 msgstr "Ditt försök att byta namn på dessa etiketter har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1204
+#: bb-includes/functions.bb-core.php:1210
 msgid "Your attempt to destroy this tag has failed."
 msgstr "Ditt försök att förgöra den här etiketten har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1205
+#: bb-includes/functions.bb-core.php:1211
 msgid "Your attempt to remove this tag from this topic has failed."
 msgstr "Ditt försök att ta bort den här etiketten från detta ämne har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1207
+#: bb-includes/functions.bb-core.php:1213
 msgid "Your attempt to toggle your favorite status for this topic has failed."
 msgstr "Ditt försök att ändra din favoritstatus för detta ämne en har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1209
+#: bb-includes/functions.bb-core.php:1215
 msgid "Your attempt to edit this user's profile has failed."
 msgstr "Ditt försök att redigera den här användarens profil har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1211
+#: bb-includes/functions.bb-core.php:1217
 msgid "Your attempt to add this forum has failed."
 msgstr "Ditt försök att lägga till detta forum har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1212
+#: bb-includes/functions.bb-core.php:1218
 msgid "Your attempt to update your forums has failed."
 msgstr "Ditt försök att uppdatera dina forum har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1213
+#: bb-includes/functions.bb-core.php:1219
 msgid "Your attempt to delete that forum has failed."
 msgstr "Ditt försök att ta bort det där forumet har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1215
+#: bb-includes/functions.bb-core.php:1221
 msgid "Your attempt to recount these items has failed."
 msgstr "Ditt försök att räkna om dessa saker har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1217
+#: bb-includes/functions.bb-core.php:1223
 msgid "Your attempt to switch themes has failed."
 msgstr "Ditt försök att byta tema har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1232
+#: bb-includes/functions.bb-core.php:1238
 msgid "Your attempt to do this has failed."
 msgstr "Ditt försök att gör såhär har misslyckats."
 
-#: bb-includes/functions.bb-core.php:1424
-#: bb-includes/functions.bb-core.php:1503
+#: bb-includes/functions.bb-core.php:1449
+#: bb-includes/functions.bb-core.php:1582
 msgid "Your search term was too short"
 msgstr "Din sökterm var för kort"
 
-#: bb-includes/functions.bb-core.php:1470
+#: bb-includes/functions.bb-core.php:1529
 msgid "Your query parameters are invalid"
 msgstr "Dina sökparametrar är ogiltiga"
 
@@ -3397,12 +3459,12 @@ msgstr "(klistrad) %s"
 msgid "[closed] %s"
 msgstr "(låst) %s"
 
-#: bb-includes/functions.bb-meta.php:319
+#: bb-includes/functions.bb-meta.php:334
 msgid "Please give me a name!"
 msgstr "Ge mig ett namn!"
 
-#: bb-includes/functions.bb-pluggable.php:580
-#: bb-includes/functions.bb-pluggable.php:589
+#: bb-includes/functions.bb-pluggable.php:586
+#: bb-includes/functions.bb-pluggable.php:595
 msgid "Invalid username"
 msgstr "Ogiltigt användarnamn"
 
@@ -3419,11 +3481,13 @@ msgid "drag"
 msgstr "dra"
 
 #: bb-includes/functions.bb-script-loader.php:23
-msgid "Save Forum Order &#187;"
+#, fuzzy
+msgid "Save Forum Order"
 msgstr "Spara forumordning &#187;"
 
 #: bb-includes/functions.bb-script-loader.php:24
-msgid "Edit Forum Order &#187;"
+#, fuzzy
+msgid "Edit Forum Order"
 msgstr "Redigera forumordning &#187;"
 
 #: bb-includes/functions.bb-script-loader.php:34
@@ -3476,12 +3540,12 @@ msgid "%favAdd% (%favLinkNo%)"
 msgstr "%favAdd% (%favLinkNo%)"
 
 #: bb-includes/functions.bb-script-loader.php:93
-#: bb-includes/functions.bb-template.php:3280
+#: bb-includes/functions.bb-template.php:3361
 msgid "&times;"
 msgstr "&times;"
 
 #: bb-includes/functions.bb-script-loader.php:94
-#: bb-includes/functions.bb-template.php:3278
+#: bb-includes/functions.bb-template.php:3359
 msgid "Add this topic to your favorites"
 msgstr "Lägg till detta ämne till dina favoriter"
 
@@ -3499,6 +3563,7 @@ msgid "New Topic in this Forum"
 msgstr "Skriv nytt ämne i detta forum"
 
 #: bb-includes/functions.bb-template.php:278
+#: bb-templates/kakumei/front-page.php:86
 msgid "Add New Topic"
 msgstr "Lägg till nytt ämne"
 
@@ -3514,252 +3579,268 @@ msgid "Tags"
 msgstr "Etiketter"
 
 #: bb-includes/functions.bb-template.php:543
-#, php-format
-msgid "User Favorites: %s"
-msgstr "Användarfavoriter: %s"
+#: rss.php:111
+#, fuzzy, php-format
+msgid "%1$s &raquo; User Favorites: %2$s"
+msgstr "%1$s Användarfavoriter: %2$s"
 
 #: bb-includes/functions.bb-template.php:550
-#, php-format
-msgid "Topic: %s"
-msgstr "Ämne: %s"
+#: rss.php:94
+#, fuzzy, php-format
+msgid "%1$s &raquo; Topic: %2$s"
+msgstr "%1$s &rsaquo; %2$s"
 
 #: bb-includes/functions.bb-template.php:558
-#, php-format
-msgid "Tag: %s - Recent Posts"
-msgstr "Etikett: %s - Senaste inläggen"
+#: rss.php:137
+#, fuzzy, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Posts"
+msgstr "%1$s Etikett: %2$s - Senaste inlägg"
 
 #: bb-includes/functions.bb-template.php:562
-#, php-format
-msgid "Tag: %s - Recent Topics"
-msgstr "Etikett: %s - Senaste ämnen"
+#: rss.php:127
+#, fuzzy, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Topics"
+msgstr "%1$s Etikett: %2$s - Senaste ämnen"
 
 #: bb-includes/functions.bb-template.php:570
-#, php-format
-msgid "Forum: %s - Recent Posts"
-msgstr "Forum: %s - Senaste inläggen"
+#: rss.php:159
+#, fuzzy, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Posts"
+msgstr "%1$s Forum: %2$s - Senaste inlägg"
 
 #: bb-includes/functions.bb-template.php:574
-#, php-format
-msgid "Forum: %s - Recent Topics"
-msgstr "Forum: %s - Senaste ämnen"
+#: rss.php:151
+#, fuzzy, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Topics"
+msgstr "%1$s Forum: %2$s - Senaste ämnen"
 
 #: bb-includes/functions.bb-template.php:581
-#: bb-templates/kakumei/search.php:12
-msgid "Recent Posts"
-msgstr "Senaste inläggen"
+#: rss.php:184
+#, fuzzy, php-format
+msgid "%1$s &raquo; Recent Posts"
+msgstr "%1$s: Senaste inlägg"
 
 #: bb-includes/functions.bb-template.php:585
-msgid "Recent Topics"
-msgstr "Senaste ämnen"
+#: rss.php:174
+#, fuzzy, php-format
+msgid "%1$s &raquo; Recent Topics"
+msgstr "%1$s: Senaste ämnen"
 
-#: bb-includes/functions.bb-template.php:1374
+#: bb-includes/functions.bb-template.php:594
+#: rss.php:84
+#, fuzzy, php-format
+msgid "%1$s &raquo; View: %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-includes/functions.bb-template.php:1390
 msgid "Are you sure you wanna delete that?"
 msgstr "Är du säker på att du vill ta bort det där?"
 
-#: bb-includes/functions.bb-template.php:1375
+#: bb-includes/functions.bb-template.php:1391
 msgid "Delete entire topic"
 msgstr "Ta bort hela ämnet"
 
-#: bb-includes/functions.bb-template.php:1378
+#: bb-includes/functions.bb-template.php:1394
 msgid "Are you sure you wanna undelete that?"
 msgstr "Är du säker på att du vill återställa det där?"
 
-#: bb-includes/functions.bb-template.php:1379
+#: bb-includes/functions.bb-template.php:1395
 msgid "Undelete entire topic"
 msgstr "Återställ hela ämnet"
 
-#: bb-includes/functions.bb-template.php:1402
+#: bb-includes/functions.bb-template.php:1418
 msgid "Close topic"
 msgstr "Lås ämne"
 
-#: bb-includes/functions.bb-template.php:1404
+#: bb-includes/functions.bb-template.php:1420
 msgid "Open topic"
 msgstr "Lås upp ämne"
 
-#: bb-includes/functions.bb-template.php:1436
+#: bb-includes/functions.bb-template.php:1452
 msgid "Unstick topic"
 msgstr "Avklistra ämne"
 
-#: bb-includes/functions.bb-template.php:1438
+#: bb-includes/functions.bb-template.php:1454
 msgid "Stick topic"
 msgstr "Klistra ämne"
 
-#: bb-includes/functions.bb-template.php:1438
+#: bb-includes/functions.bb-template.php:1454
 msgid "to front"
 msgstr "till framsidan"
 
-#: bb-includes/functions.bb-template.php:1445
+#: bb-includes/functions.bb-template.php:1461
 msgid "View normal posts"
 msgstr "Visa normala inlägg"
 
-#: bb-includes/functions.bb-template.php:1447
+#: bb-includes/functions.bb-template.php:1463
 msgid "View all posts"
 msgstr "Visa alla inlägg"
 
-#: bb-includes/functions.bb-template.php:1457
+#: bb-includes/functions.bb-template.php:1473
 #, php-format
 msgid "%s post"
 msgid_plural "%s posts"
 msgstr[0] "%s inlägg"
 msgstr[1] "%s inlägg"
 
-#: bb-includes/functions.bb-template.php:1470
+#: bb-includes/functions.bb-template.php:1486
 #, php-format
 msgid "+%d more"
 msgstr "+%d till"
 
-#: bb-includes/functions.bb-template.php:1497
-msgid "Move this topic to the selected forum:"
-msgstr "Flytta den här ämnet till valt forum:"
+#: bb-includes/functions.bb-template.php:1530
+#, fuzzy
+msgid "Move to"
+msgstr "Flytta"
 
-#: bb-includes/functions.bb-template.php:1501
+#: bb-includes/functions.bb-template.php:1533
 msgid "Move"
 msgstr "Flytta"
 
-#: bb-includes/functions.bb-template.php:1530
+#: bb-includes/functions.bb-template.php:1567
 msgid "Add New &raquo;"
 msgstr "Lägg till nytt ämne &raquo;"
 
-#: bb-includes/functions.bb-template.php:1696
+#: bb-includes/functions.bb-template.php:1743
 msgid "Anonymous"
 msgstr "Anonym"
 
-#: bb-includes/functions.bb-template.php:2066
-#: bb-includes/functions.bb-template.php:2080
+#: bb-includes/functions.bb-template.php:2128
+#: bb-includes/functions.bb-template.php:2142
 msgid "PingBack"
 msgstr "Pingback"
 
-#: bb-includes/functions.bb-template.php:2068
-#: bb-includes/functions.bb-template.php:2082
+#: bb-includes/functions.bb-template.php:2130
+#: bb-includes/functions.bb-template.php:2144
 msgid "Unregistered"
 msgstr "Oregistrerad"
 
-#: bb-includes/functions.bb-template.php:2170
+#: bb-includes/functions.bb-template.php:2232
 msgid "Delete User &raquo;"
 msgstr "Ta bort användare &raquo;"
 
-#: bb-includes/functions.bb-template.php:2171
+#: bb-includes/functions.bb-template.php:2233
 msgid "Are you sure you want to delete this user?"
 msgstr "Är du säker på att du vill ta bort den här användaren?"
 
-#: bb-includes/functions.bb-template.php:2298
+#: bb-includes/functions.bb-template.php:2360
 msgid "Member Since"
 msgstr "Medlem sedan"
 
-#: bb-includes/functions.bb-template.php:2451
-#: bb-includes/functions.bb-template.php:2600
+#: bb-includes/functions.bb-template.php:2513
+#: bb-includes/functions.bb-template.php:2662
 #: bb-templates/kakumei/register.php:65
 msgid "These items are <span class=\"required\">required</span>."
 msgstr "Dessa poster är <span class=\"required\">nödvändiga</span>."
 
-#: bb-includes/functions.bb-template.php:2488
+#: bb-includes/functions.bb-template.php:2550
 msgid "User Type"
 msgstr "Användartyp"
 
-#: bb-includes/functions.bb-template.php:2513
+#: bb-includes/functions.bb-template.php:2575
 msgid "Allow this user to"
 msgstr "Tillåt den här användaren att"
 
-#: bb-includes/functions.bb-template.php:2603
+#: bb-includes/functions.bb-template.php:2665
 msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
 msgstr "Inaktiva användare kan logga in och se sig omkring men inte göra något. Blockerade användare får bara se ett felmeddelande när de besöker sidan."
 
-#: bb-includes/functions.bb-template.php:2604
+#: bb-includes/functions.bb-template.php:2666
 msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
 msgstr "<strong>Observera</strong>: Att blockera en användare blockerar <em>inte</em> några IP-adresser."
 
-#: bb-includes/functions.bb-template.php:2627
+#: bb-includes/functions.bb-template.php:2689
 msgid "New password"
 msgstr "Nytt lösenord"
 
-#: bb-includes/functions.bb-template.php:2640
+#: bb-includes/functions.bb-template.php:2702
 msgid "Password Strength"
 msgstr "Lösenordsstyrka"
 
-#: bb-includes/functions.bb-template.php:2644
+#: bb-includes/functions.bb-template.php:2706
 msgid "Disabled (requires JavaScript)"
 msgstr "Avaktiverat (kräver JavaScript)"
 
-#: bb-includes/functions.bb-template.php:2650
+#: bb-includes/functions.bb-template.php:2712
 msgid "Disabled (requires jQuery)"
 msgstr "Avaktiverat (kräver jQuery)"
 
-#: bb-includes/functions.bb-template.php:2657
+#: bb-includes/functions.bb-template.php:2719
 msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
 msgstr "Tips: använd stora och små bokstäver, siffror, och symboler som !\"?$%^&amp;( i ditt lösenord."
 
-#: bb-includes/functions.bb-template.php:2671
+#: bb-includes/functions.bb-template.php:2733
 msgid "Log Out"
 msgstr "Logga ut"
 
-#: bb-includes/functions.bb-template.php:2697
+#: bb-includes/functions.bb-template.php:2759
 msgid "Admin"
 msgstr "Admin"
 
-#: bb-includes/functions.bb-template.php:2716
+#: bb-includes/functions.bb-template.php:2778
 msgid "View your profile"
 msgstr "Visa din profil"
 
-#: bb-includes/functions.bb-template.php:3011
+#: bb-includes/functions.bb-template.php:3073
 msgid "Add &raquo;"
 msgstr "Spara &raquo;"
 
-#: bb-includes/functions.bb-template.php:3047
+#: bb-includes/functions.bb-template.php:3109
 msgid "Rename tag:"
 msgstr "Byt namn på etikett:"
 
-#: bb-includes/functions.bb-template.php:3051
+#: bb-includes/functions.bb-template.php:3113
 msgid "Rename"
 msgstr "Byt namn"
 
-#: bb-includes/functions.bb-template.php:3055
+#: bb-includes/functions.bb-template.php:3117
 msgid "Merge this tag into:"
 msgstr "Sammanfoga den här etiketten med:"
 
-#: bb-includes/functions.bb-template.php:3059
+#: bb-includes/functions.bb-template.php:3121
 msgid "Merge"
 msgstr "Sammanfoga"
 
-#: bb-includes/functions.bb-template.php:3060
+#: bb-includes/functions.bb-template.php:3122
 #, php-format
 msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
 msgstr "Är du säker på att du vill sammanfoga etiketten \"%s\" och etiketten du specifierade? Det är permanent och kan inte göras ogjort."
 
-#: bb-includes/functions.bb-template.php:3064
+#: bb-includes/functions.bb-template.php:3126
 msgid "Destroy tag:"
 msgstr "Förgör etikett:"
 
-#: bb-includes/functions.bb-template.php:3067
+#: bb-includes/functions.bb-template.php:3129
 msgid "Destroy"
 msgstr "Förgör"
 
-#: bb-includes/functions.bb-template.php:3068
+#: bb-includes/functions.bb-template.php:3130
 #, php-format
 msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
 msgstr "Är du säker på att du vill förgöra etiketten \"%s\"? Det är permanent och kan inte göras ogjort."
 
-#: bb-includes/functions.bb-template.php:3094
+#: bb-includes/functions.bb-template.php:3156
 msgid "Remove this tag"
 msgstr "Ta bort den här etiketten"
 
-#: bb-includes/functions.bb-template.php:3150
+#: bb-includes/functions.bb-template.php:3213
 #, php-format
 msgid "%d topics"
 msgstr "%d ämnen"
 
-#: bb-includes/functions.bb-template.php:3217
+#: bb-includes/functions.bb-template.php:3278
 msgid "- None -"
 msgstr "- Ingen -"
 
-#: bb-includes/functions.bb-template.php:3278
+#: bb-includes/functions.bb-template.php:3359
 msgid " (%?%)"
 msgstr " (%?%)"
 
-#: bb-includes/functions.bb-template.php:3280
+#: bb-includes/functions.bb-template.php:3361
 msgid "This topic is one of your %favorites% ["
 msgstr "Det här ämnet är en av dina %favorites% ["
 
-#: bb-includes/functions.bb-template.php:3280
+#: bb-includes/functions.bb-template.php:3361
 msgid "]"
 msgstr "]"
 
@@ -3851,87 +3932,91 @@ msgstr "Fel lösenord."
 msgid "Username and Password do not match."
 msgstr "Användarnamn och lösenord matchar inte."
 
-#: bb-plugins/akismet.php:16
-#: bb-plugins/akismet.php:21
-msgid "Akismet Configuration"
-msgstr "Akismetkonfigurering"
+#: bb-plugins/akismet.php:57
+#, fuzzy
+msgid "Akismet Settings"
+msgstr "Webbplatsinställningar"
 
-#: bb-plugins/akismet.php:26
-msgid "Akismet Key:"
+#: bb-plugins/akismet.php:62
+#, php-format
+msgid "For many people, <a href=\"%s\">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as \"spam\" and Akismet will learn from the mistakes."
+msgstr "För många människor kommer <a href=\"%s\">Akismet</a>reducera eller helt plocka bort det spam du får på din sajt. Om något spam kommer igenom, markera det som \"spam\" och Akismet kommer lära sig av misstaget."
+
+#: bb-plugins/akismet.php:68
+#, fuzzy
+msgid "This key is valid"
+msgstr "Inläggets text är ogiltig."
+
+#: bb-plugins/akismet.php:75
+msgid "WordPress.com API Key"
+msgstr "Nyckel till WordPress.com:s API:er"
+
+#: bb-plugins/akismet.php:78
+#, php-format
+msgid "If you don't have a WordPress.com API Key, you can get one at <a href=\"%s\">WordPress.com</a>"
+msgstr "Om du saknar en nyckel till WordPress.com:s API:er kan du få en på <a href=\"%s\">WordPress.com</a>"
+
+#: bb-plugins/akismet.php:82
+msgid "Enable stats page"
+msgstr "Aktivera statistiksidan"
+
+#: bb-plugins/akismet.php:85
+msgid "Create a page that shows spam statistics."
+msgstr "Skapa en sida som visar spam-statistik."
+
+#: bb-plugins/akismet.php:87
+msgid "This page will be viewable by moderators or higher."
+msgstr "Den här sidan kommer bli synlig för moderatorer eller de med högre behörighet."
+
+#: bb-plugins/akismet.php:103
+#, fuzzy
+msgid "Akismet"
 msgstr "Akismetnyckel:"
 
-#: bb-plugins/akismet.php:30
-msgid "You do not need a key to run bbPress, but if you want to take advantage of Akismet's powerful spam blocking, you'll need one."
-msgstr "Du behöver inte en nyckel för att köra bbPress, men om du vill nyttja Akismets kraftfulla spamblockering behöver du en."
+#: bb-plugins/akismet.php:151
+msgid "<strong>The key you attempted to enter is invalid. Reverting to previous setting.</strong>"
+msgstr "<strong>Nyckels nu försökte mata in är felaktig. Återställer till tidigare inställning.</strong>"
 
-#: bb-plugins/akismet.php:31
-msgid "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
-msgstr "Du kan få en Akismetnyckel på <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
-
-#: bb-plugins/akismet.php:38
-msgid "Update Configuration &raquo;"
-msgstr "Uppdatera konfiguration &raquo;"
-
-#: bb-plugins/akismet.php:67
-msgid "<strong>Configuration saved.</strong>"
-msgstr "<strong>Konfiguration sparad.</strong>"
-
-#: bb-plugins/akismet.php:259
-msgid "Akismet Spam"
+#: bb-plugins/akismet.php:218
+#, fuzzy
+msgid "Akismet Stats"
 msgstr "Akismet Spam"
 
-#: bb-plugins/akismet.php:272
-#, php-format
-msgid "The API key you have specified is invalid.  Please double check the <strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</a>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
-msgstr "Den API-nyckel du specifierat är ogiltig. Dubbelkolla <strong>Akismetnyckeln</strong> satt i <a href=\"%s\">Akismetkonfigurationen</a>. Om du inte har satt någon API-nyckel, så kan du få en på <a href=\"%s\">WordPress.com</a>."
-
-#: bb-plugins/akismet.php:304
+#: bb-plugins/akismet.php:440
 msgid "Not Spam"
 msgstr "Inte spam"
 
-#: bb-plugins/akismet.php:310
+#: bb-plugins/akismet.php:446
+#: bb-plugins/akismet.php:476
 msgid "Spam"
 msgstr "Spam"
 
-#: bb-plugins/bozo.php:96
-msgid "Counting bozo posts..."
-msgstr "Räknar fåntratt-inlägg..."
-
-#: bb-plugins/bozo.php:116
-msgid "Done counting bozo posts."
-msgstr "Fåntratt-inlägg färdigräknade."
-
-#: bb-plugins/bozo.php:127
-msgid "Counting bozo topics for each user...\n"
-msgstr "Räknar fåntratt-ämnen för varje användare...\n"
-
-#: bb-plugins/bozo.php:156
-msgid ""
-"Done counting bozo topics.\n"
-"\n"
-msgstr ""
-"Fåntratt-ämnen färdigräknade.\n"
-"\n"
-
-#: bb-plugins/bozo.php:167
-msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
-msgstr "Räknar ämnen för vilka varje användare har svarat och räkna varje användares fåntratt-inlägg"
-
-#: bb-plugins/bozo.php:168
-msgid "Count bozo posts on every topic"
+#: bb-plugins/bozo.php:95
+#, fuzzy
+msgid "Counted the number of bozo posts in each topic"
 msgstr "Räkna fåntrattinlägg i varje ämne"
 
-#: bb-plugins/bozo.php:268
+#: bb-plugins/bozo.php:123
+msgid "Counted each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr ""
+
+#: bb-plugins/bozo.php:171
+msgid "Count each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr ""
+
+#: bb-plugins/bozo.php:172
+#, fuzzy
+msgid "Count the number of bozo posts in each topic"
+msgstr "Räkna fåntrattinlägg i varje ämne"
+
+#: bb-plugins/bozo.php:272
 msgid "This user is a bozo"
 msgstr "Den här användaren är en fåntratt"
 
-#: bb-plugins/bozo.php:278
-msgid "Bozos"
+#: bb-plugins/bozo.php:310
+#, fuzzy
+msgid "Bozos only"
 msgstr "Fåntrattar"
-
-#: bb-plugins/bozo.php:288
-msgid "These users have been marked as bozos"
-msgstr "Dessa användare har markerats som fåntrattar"
 
 #: bb-post.php:8
 msgid "Slow down; you move too fast."
@@ -3962,7 +4047,7 @@ msgstr "Det här ämnet har låsts"
 msgid "No username specified"
 msgstr "Inget användarnamn specifierat"
 
-#: bb-settings.php:434
+#: bb-settings.php:455
 msgid "Could not determine site URI"
 msgstr "Kunde inte fastställa webbplatsens URI"
 
@@ -4125,10 +4210,6 @@ msgstr "Ett nytt lösenord har e-postats till dig."
 msgid "Tags (comma seperated)"
 msgstr "Etiketter <em>(separera med kommatecken t.ex. ord1,ord2,ord3)</em>"
 
-#: bb-templates/kakumei/post-form.php:20
-msgid "Pick a section"
-msgstr "Välj en sektion"
-
 #: bb-templates/kakumei/post-form.php:26
 msgid "Send Post &raquo;"
 msgstr "Skicka inlägg &raquo;"
@@ -4275,14 +4356,17 @@ msgstr "Registrera &raquo;"
 msgid "You&#8217;re already logged in, why do you need to register?"
 msgstr "Du är redan inloggad, varför vill du registrera dig?"
 
-#: bb-templates/kakumei/rss2.php:18
-#: bb-templates/kakumei/search.php:3
-msgid "Search"
-msgstr "Sök"
-
 #: bb-templates/kakumei/rss2.php:19
 msgid "Search all topics from these forums."
 msgstr "Sök i alla ämnen från dessa forum."
+
+#: bb-templates/kakumei/rss2.php:27
+msgid "on"
+msgstr "på"
+
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "Sök:"
 
 #: bb-templates/kakumei/search-form.php:5
 msgid "Search &raquo;"
@@ -4291,6 +4375,16 @@ msgstr "Sök &raquo;"
 #: bb-templates/kakumei/search.php:7
 msgid "Search for"
 msgstr "Sök efter"
+
+#: bb-templates/kakumei/search.php:12
+msgid "Recent Posts"
+msgstr "Senaste inläggen"
+
+#: bb-templates/kakumei/search.php:17
+#: bb-templates/kakumei/search.php:32
+#, php-format
+msgid "Posted %s"
+msgstr "Postat %s"
 
 #: bb-templates/kakumei/search.php:27
 msgid "Relevant posts"
@@ -4417,51 +4511,6 @@ msgstr "%s är ett ogiltigt användarnamn."
 msgid "%s is required"
 msgstr "%s krävs"
 
-#: rss.php:84
-#, php-format
-msgid "%1$s View: %2$s"
-msgstr "%1$s Visa: %2$s"
-
-#: rss.php:94
-#, php-format
-msgid "%1$s Topic: %2$s"
-msgstr "%1$s Ämne: %2$s"
-
-#: rss.php:111
-#, php-format
-msgid "%1$s User Favorites: %2$s"
-msgstr "%1$s Användarfavoriter: %2$s"
-
-#: rss.php:127
-#, php-format
-msgid "%1$s Tag: %2$s - Recent Topics"
-msgstr "%1$s Etikett: %2$s - Senaste ämnen"
-
-#: rss.php:137
-#, php-format
-msgid "%1$s Tag: %2$s - Recent Posts"
-msgstr "%1$s Etikett: %2$s - Senaste inlägg"
-
-#: rss.php:151
-#, php-format
-msgid "%1$s Forum: %2$s - Recent Topics"
-msgstr "%1$s Forum: %2$s - Senaste ämnen"
-
-#: rss.php:159
-#, php-format
-msgid "%1$s Forum: %2$s - Recent Posts"
-msgstr "%1$s Forum: %2$s - Senaste inlägg"
-
-#: rss.php:174
-#, php-format
-msgid "%1$s: Recent Topics"
-msgstr "%1$s: Senaste ämnen"
-
-#: rss.php:184
-#, php-format
-msgid "%1$s: Recent Posts"
-msgstr "%1$s: Senaste inlägg"
-
 #: tag-add.php:7
 msgid "You need to be logged in to add a tag."
 msgstr "Du måste vara inloggad för att lägga till en etikett."
@@ -4569,12 +4618,6 @@ msgstr "Du har inte behörighet nog för att ta bort detta forum."
 msgid "The forum could not be deleted."
 msgstr "Forumet kunde inte tas bort."
 
-#: xmlrpc.php:1369
-#: xmlrpc.php:2761
-#: xmlrpc.php:3072
-msgid "No topics found."
-msgstr "Inga ämnen hittade, försök med något annat!"
-
 #: xmlrpc.php:1442
 #: xmlrpc.php:1679
 #: xmlrpc.php:1793
@@ -4656,11 +4699,6 @@ msgstr "Du har inte behörighet nog för att redigera inlägg."
 #: xmlrpc.php:1694
 msgid "You do not have permission to edit this topic."
 msgstr "Du har inte behörighet nog för att redigera det här ämnet."
-
-#: xmlrpc.php:1700
-#: xmlrpc.php:2299
-msgid "No posts found."
-msgstr "Inga inlägg hittade."
 
 #: xmlrpc.php:1708
 #: xmlrpc.php:2572
@@ -4950,6 +4988,293 @@ msgstr "Den begärda metoden accepterar endast en parameter."
 msgid "The specified target URL is not on this domain."
 msgstr "Den specifierade mål-URLen är inte på den här domänen."
 
+#~ msgid "Recounting"
+#~ msgstr "Räknar om"
+#~ msgid "Done counting posts."
+#~ msgstr "Inlägg räknade."
+#~ msgid "Done counting voices."
+#~ msgstr "Röster räknade"
+#~ msgid "Done counting forum topics and posts."
+#~ msgstr "Forumämnen och inlägg räknade."
+#~ msgid "Counting topics to which each user has replied&#8230;"
+#~ msgstr "Räknar ämnen som varje användare har svarat i&#8230;"
+#~ msgid "Done counting topics."
+#~ msgstr "Ämnen räknade."
+#~ msgid "Done counting topic tags."
+#~ msgstr "Ämnes-etiketter räknade."
+#~ msgid "Done counting tagged topics."
+#~ msgstr "Ämnen med etiketter räknade."
+#~ msgid "Deleting tags with no topics&#8230;"
+#~ msgstr "Tar bort etiketter utan ämnen&#8230;"
+#~ msgid "Done removing deleted topics from users' favorites."
+#~ msgstr "Favoriseringar av borttagna ämnen borttagna."
+#~ msgid "Done recounting.  The process took"
+#~ msgstr "Omräkning slutförd. Processen tog"
+#~ msgid "%1$d queries and %2$s seconds."
+#~ msgstr "%1$d queries och %2$s sekunder."
+#~ msgid "Update Forum"
+#~ msgstr "Uppdatera forum"
+#~ msgid "Delete forum &raquo;"
+#~ msgstr "Ta bort forum &raquo;"
+#~ msgid "Name &#8212; Description"
+#~ msgstr "Namn &#8212; Beskrivning"
+#~ msgid "matching &#8220;%s&#8221;"
+#~ msgstr "matchar &#8220;%s&#8221;"
+#~ msgid "%1$sposts"
+#~ msgstr "%1$sinlägg"
+#~ msgid "Displaying %s-%s of %s"
+#~ msgstr "Visar %s-%s av %s"
+#~ msgid "%1$s%2$stopics"
+#~ msgstr "%1$s%2$sämnen"
+#~ msgid "No topics found"
+#~ msgstr "Inga ämnen hittade"
+#~ msgid "Find"
+#~ msgstr "Hitta"
+#~ msgid "Moderators"
+#~ msgstr "Moderatorer"
+#~ msgid "User List by Role"
+#~ msgstr "Användarlista efter roll"
+#~ msgid "Search for users &raquo;"
+#~ msgstr "Sök efter användare &raquo;"
+#~ msgid "&laquo; Back to All Users"
+#~ msgstr "&laquo; Tillbaka till alla användare"
+#~ msgid "Users with no role in these forums"
+#~ msgstr "Användare utan roll i dessa forum"
+#~ msgid "ID"
+#~ msgstr "ID"
+#~ msgid "Display name"
+#~ msgstr "Visningsnamn"
+#~ msgid "Registered Since"
+#~ msgstr "Registrerad sedan"
+#~ msgid "Actions"
+#~ msgstr "Åtgärder"
+#~ msgid "Forum Name:"
+#~ msgstr "Forumnamn:"
+#~ msgid "Forum Slug:"
+#~ msgstr "Forumslug:"
+#~ msgid "Forum Description:"
+#~ msgstr "Forumbeskrivning:"
+#~ msgid "Update Forum &#187;"
+#~ msgstr "Uppdatera forum &#187;"
+#~ msgid "Add Forum &#187;"
+#~ msgstr "Lägg till forum &#187;"
+#~ msgid "No posts found"
+#~ msgstr "Inga inlägg hittade"
+#~ msgid "DELETE tags with no topics.  Only functions if the above checked"
+#~ msgstr ""
+#~ "TA BORT etiketter utan ämnen. Fungerar bara om det ovanstående är ikryssat"
+#~ msgid "REMOVE deleted topics from users' favorites"
+#~ msgstr "TA BORT borttagna ämnen från användares favoriter"
+#~ msgid "%d forum"
+#~ msgid_plural "%d forums"
+#~ msgstr[0] "%d forum"
+#~ msgstr[1] "%d forum"
+#~ msgid "is %d topic"
+#~ msgid_plural "are %d topics"
+#~ msgstr[0] "är %d ämne"
+#~ msgstr[1] "är %d ämnen"
+#~ msgid "%d user"
+#~ msgid_plural "%d users"
+#~ msgstr[0] "%d användare"
+#~ msgstr[1] "%d användare"
+#~ msgid "You have %1$s. There %2$s with %3$s by %4$s."
+#~ msgstr "Du har %1$s. Det %2$s med %3$s av %4$s."
+#~ msgid ""
+#~ "That's an average of %1$s, %2$s and %3$s per day since your forums were "
+#~ "started %4$s ago."
+#~ msgstr ""
+#~ "Det är ett medel på %1$s, %2$s och %3$s per dag sedan dina forum startade "
+#~ "för %4$s sedan."
+#~ msgid ""
+#~ "You are using the theme <a href=\"%1$s\">%2$s</a>. This is bbPress "
+#~ "version %3$s"
+#~ msgstr ""
+#~ "Du använder temat <a href=\"%1$s\">%2$s</a>. Det här är bbPress version %3"
+#~ "$s"
+#~ msgid "Recent User Registrations"
+#~ msgstr "Senaste använderregistreringarna"
+#~ msgid "registered %s ago"
+#~ msgstr "registrerad för %s sedan"
+#~ msgid "by"
+#~ msgstr "av"
+#~ msgid "Topic titled"
+#~ msgstr "Ämne med namn"
+#~ msgid "started by"
+#~ msgstr "startad av"
+#~ msgid "Save User Role Map"
+#~ msgstr "Spara användarrollsmatchning"
+#~ msgid ""
+#~ "Usually, you will have to specify both cookie sharing and user database "
+#~ "sharing settings."
+#~ msgstr ""
+#~ "Vanligtvis måste du specifiera både cookiedelningsinställningar och "
+#~ "användardatabasinställningar."
+#~ msgid ""
+#~ "bbPress has automatically determined the best cookie settings for "
+#~ "WordPress. In some cases integration may work without these settings, but "
+#~ "if not add the following code to your <code>wp-config.php</code> file in "
+#~ "the root directory of your WordPress installation."
+#~ msgstr ""
+#~ "bbPress har automagiskt fastställt de bästa cookieinställningarna för "
+#~ "WordPress. I vissa fall kan integration fungera utan dessa inställningar, "
+#~ "men om inte så lägg till den följande koden i din <code>wp-config.php</"
+#~ "code>-fil i root-mappen hos din WordPress-installation."
+#~ msgid "WordPress (wp-config.php)"
+#~ msgstr "WordPress (wp-config.php)"
+#~ msgid "bbPress (bb-config.php)"
+#~ msgstr "bbPress (bb-config.php)"
+#~ msgid "Manual bbPress config file settings"
+#~ msgstr "Manuella bbPresskonfigurationsfilinställningar"
+#~ msgid ""
+#~ "If your integration settings will not change, you can help speed up "
+#~ "bbPress by adding the following code to your <code>bb-config.php</code> "
+#~ "file in the root directory of your bbPress installation. Afterwards, the "
+#~ "settings in this form will reflect the hard coded values, but you will "
+#~ "not be able to edit them here."
+#~ msgstr ""
+#~ "Om dina integrationsinställningar inte kommer att förändras, så kan du "
+#~ "snabba upp bbPress genom att lägga till den följande koden till din "
+#~ "<code>bb-config.php</code>-fil i root-mappen för din bbPress-"
+#~ "installation. Efteråt kommer inställningarna i det här formuläret matcha "
+#~ "de hårdkodade värdena, men du kommer inte kunna ändra dem här."
+#~ msgid ""
+#~ "Plugins extend and expand the functionality of bbPress. Once a plugin is "
+#~ "installed, you may activate it or deactivate it here."
+#~ msgstr ""
+#~ "Tillägg expanderar bbPress funktionalitet. När en plugin är installerad "
+#~ "kan du aktivera eller avaktivera den här."
+#~ msgid "Version"
+#~ msgstr "Version"
+#~ msgid "Automatically loaded plugins"
+#~ msgstr "Automatiskt laddade tillägg"
+#~ msgid ""
+#~ "If something goes wrong with a plugin and you can't use bbPress, delete "
+#~ "or rename that file in the <code>my-plugins</code> directory and it will "
+#~ "be automatically deactivated."
+#~ msgstr ""
+#~ "Om något går snett med ett tillägg och du inte kan använda bbPress, ta "
+#~ "bort eller byt namn på den filen i <code>my-plugins</code>-mappen och den "
+#~ "deaktiveras automatiskt."
+#~ msgid "No Plugins Installed"
+#~ msgstr "Inga tillägg installerade"
+#~ msgid "Get More Plugins"
+#~ msgstr "Hämta fler tillägg"
+#~ msgid ""
+#~ "You can find additional plugins for your site in the <a href=\"%s"
+#~ "\">bbPress plugin directory</a>."
+#~ msgstr ""
+#~ "Du kan hitta fler tillägg för din webbplats i <a href=\"%s\">bbPress "
+#~ "tilläggskatalog</a>."
+#~ msgid ""
+#~ "To install a plugin you generally just need to upload the plugin file "
+#~ "into your <code>my-plugins</code> directory. Once a plugin is uploaded, "
+#~ "you may activate it here."
+#~ msgstr ""
+#~ "För att installera ett tillägg behöver du vanligtvis bara ladda upp "
+#~ "tilläggsfilen till din <code>my-plugins</code>-mapp. När ett tillägg är "
+#~ "uppladdat, kan du aktivera det här."
+#~ msgid ""
+#~ "The following checkboxes allow you to recalculate various numbers stored "
+#~ "in the database. These numbers are used for things like counting the "
+#~ "number of pages worth of posts a particular topic has.  You shouldn't "
+#~ "need to do do any of this unless you're upgrading from one version to "
+#~ "another or are seeing pagination oddities."
+#~ msgstr ""
+#~ "De följande kryssrutorna låter dig omkalkylera diverse nummer lagrade i "
+#~ "databasen. Dessa nummer används för saker som att räkna antalet sidor ett "
+#~ "ämne har. Du borde inte behöva göra något av det här såvida du inte "
+#~ "uppgraderar från en version till en annan eller stöter på underligheter "
+#~ "med sidnumreringen."
+#~ msgid "Choose items to recalculate"
+#~ msgstr "Välj nummer att räkna om"
+#~ msgid "Count!"
+#~ msgstr "Räkna!"
+#~ msgid "Click to activate"
+#~ msgstr "Tryck för att aktivera"
+#~ msgid "These users have been blocked by the forum administrators"
+#~ msgstr "Dessa användare har blockerats av forumets administratörer"
+#~ msgid "Forum Administrators"
+#~ msgstr "Forumadministratörer"
+#~ msgid "IP Information"
+#~ msgstr "IP-information"
+#~ msgid "Last 30 posts"
+#~ msgstr "Senaste 30 inläggen"
+#~ msgid "Posted:"
+#~ msgstr "Postat:"
+#~ msgid "%1$d %2$s"
+#~ msgstr "%1$d %2$s"
+#~ msgid ", %1$d %2$s"
+#~ msgstr ", %1$d %2$s"
+#~ msgid "User Favorites: %s"
+#~ msgstr "Användarfavoriter: %s"
+#~ msgid "Topic: %s"
+#~ msgstr "Ämne: %s"
+#~ msgid "Tag: %s - Recent Posts"
+#~ msgstr "Etikett: %s - Senaste inläggen"
+#~ msgid "Tag: %s - Recent Topics"
+#~ msgstr "Etikett: %s - Senaste ämnen"
+#~ msgid "Forum: %s - Recent Posts"
+#~ msgstr "Forum: %s - Senaste inläggen"
+#~ msgid "Forum: %s - Recent Topics"
+#~ msgstr "Forum: %s - Senaste ämnen"
+#~ msgid "Recent Topics"
+#~ msgstr "Senaste ämnen"
+#~ msgid "Move this topic to the selected forum:"
+#~ msgstr "Flytta den här ämnet till valt forum:"
+#~ msgid "Akismet Configuration"
+#~ msgstr "Akismetkonfigurering"
+#~ msgid ""
+#~ "You do not need a key to run bbPress, but if you want to take advantage "
+#~ "of Akismet's powerful spam blocking, you'll need one."
+#~ msgstr ""
+#~ "Du behöver inte en nyckel för att köra bbPress, men om du vill nyttja "
+#~ "Akismets kraftfulla spamblockering behöver du en."
+#~ msgid ""
+#~ "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/"
+#~ "\">WordPress.com</a>"
+#~ msgstr ""
+#~ "Du kan få en Akismetnyckel på <a href=\"http://wordpress.com/api-keys/"
+#~ "\">WordPress.com</a>"
+#~ msgid "Update Configuration &raquo;"
+#~ msgstr "Uppdatera konfiguration &raquo;"
+#~ msgid "<strong>Configuration saved.</strong>"
+#~ msgstr "<strong>Konfiguration sparad.</strong>"
+#~ msgid ""
+#~ "The API key you have specified is invalid.  Please double check the "
+#~ "<strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</"
+#~ "a>.  If you don't have an API key yet, you can get one at <a href=\"%s"
+#~ "\">WordPress.com</a>."
+#~ msgstr ""
+#~ "Den API-nyckel du specifierat är ogiltig. Dubbelkolla "
+#~ "<strong>Akismetnyckeln</strong> satt i <a href=\"%s"
+#~ "\">Akismetkonfigurationen</a>. Om du inte har satt någon API-nyckel, så "
+#~ "kan du få en på <a href=\"%s\">WordPress.com</a>."
+#~ msgid "Counting bozo posts..."
+#~ msgstr "Räknar fåntratt-inlägg..."
+#~ msgid "Done counting bozo posts."
+#~ msgstr "Fåntratt-inlägg färdigräknade."
+#~ msgid "Counting bozo topics for each user...\n"
+#~ msgstr "Räknar fåntratt-ämnen för varje användare...\n"
+#~ msgid ""
+#~ "Done counting bozo topics.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Fåntratt-ämnen färdigräknade.\n"
+#~ "\n"
+#~ msgid ""
+#~ "Count topics to which each user has replied and count each users&#039; "
+#~ "bozo posts"
+#~ msgstr ""
+#~ "Räknar ämnen för vilka varje användare har svarat och räkna varje "
+#~ "användares fåntratt-inlägg"
+#~ msgid "These users have been marked as bozos"
+#~ msgstr "Dessa användare har markerats som fåntrattar"
+#~ msgid "Pick a section"
+#~ msgstr "Välj en sektion"
+#~ msgid "%1$s View: %2$s"
+#~ msgstr "%1$s Visa: %2$s"
+#~ msgid "%1$s Topic: %2$s"
+#~ msgstr "%1$s Ämne: %2$s"
 #~ msgid "Support forums"
 #~ msgstr "Supportforum"
 #~ msgid "Forum Management"
@@ -4964,8 +5289,8 @@ msgstr "Den specifierade mål-URLen är inte på den här domänen."
 #~ msgstr "Webbplatsbeskrivning"
 #~ msgid "Emails sent by the site will appear to come from this address."
 #~ msgstr ""
-#~ "E-postmeddelanden skickade av sidan kommer att framstå som skickade "
-#~ "från den här adressen."
+#~ "E-postmeddelanden skickade av sidan kommer att framstå som skickade från "
+#~ "den här adressen."
 #~ msgid "None&nbsp;&nbsp;&nbsp;&hellip;/forums.php?id=1"
 #~ msgstr "Ingen&nbsp;&nbsp;&nbsp;&hellip;/forums.php?id=1"
 #~ msgid "Numeric&nbsp;&nbsp;&nbsp;.../forums/1"
@@ -4977,31 +5302,29 @@ msgstr "Den specifierade mål-URLen är inte på den här domänen."
 #~ "to create a file at <code>%s</code> containing the url rewriting rules <a "
 #~ "href=\"%s\">provided here</a>."
 #~ msgstr ""
-#~ "Om du aktiverar \"Sifferbaserade\" eller \"Namnbaserade\" permalä"
-#~ "nkar, så måste du skapa en fil på <code>%s</code> "
-#~ "innehållandes URL-omskrivningsreglerna <a href=\"%s\">som finns "
-#~ "här</a>."
+#~ "Om du aktiverar \"Sifferbaserade\" eller \"Namnbaserade\" permalänkar, så "
+#~ "måste du skapa en fil på <code>%s</code> innehållandes URL-"
+#~ "omskrivningsreglerna <a href=\"%s\">som finns här</a>."
 #~ msgid "Times should differ<br />from UTC by"
 #~ msgstr "Tidsangivelser skall vara<br />skiljda från UTC med"
 #~ msgid "Example: -7 for Pacific Daylight Time."
 #~ msgstr ""
-#~ "Till exempel: +1 för Medeleuropeisk tid (CET) (+2 under "
-#~ "Medeleuropeisk sommartid (CEST))"
+#~ "Till exempel: +1 för Medeleuropeisk tid (CET) (+2 under Medeleuropeisk "
+#~ "sommartid (CEST))"
 #~ msgid "Output: <strong>%s</strong>"
 #~ msgstr "Output: <strong>%s</strong>"
 #~ msgid ""
 #~ "Allow remote publishing and management via the bbPress <a href=\"http://"
 #~ "codex.wordpress.org/Glossary#XML-RPC\">XML-RPC</a> publishing protocol?"
 #~ msgstr ""
-#~ "Tillåt fjärrpublicering och hantering via bbPress <a href="
-#~ "\"http://codex.wordpress.org/Glossary#XML-RPC\">XML-RPC</a>-"
-#~ "publiceringsprotokoll?"
+#~ "Tillåt fjärrpublicering och hantering via bbPress <a href=\"http://codex."
+#~ "wordpress.org/Glossary#XML-RPC\">XML-RPC</a>-publiceringsprotokoll?"
 #~ msgid ""
 #~ "Allow sending and receiving of <a href=\"http://codex.wordpress.org/"
 #~ "Glossary#PingBack\">pingbacks</a>?"
 #~ msgstr ""
-#~ "Aktivera sändande och mottagande av <a href=\"http://codex.wordpress."
-#~ "org/Glossary#PingBack\">pingbacks</a>?"
+#~ "Aktivera sändande och mottagande av <a href=\"http://codex.wordpress.org/"
+#~ "Glossary#PingBack\">pingbacks</a>?"
 #~ msgid "Display avatars on your site?"
 #~ msgstr "Visa avatarer på din webbplats?"
 #~ msgid "Gravatar default image"
@@ -5011,11 +5334,7 @@ msgstr "Den specifierade mål-URLen är inte på den här domänen."
 #~ msgid "Wavatar"
 #~ msgstr "Wavatar"
 #~ msgid "Select what style of avatar to display to users without a Gravatar:"
-#~ msgstr ""
-#~ "Välj vad för avatarstil att visa för användare utan "
-#~ "en Gravatar:"
-#~ msgid "None"
-#~ msgstr "Ingen"
+#~ msgstr "Välj vad för avatarstil att visa för användare utan en Gravatar:"
 #~ msgid "X"
 #~ msgstr "X"
 #~ msgid "R"
@@ -5030,32 +5349,32 @@ msgstr "Den specifierade mål-URLen är inte på den här domänen."
 #~ "X rated gravatars may contain hardcore sexual imagery or extremely "
 #~ "disturbing violence."
 #~ msgstr ""
-#~ "X-ratade gravatarer kan innehålla grovt sexuella bilder eller "
-#~ "extremt stört våld."
+#~ "X-ratade gravatarer kan innehålla grovt sexuella bilder eller extremt "
+#~ "stört våld."
 #~ msgid "Rated R"
 #~ msgstr "Rated R"
 #~ msgid ""
 #~ "R rated gravatars may contain such things as harsh profanity, intense "
 #~ "violence, nudity, or hard drug use."
 #~ msgstr ""
-#~ "R-ratade gravatarer kan innehålla grova svordomar, intensivt "
-#~ "våld, nakenhet, eller grovt droganvändande."
+#~ "R-ratade gravatarer kan innehålla grova svordomar, intensivt våld, "
+#~ "nakenhet, eller grovt droganvändande."
 #~ msgid "Rated PG"
 #~ msgstr "Rated PG"
 #~ msgid ""
 #~ "PG rated gravatars may contain rude gestures, provocatively dressed "
 #~ "individuals, the lesser swear words, or mild violence."
 #~ msgstr ""
-#~ "PG-ratade gravatarer kan innehålla ohyfsade gester, provokativt "
-#~ "klädda invider, milda svordomar, eller milt våld."
+#~ "PG-ratade gravatarer kan innehålla ohyfsade gester, provokativt klädda "
+#~ "invider, milda svordomar, eller milt våld."
 #~ msgid "Rated G"
 #~ msgstr "Rated G"
 #~ msgid ""
 #~ "A G rated gravatar is suitable for display on all websites with any "
 #~ "audience type."
 #~ msgstr ""
-#~ "G-ratade gravatarer är lämplig för visning på alla "
-#~ "webbplatser med vilken publik som helst."
+#~ "G-ratade gravatarer är lämplig för visning på alla webbplatser med vilken "
+#~ "publik som helst."
 #~ msgid "Date and Time"
 #~ msgstr "Datum och tid"
 #~ msgid "Y-m-d g:i:s a"
@@ -5066,16 +5385,14 @@ msgstr "Den specifierade mål-URLen är inte på den här domänen."
 #~ "bbPress includes built-in support for <a href=\"http://gravatar.com/"
 #~ "\">Gravatars</a>, you can enable this feature here."
 #~ msgstr ""
-#~ "bbPress har inbyggt stöd för <a href=\"http://gravatar.com/"
-#~ "\">Gravatarer</a>, du kan aktivera det här."
+#~ "bbPress har inbyggt stöd för <a href=\"http://gravatar.com/\">Gravatarer</"
+#~ "a>, du kan aktivera det här."
 #~ msgid "Plugin Management"
 #~ msgstr "Tilläggshantering"
 #~ msgid "Search&#8230;"
 #~ msgstr "Sök&#8230;"
 #~ msgid "Forum&#8230;"
 #~ msgstr "Forum&#8230;"
-#~ msgid "Tag&#8230;"
-#~ msgstr "Etikett&#8230;"
 #~ msgid "Open?&#8230;"
 #~ msgstr "Öppen?&#8230;"
 #~ msgid "Title&#8230;"
@@ -5086,8 +5403,8 @@ msgstr "Den specifierade mål-URLen är inte på den här domänen."
 #~ "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really "
 #~ "Simple Syndication\">RSS</abbr> feed</a>."
 #~ msgstr ""
-#~ "Prenumerera på dina favoriters <a href=\"%s\"><abbr title=\"Really "
-#~ "Simple Syndication\">RSS</abbr>-flöde</a>."
+#~ "Prenumerera på dina favoriters <a href=\"%s\"><abbr title=\"Really Simple "
+#~ "Syndication\">RSS</abbr>-flöde</a>."
 #~ msgid "Remember me:"
 #~ msgstr "Kom ihåg mig:"
 #~ msgid "Most recent reply: %s ago."
@@ -5097,6 +5414,6 @@ msgstr "Den specifierade mål-URLen är inte på den här domänen."
 #~ msgid ""
 #~ "The tag was not removed.  You cannot remove a tag from a closed topic."
 #~ msgstr ""
-#~ "Etiketten togs inte bort. Du kan inte ta bort en etikett från ett låst ämne, dummer!"
-#~ "st ämne."
+#~ "Etiketten togs inte bort. Du kan inte ta bort en etikett från ett låst "
+#~ "ämne, dummer!st ämne."
 

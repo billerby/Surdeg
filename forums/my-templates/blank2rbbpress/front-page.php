@@ -1,8 +1,7 @@
 <?php global $is_bb; $is_bb = true; get_header();; ?>
 
 <?php if ( $forums ) : ?>
-
-
+<?php login_form(); ?>
 <div id="discussions">
 
 <?php if ( $topics || $super_stickies ) : ?>
@@ -57,14 +56,7 @@
 <?php endif; // bb_forums() ?>
 
 <?php if ( bb_is_user_logged_in() ) : ?>
-<div id="viewdiv">
-<h2><?php _e('Views'); ?></h2>
-<ul id="views">
-<?php foreach ( bb_get_views() as $the_view => $title ) : ?>
-<li class="view"><a href="<?php view_link( $the_view ); ?>"><?php view_name( $the_view ); ?></a></li>
-<?php endforeach; ?>
-</ul>
-</div>
+
 <?php endif; // bb_is_user_logged_in() ?>
 
 </div>
@@ -75,9 +67,6 @@
 
 <?php post_form(); endif; // $forums ?>
 
-<div id="hottags">
-<h2><?php _e('Hot Tags'); ?></h2>
-<p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
-</div>
+
 
 <?php get_footer(); ?>

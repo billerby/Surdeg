@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-08-12 04:56+0000\n"
-"PO-Revision-Date: 2009-09-28 10:32+0100\n"
+"PO-Revision-Date: 2009-10-30 16:35+0100\n"
 "Last-Translator: Erik Billerby <billerby@gmail.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -13511,7 +13511,7 @@ msgstr "Registreringsformulär"
 
 #: wp-login.php:408
 msgid "Register For This Site"
-msgstr "Ansökan om medlemskap i Spelarföreningen. Var vänlig och ange dina uppgifter nedan."
+msgstr "Registrera medlemsskap"
 
 #: wp-login.php:421
 msgid "A password will be e-mailed to you."

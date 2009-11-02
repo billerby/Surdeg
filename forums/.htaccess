@@ -1,0 +1,41 @@
+
+# BEGIN bbPress
+
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /surdeg/forums/
+
+RewriteRule ^page/([0-9]+)/?$ /surdeg/forums/index.php?page=$1 [L,QSA]
+RewriteRule ^forum/([^/]+)/page/([0-9]+)/?$ /surdeg/forums/forum.php?id=$1&page=$2 [L,QSA]
+RewriteRule ^forum/([^/]+)/?$ /surdeg/forums/forum.php?id=$1 [L,QSA]
+RewriteRule ^forum/?$ /surdeg/forums/ [R=302,L,QSA]
+RewriteRule ^topic/([^/]+)/page/([0-9]+)/?$ /surdeg/forums/topic.php?id=$1&page=$2 [L,QSA]
+RewriteRule ^topic/([^/]+)/?$ /surdeg/forums/topic.php?id=$1 [L,QSA]
+RewriteRule ^topic/?$ /surdeg/forums/ [R=302,L,QSA]
+RewriteRule ^tags/([^/]+)/page/([0-9]+)/?$ /surdeg/forums/tags.php?tag=$1&page=$2 [L,QSA]
+RewriteRule ^tags/([^/]+)/?$ /surdeg/forums/tags.php?tag=$1 [L,QSA]
+RewriteRule ^tags/?$ /surdeg/forums/tags.php [L,QSA]
+RewriteRule ^profile/([^/]+)/page/([0-9]+)/?$ /surdeg/forums/profile.php?id=$1&page=$2 [L,QSA]
+RewriteRule ^profile/([^/]+)/([^/]+)/?$ /surdeg/forums/profile.php?id=$1&tab=$2 [L,QSA]
+RewriteRule ^profile/([^/]+)/([^/]+)/page/([0-9]+)/?$ /surdeg/forums/profile.php?id=$1&tab=$2&page=$3 [L,QSA]
+RewriteRule ^profile/([^/]+)/?$ /surdeg/forums/profile.php?id=$1 [L,QSA]
+RewriteRule ^profile/?$ /surdeg/forums/profile.php [L,QSA]
+RewriteRule ^view/([^/]+)/page/([0-9]+)/?$ /surdeg/forums/view.php?view=$1&page=$2 [L,QSA]
+RewriteRule ^view/([^/]+)/?$ /surdeg/forums/view.php?view=$1 [L,QSA]
+RewriteRule ^rss/?$ /surdeg/forums/rss.php [L,QSA]
+RewriteRule ^rss/topics/?$ /surdeg/forums/rss.php?topics=1 [L,QSA]
+RewriteRule ^rss/forum/([^/]+)/?$ /surdeg/forums/rss.php?forum=$1 [L,QSA]
+RewriteRule ^rss/forum/([^/]+)/topics/?$ /surdeg/forums/rss.php?forum=$1&topics=1 [L,QSA]
+RewriteRule ^rss/topic/([^/]+)/?$ /surdeg/forums/rss.php?topic=$1 [L,QSA]
+RewriteRule ^rss/tags/([^/]+)/?$ /surdeg/forums/rss.php?tag=$1 [L,QSA]
+RewriteRule ^rss/tags/([^/]+)/topics/?$ /surdeg/forums/rss.php?tag=$1&topics=1 [L,QSA]
+RewriteRule ^rss/profile/([^/]+)/?$ /surdeg/forums/rss.php?profile=$1 [L,QSA]
+RewriteRule ^rss/view/([^/]+)/?$ /surdeg/forums/rss.php?view=$1 [L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /surdeg/forums/index.php [L]
+</IfModule>
+
+# END bbPress
