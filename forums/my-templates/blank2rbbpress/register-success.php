@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Register'); ?></h3>
 
@@ -6,4 +6,4 @@
 
 <p><?php printf(__('Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password.'), $user_login) ?></p>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

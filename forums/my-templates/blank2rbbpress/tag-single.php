@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <a href="<?php bb_tag_page_link(); ?>"><?php _e('Tags'); ?></a> &raquo; <?php bb_tag_name(); ?></h3>
 
@@ -37,4 +37,4 @@
 
 <?php manage_tags_forms(); ?>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

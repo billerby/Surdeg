@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a><?php bb_forum_bread_crumb(); ?></h3>
 
@@ -58,4 +58,4 @@
 
 <?php post_form(); ?>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

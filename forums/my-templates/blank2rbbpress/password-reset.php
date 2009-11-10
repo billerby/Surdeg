@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Log in'); ?></h3>
 
@@ -10,4 +10,4 @@
 <p><?php _e('An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here.'); ?></p>
 <?php endif; ?>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

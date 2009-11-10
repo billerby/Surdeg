@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Edit Profile'); ?></h3>
 <h2 id="userlogin"><?php echo get_user_name( $user->ID ); ?></h2>
@@ -33,4 +33,4 @@
 </p>
 </form>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

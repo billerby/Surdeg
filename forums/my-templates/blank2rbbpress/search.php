@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Search')?></h3>
 <?php bb_topic_search_form(); ?>
@@ -36,4 +36,4 @@
 <?php endif; ?>
 <br />
 <p><?php printf(__('You may also try your <a href="http://google.com/search?q=site:%1$s %2$s">search at Google</a>'), bb_get_option('uri'), urlencode($q)) ?></p>
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

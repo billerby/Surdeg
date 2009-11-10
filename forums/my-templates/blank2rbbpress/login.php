@@ -1,8 +1,8 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Log in'); ?></h3>
-
-<h2 id="userlogin"><?php isset($_POST['user_login']) ? _e('Log in Failed') : _e('Log in') ; ?></h2>
+<br/>
+<h2 id="userlogin"><?php isset($_POST['user_login']) ? _e('Log in Failed') : _e('Log in') ; ?> eller <a id="register_link" href="<?php bb_get_option('uri'); ?>register.php">registrera dig.</a></h2>
 
 <form method="post" action="<?php bb_option('uri'); ?>bb-login.php">
 <fieldset>
@@ -38,7 +38,7 @@
 	</tr>
 <?php endif; ?>
 	<tr valign="top">
-		<th scope="row"><label for="remember"><?php _e('Remember me'); ?>:</label></th>
+		<th scope="row"><label for="remember"><?php _e('Remember me'); ?></label></th>
 		<td><input name="remember" type="checkbox" id="remember" value="1"<?php echo $remember_checked; ?> /></td>
 	</tr>
 	<tr>
@@ -76,4 +76,4 @@
 </fieldset>
 </form>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

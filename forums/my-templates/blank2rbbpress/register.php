@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Register'); ?></h3>
 
@@ -49,4 +49,4 @@ endif;
 <p><?php _e('You&#8217;re already logged in, why do you need to register?'); ?></p>
 <?php endif; ?>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

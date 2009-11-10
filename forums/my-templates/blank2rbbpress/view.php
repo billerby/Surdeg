@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <?php view_name(); ?></h3>
 
@@ -35,4 +35,4 @@
 <?php endif; ?>
 <?php view_pages(); ?>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

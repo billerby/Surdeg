@@ -10,13 +10,13 @@
  *
  * @package bbPress
  */
-$bb->WP_BB = true;
+/*$bb->WP_BB = true;
 if (file_exists('../wp-blog-header.php'))
 	require_once('../wp-blog-header.php');
 else
 	if (file_exists('../../wp-blog-header.php'))
 		require_once('../../wp-blog-header.php');
-
+*/
 global $bfa_ata;
 $bfa_ata['left_col']="on";
 $bfa_ata['right_col']="on";

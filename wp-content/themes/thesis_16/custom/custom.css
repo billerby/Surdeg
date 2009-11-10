@@ -1,0 +1,99 @@
+/*
+File:			custom.css
+Description:	Custom styles for Thesis
+
+BASIC USAGE:
+
+If you have enabled the custom stylesheet in the Thesis options panel, the <body> tag 
+will be appended with the "custom" class, like so: <body class="custom">. You can use 
+the "custom" class to override *any* CSS declarations contained in the style.css file.
+
+For example, if you wish to change the default link color to green, you would add the 
+following declarations to this file:
+
+	.custom a, .custom a:visited { color: #090; }	<--- This makes links green
+	.custom a:hover { color: #00f; }	<--- This makes links blue when you mouse over them
+
+WHY THIS WORKS:
+
+By using the "custom" class, you are creating more specific CSS declarations for HTML
+elements. CSS styling is applied through rules of specificity, and because declarations
+prepended with .custom are more specific, they get applied when the page is rendered!
+
+More information about styling your Thesis installation using this file can be found
+in the User's Guide:
+	http://diythemes.com/thesis/rtfm/customizing-thesis-with-customcss/
+*/
+
+/* This line sets up our clickable background image based on the site title's link */
+/* DIY: Adjust the height & width attributes to reflect the actual size of your image */
+/* DIY: Change the filename of your image to reflect the actual header's file name */
+.custom #header #logo a { display: block; height: 100px; width: 960px; background: url('images/thesis_header.png') no-repeat; outline: none; }
+
+/* This line gets rid of the site title & tagline by casting them out to far left field */
+.custom #header #logo, .custom #header #tagline { text-indent: -9999px; }
+
+/* This line collapses the vertical space of the tagline so that there isn't unnecessary white space after the header image */
+
+/* This is a bit of a kludge, but it seems to work. */
+.custom #header #tagline { height: 0; }
+
+/* This line removes the padding from the header so that the background image sits close to the nav menu, the bottom border of the header, and the sides of the content */
+.custom #header { padding: 0; }
+
+.custom .menu {font-weight: bold;}
+
+.custom .forum {
+	float: left;
+	width:930px; /* this sets forum width */
+	overflow: hidden;
+}
+
+.custom #content_box { min-height: 60em;}
+
+.custom #content_forum h2 {font-weight: bold;}
+
+.custom #content_forum h2 a {color:#2361A1;}
+.custom #content_forum h2 a:hover {color:red;}
+.custom #logindiv {width: 100%}
+
+.custom #logindiv #submit {width: 70px}
+
+.custom div#footer p {
+  float:right;
+}
+
+.custom div#footer p.left {
+  float:left;
+}
+
+.custom div#feature_box {
+	padding: 0px;
+	height: 200px;
+	background-color: D4D4D4;
+	padding-right: 1em;
+	margin-right: 1em;
+	margin-top: 0em;
+}
+/*text in feature box*/
+.custom .textbox {
+	background: D4D4D4;
+	font-size: 1.4em;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	padding: 2em 0 2em 0;
+}
+
+.custom #multimedia_box {
+	margin-top: 0em;	
+}
+
+.custom .alignleft {
+	margin-right: 10px;
+	margin-left: 10px;	
+}
+
+.custom .comments_closed p {display: none ;}
+
+

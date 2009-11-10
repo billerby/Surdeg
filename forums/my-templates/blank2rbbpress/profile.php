@@ -1,4 +1,4 @@
-<?php global $is_bb; $is_bb = true; get_header();; ?>
+<?php bb_get_header(); ?>
 
 <h3 class="bbcrumb"><a href="<?php bb_option('uri'); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Profile') ?></h3>
 <div id="useravatar"><?php echo bb_get_avatar( $user->ID ); ?></div>
@@ -77,4 +77,4 @@
 
 <?php profile_pages(); ?>
 
-<?php get_footer(); ?>
+<?php bb_get_footer(); ?>

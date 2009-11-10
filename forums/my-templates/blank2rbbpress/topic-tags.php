@@ -2,7 +2,7 @@
 
 <?php if ( $public_tags ) : ?>
 <div id="othertags">
-<h2><?php _e('Tags'); ?></h2>
+<h2><?php _e('Tags:'); ?></h2>
 <ul id="yourtaglist">
 <?php foreach ( $public_tags as $tag ) : ?>
 	<li id="tag-<?php echo $tag->tag_id; ?>_<?php echo $tag->user_id; ?>"><a href="<?php bb_tag_link(); ?>" rel="tag"><?php bb_tag_name(); ?></a> <?php bb_tag_remove_link(); ?></li>
